@@ -1,19 +1,16 @@
-import 'package:anatomo/widgets/logo.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter/material.dart';
+
+import 'package:medquest/app.dart';
 
 void main() {
-  testWidgets('logo and wordmark draw', (tester) async {
-    await tester.pumpWidget(
-      const MaterialApp(
-        home: Scaffold(
-          body: Row(
-            children: [AnatomoMark(size: 64), AnatomoWordmark()],
-          ),
-        ),
-      ),
-    );
-    expect(find.byType(AnatomoMark), findsOneWidget);
-    expect(find.byType(AnatomoWordmark), findsOneWidget);
+  testWidgets('MedQuest opens on the dashboard', (tester) async {
+    await tester.pumpWidget(const ProviderScope(child: MedQuestApp()));
+    await tester.pumpAndSettle();
+
+    expect(find.text('MedQuest'), findsOneWidget);
+    expect(find.text('Bonjour !'), findsOneWidget);
+    expect(find.text('Questions'), findsOneWidget);
   });
 }

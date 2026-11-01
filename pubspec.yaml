@@ -1,51 +1,30 @@
-dependencies:
-  flutter_riverpod: ^2.5.1
-  go_router: ^14.0.0
-  dio: ^5.4.0
-  flutter_secure_storage: ^9.2.0
-  
-    sqflite: ^2.3.3
-  path: ^1.9.0
-  
-  name: anatomo
-description: "Anatomo: explore the human body in 2D and 3D on Android. Offline, private and open source."
+name: medquest
+description: Application mobile de préparation aux examens médicaux.
 publish_to: 'none'
 
-version: 3.0.0+7
+version: 0.1.0+1
 
 environment:
-  sdk: ^3.5.0
+  sdk: '>=3.5.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  intl: any
-  webview_flutter: ^4.13.0
-  http: ^1.2.0
-  package_info_plus: ^8.0.0
-  path_provider: ^2.1.0
-  open_filex: ^4.5.0
+  intl: ^0.19.0
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  dio: ^5.7.0
+  flutter_secure_storage: ^9.2.2
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  shared_preferences: ^2.3.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
-  flutter_launcher_icons: ^0.14.0
 
 flutter:
   uses-material-design: true
-  generate: true
-  assets:
-    - assets/web/
-    - assets/web/vendor/
-    - assets/atlas/male/
-    - assets/atlas/male/front/
-    - assets/atlas/male/back/
-    - assets/atlas/male/side/
-    - assets/atlas/female/
-    - assets/atlas/female/front/
-    - assets/atlas/female/back/
-    - assets/atlas/female/side/
-    - assets/content/
