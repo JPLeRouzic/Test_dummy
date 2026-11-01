@@ -1,0 +1,236 @@
+{
+  "systems": {},
+  "parts": {
+    "skull": {
+      "name": "Crâne", "system": "skeletal",
+      "desc": "Le crâne protège le cerveau, maintient les yeux et les dents et donne sa forme au visage. La plupart de ses os sont soudés ; seule la mâchoire inférieure bouge.",
+      "good": ["Un casque à vélo, à moto et sur les chantiers", "Porter la ceinture de sécurité", "Calcium et vitamine D"],
+      "bad": ["Les chutes et les coups à la tête", "Rouler sans casque", "Les sports de contact sans protection"],
+      "facts": [["Os", "22"], ["Articulation mobile", "La mâchoire inférieure"]]
+    },
+    "teeth": {
+      "name": "Dents", "system": "skeletal",
+      "desc": "Les dents coupent, déchirent et broient les aliments pour qu'ils puissent être avalés et digérés. Leur émail est la substance la plus dure du corps.",
+      "good": ["Se brosser les dents deux fois par jour avec un dentifrice fluoré", "Nettoyer entre les dents", "Des contrôles chez le dentiste"],
+      "bad": ["Grignotages et boissons sucrés entre les repas", "Le tabac fumé ou chiqué", "Ouvrir des objets avec les dents"],
+      "facts": [["Dents d'adulte", "32"], ["Substance la plus dure", "L'émail"]]
+    },
+    "spine": {
+      "name": "Colonne vertébrale", "system": "skeletal",
+      "desc": "Une pile de vertèbres qui protège la moelle épinière, porte la tête et le corps et permet de se pencher et de tourner. Des disques souples entre elles amortissent les chocs.",
+      "good": ["Une bonne posture assis et avec le téléphone", "Des exercices pour renforcer le ventre et le dos", "Soulever avec les jambes, le dos droit"],
+      "bad": ["Rester voûté pendant des heures", "Soulever lourd le dos rond", "Le tabac, qui abîme les disques"],
+      "facts": [["Vertèbres", "33"], ["Courbures naturelles", "4"]]
+    },
+    "ribcage": {
+      "name": "Cage thoracique", "system": "skeletal",
+      "desc": "Douze paires de côtes partent de la colonne vers le sternum. Elles protègent le cœur et les poumons et se soulèvent à chaque respiration.",
+      "good": ["Calcium et vitamine D", "Des exercices de respiration et de posture", "Des protections dans les sports de contact"],
+      "bad": ["Les chutes et les coups violents à la poitrine", "Des os fragiles à cause de l'ostéoporose", "Le tabac, qui fragilise les os"],
+      "facts": [["Paires de côtes", "12"], ["Reliées directement au sternum", "7 paires"]]
+    },
+    "shoulder": {
+      "name": "Os de l'épaule", "system": "skeletal",
+      "desc": "La clavicule et l'omoplate relient le bras au tronc. Avec l'humérus, elles forment l'articulation la plus mobile du corps.",
+      "good": ["Du renforcement pour le dos et les épaules", "S'échauffer avant le sport", "Une bonne posture"],
+      "bad": ["Tomber sur l'épaule ou la main tendue", "Soulever lourd au-dessus de la tête sans entraînement", "Rester voûté pendant des heures"],
+      "facts": [["Os", "Clavicule et omoplate"], ["Articulation", "La plus mobile du corps"]]
+    },
+    "humerus": {
+      "name": "Humérus", "system": "skeletal",
+      "desc": "L'humérus va de l'épaule au coude. Les muscles qui s'y attachent soulèvent, poussent et tirent le bras.",
+      "good": ["Du renforcement musculaire", "Calcium et vitamine D", "S'échauffer avant le sport"],
+      "bad": ["Les chutes sur le bras", "Des os fragiles à cause de l'ostéoporose", "Soulever plus que ce que l'on contrôle"],
+      "facts": [["Va", "De l'épaule au coude"], ["La décharge quand on se cogne le coude", "Un nerf qui passe là"]]
+    },
+    "forearm": {
+      "name": "Os de l'avant-bras", "system": "skeletal",
+      "desc": "Le radius et l'ulna vont du coude au poignet. Ils tournent l'un autour de l'autre pour que la paume puisse se tourner vers le haut ou vers le bas.",
+      "good": ["Des exercices de préhension et de poignet", "Calcium et vitamine D", "Des protège-poignets en roller"],
+      "bad": ["Tomber sur la main tendue", "Répéter le même geste du poignet pendant des heures", "Des os fragiles à cause de l'ostéoporose"],
+      "facts": [["Os", "Radius et ulna"], ["Permettent", "De tourner la paume"]]
+    },
+    "hand": {
+      "name": "Os de la main", "system": "skeletal",
+      "desc": "De nombreux petits os rendent la main forte et très précise. Le pouce peut toucher chaque doigt, ce qui permet de saisir et d'utiliser des outils.",
+      "good": ["Étirer et bouger les doigts pendant les longues heures d'écran", "Des gants pour les travaux durs", "Calcium et vitamine D"],
+      "bad": ["Taper pendant des heures sans pause", "Frapper des objets durs", "Les écrasements au travail"],
+      "facts": [["Os", "27"], ["Os du poignet", "8"]]
+    },
+    "pelvis": {
+      "name": "Bassin", "system": "skeletal",
+      "desc": "Une cuvette osseuse qui transmet le poids du haut du corps aux jambes et protège la vessie et le bas de l'intestin. Il porte les cavités des hanches.",
+      "good": ["Des activités en charge comme la marche", "Calcium et vitamine D", "Des muscles des hanches et du ventre solides"],
+      "bad": ["Les chutes, surtout avec l'âge", "Des os fragiles à cause de l'ostéoporose", "Rester assis des heures sans bouger"],
+      "facts": [["Os principaux", "Os coxaux et sacrum"], ["Hanche", "Articulation en rotule"]]
+    },
+    "femur": {
+      "name": "Fémur", "system": "skeletal",
+      "desc": "Le fémur est l'os le plus long et le plus solide du corps. Il porte votre poids de la hanche au genou.",
+      "good": ["Marcher, courir et monter les escaliers", "Calcium et vitamine D", "Du renforcement des jambes"],
+      "bad": ["Rester assis presque toute la journée", "Les chutes avec l'âge", "Le tabac, qui fragilise les os"],
+      "facts": [["Rang", "L'os le plus long"], ["Longueur", "environ un quart de votre taille"]]
+    },
+    "knee": {
+      "name": "Genou", "system": "skeletal",
+      "desc": "La plus grande articulation du corps. Des ligaments la tiennent, la rotule la protège devant et deux coussins de cartilage, les ménisques, amortissent les chocs.",
+      "good": ["Des muscles de cuisse solides", "Garder un poids sain", "S'échauffer avant le sport"],
+      "bad": ["Tourner le genou quand le pied est bloqué", "Un excès de poids", "Rester longtemps à genoux sur un sol dur"],
+      "facts": [["Articulation", "Une charnière qui tourne un peu"], ["Amortisseurs", "2 ménisques"]]
+    },
+    "lower_leg": {
+      "name": "Os de la jambe", "system": "skeletal",
+      "desc": "Le tibia porte l'essentiel du poids du corps, et la fine fibula à côté sert d'attache aux muscles et stabilise la cheville.",
+      "good": ["Marche et sauts", "Calcium et vitamine D", "De bonnes chaussures de sport"],
+      "bad": ["Augmenter trop vite la course", "Les coups violents au tibia", "Des os fragiles à cause de l'ostéoporose"],
+      "facts": [["Os", "Tibia et fibula"], ["Porte le poids", "Surtout le tibia"]]
+    },
+    "foot": {
+      "name": "Os du pied", "system": "skeletal",
+      "desc": "Le pied est bâti comme une voûte souple. Il répartit votre poids, amortit les chocs et vous propulse à chaque pas.",
+      "good": ["Des chaussures à la bonne taille qui soutiennent la voûte", "Marcher parfois pieds nus sur un sol sûr", "Étirer les mollets et les orteils"],
+      "bad": ["Des chaussures serrées ou des talons très hauts", "Rester debout toute la journée sans pause", "Un diabète non contrôlé, qui abîme les pieds"],
+      "facts": [["Os", "26"], ["Articulations", "33"]]
+    },
+    "bones": {
+      "name": "Os", "system": "skeletal",
+      "desc": "L'os est un tissu vivant qui soutient le corps, protège les organes et stocke le calcium. La moelle de certains os fabrique les cellules du sang.",
+      "good": ["Calcium et vitamine D", "Des activités en charge", "Assez de protéines"],
+      "bad": ["Le tabac", "L'alcool en excès", "Très peu de mouvement"],
+      "facts": [["Squelette adulte", "206 os"], ["Renouvellement", "environ tous les 10 ans"]]
+    },
+    "muscles": {
+      "name": "Muscle", "system": "muscular",
+      "desc": "Les muscles squelettiques tirent sur les os pour faire bouger le corps. Ils tiennent aussi la posture et produisent de la chaleur.",
+      "good": ["Du renforcement au moins deux fois par semaine", "Assez de protéines", "Repos et étirements après l'effort"],
+      "bad": ["Rester assis presque toute la journée", "S'entraîner trop sans repos", "Ne pas boire assez pendant l'effort"],
+      "facts": [["Muscles squelettiques", "plus de 600"], ["Part du poids du corps", "environ 40 %"]]
+    },
+    "biceps": {
+      "name": "Biceps", "system": "muscular",
+      "desc": "Le muscle à l'avant du bras. Il plie le coude et tourne la paume vers le haut.",
+      "good": ["Flexions des bras et exercices de tirage", "Assez de protéines", "S'échauffer"],
+      "bad": ["Soulever d'un coup une charge très lourde", "Une mauvaise technique", "Pas de repos entre les séances"],
+      "facts": [["Chefs", "2"], ["Mouvement", "Plie le coude"]]
+    },
+    "triceps": {
+      "name": "Triceps", "system": "muscular",
+      "desc": "Le muscle à l'arrière du bras. Il tend le coude quand vous poussez.",
+      "good": ["Pompes et dips", "Étirements", "Assez de protéines"],
+      "bad": ["Le surentraînement", "Pousser avec une mauvaise technique", "Sauter l'échauffement"],
+      "facts": [["Chefs", "3"], ["Mouvement", "Tend le coude"]]
+    },
+    "deltoid": {
+      "name": "Deltoïde", "system": "muscular",
+      "desc": "Le muscle arrondi qui couvre l'épaule. Il lève le bras vers l'avant, sur le côté et vers l'arrière.",
+      "good": ["Des exercices d'épaule avec des poids légers", "Une bonne posture", "S'échauffer"],
+      "bad": ["Charges lourdes au-dessus de la tête avec une mauvaise technique", "Travailler les bras en l'air sans pause", "Dormir toujours sur la même épaule"],
+      "facts": [["Parties", "3 : avant, côté, arrière"], ["Mouvement", "Lève le bras"]]
+    },
+    "chest_muscles": {
+      "name": "Pectoraux", "system": "muscular",
+      "desc": "Les pectoraux ramènent le bras devant le corps et aident à pousser, serrer dans les bras et lancer.",
+      "good": ["Les pompes", "Étirer la poitrine", "Une bonne posture"],
+      "bad": ["Rester voûté des heures", "Du développé couché lourd sans partenaire", "Sauter l'échauffement"],
+      "facts": [["Muscle principal", "Grand pectoral"], ["Mouvement", "Bras devant le corps"]]
+    },
+    "abs": {
+      "name": "Abdominaux", "system": "muscular",
+      "desc": "Ces muscles maintiennent les organes, soutiennent la colonne et aident à se pencher, tourner, tousser et souffler fort.",
+      "good": ["Du gainage comme la planche", "Une bonne posture", "Rester actif"],
+      "bad": ["Rester assis des heures", "Soulever le dos en torsion", "Un excès de graisse au ventre"],
+      "facts": [["Muscles principaux", "Grand droit et obliques"], ["Aident", "La posture et l'expiration"]]
+    },
+    "back_muscles": {
+      "name": "Muscles du dos", "system": "muscular",
+      "desc": "Des couches de muscles le long de la colonne et des omoplates. Ils vous tiennent droit et bougent les bras, les épaules et le tronc.",
+      "good": ["Le rameur et le renforcement du dos", "Des pauses quand on est assis", "Soulever le dos droit"],
+      "bad": ["Rester voûté des heures sur le téléphone ou le bureau", "Soulever le dos rond", "Un matelas mou qui s'affaisse"],
+      "facts": [["Comprennent", "Trapèze, grand dorsal, érecteurs du rachis"], ["Tiennent", "Votre posture"]]
+    },
+    "glutes": {
+      "name": "Fessiers", "system": "muscular",
+      "desc": "Les fessiers bougent la hanche et gardent le bassin à niveau quand vous marchez, courez et montez les escaliers.",
+      "good": ["Squats, fentes et escaliers", "Se lever et marcher souvent", "Étirer les hanches"],
+      "bad": ["Rester assis presque toute la journée", "Une sangle abdominale faible", "Sauter l'échauffement"],
+      "facts": [["Plus gros muscle", "Grand fessier"], ["Mouvement", "Tend la hanche"]]
+    },
+    "quadriceps": {
+      "name": "Quadriceps", "system": "muscular",
+      "desc": "Quatre muscles à l'avant de la cuisse. Ils tendent le genou et sont essentiels pour marcher, sauter et monter.",
+      "good": ["Squats et vélo", "Étirements", "Assez de protéines"],
+      "bad": ["Des sprints sans échauffement", "Le surentraînement", "Rester longtemps assis"],
+      "facts": [["Muscles", "4"], ["Mouvement", "Tend le genou"]]
+    },
+    "hamstrings": {
+      "name": "Ischio-jambiers", "system": "muscular",
+      "desc": "Trois muscles à l'arrière de la cuisse. Ils plient le genou et aident à pousser la jambe vers l'arrière en courant.",
+      "good": ["Des étirements doux", "Ponts et flexions des jambes", "S'échauffer avant de courir"],
+      "bad": ["Sprinter avec des muscles froids", "Rester assis des heures", "Sauter les jours de repos"],
+      "facts": [["Muscles", "3"], ["Mouvement", "Plie le genou"]]
+    },
+    "calf": {
+      "name": "Mollets", "system": "muscular",
+      "desc": "Les muscles du mollet soulèvent le talon, vous propulsent quand vous marchez et aident à faire remonter le sang des jambes.",
+      "good": ["Montées sur la pointe des pieds et marche", "Étirer les mollets", "De bonnes chaussures"],
+      "bad": ["Rester des heures immobile, assis ou debout", "Sauter brusquement sans échauffement", "Des talons très hauts tous les jours"],
+      "facts": [["Muscles", "Gastrocnémien et soléaire"], ["Tendon", "Le tendon d'Achille, le plus solide"]]
+    },
+    "connective": {
+      "name": "Tendons et ligaments", "system": "muscular",
+      "desc": "Des tissus solides comme des cordes. Les tendons relient le muscle à l'os, et les ligaments relient les os entre eux pour stabiliser les articulations.",
+      "good": ["Augmenter l'effort progressivement", "S'échauffer et s'étirer", "Assez de protéines et de vitamine C"],
+      "bad": ["Les torsions brusques et les étirements excessifs", "S'entraîner trop dur trop tôt", "Le tabac, qui ralentit la guérison"],
+      "facts": [["Les tendons relient", "Le muscle à l'os"], ["Les ligaments relient", "Les os entre eux"]]
+    },
+    "spinal_cord": {
+      "name": "Moelle épinière", "system": "nervous",
+      "desc": "Un gros faisceau de nerfs dans la colonne qui transmet les messages entre le cerveau et le corps. Elle gère aussi les réflexes rapides.",
+      "good": ["Une bonne posture", "Porter la ceinture de sécurité", "Plonger seulement en eau profonde et sûre"],
+      "bad": ["Plonger en eau peu profonde", "Les chutes de hauteur", "Les accidents de voiture et de moto sans protection"],
+      "facts": [["Longueur", "environ 45 cm"], ["Paires de nerfs spinaux", "31"]]
+    },
+    "nerves": {
+      "name": "Nerfs", "system": "nervous",
+      "desc": "Les nerfs sont des câbles de fibres nerveuses qui transportent les signaux entre le cerveau, la moelle épinière et chaque partie du corps.",
+      "good": ["Des aliments riches en vitamines B", "Une activité physique régulière", "Garder la glycémie sous contrôle"],
+      "bad": ["Un diabète non contrôlé", "L'alcool en excès", "Une pression prolongée sur un nerf, comme s'appuyer sur le coude"],
+      "facts": [["Signaux les plus rapides", "environ 120 m par seconde"], ["Parties principales", "Cerveau, moelle et nerfs"]]
+    },
+    "aorta": {
+      "name": "Aorte", "system": "circulatory",
+      "desc": "La plus grosse artère. Elle sort du cœur, forme une crosse au-dessus de lui et descend dans la poitrine et le ventre, envoyant du sang riche en oxygène dans tout le corps.",
+      "good": ["Garder une tension normale", "Ne pas fumer", "Une activité physique régulière"],
+      "bad": ["L'hypertension", "Le tabac", "Un cholestérol élevé"],
+      "facts": [["Largeur", "environ 2,5 cm"], ["Rang", "La plus grosse artère"]]
+    },
+    "arteries": {
+      "name": "Artères", "system": "circulatory",
+      "desc": "Les artères transportent le sang depuis le cœur. Leurs parois solides et élastiques se dilatent à chaque battement, ce que vous sentez comme le pouls.",
+      "good": ["Une activité physique régulière", "Légumes, fruits, noix et poisson", "Surveiller sa tension"],
+      "bad": ["Le tabac", "Trop de sel et de gras", "Une hypertension non soignée"],
+      "facts": [["Transportent", "Le sang depuis le cœur"], ["On les sent comme", "Le pouls"]]
+    },
+    "veins": {
+      "name": "Veines", "system": "circulatory",
+      "desc": "Les veines ramènent le sang au cœur. De petites valves empêchent le sang de refluer, et les muscles des jambes le poussent vers le haut.",
+      "good": ["Marcher et bouger les jambes", "Surélever les jambes au repos", "Boire assez d'eau"],
+      "bad": ["Rester des heures immobile, assis ou debout", "Le tabac", "Un excès de poids"],
+      "facts": [["Transportent", "Le sang vers le cœur"], ["Valves", "Empêchent le sang de refluer"]]
+    },
+    "lymph": {
+      "name": "Vaisseaux et ganglions lymphatiques", "system": "lymphatic",
+      "desc": "Un réseau qui ramène dans le sang le liquide en trop des tissus. Les ganglions sur le trajet piègent les microbes et aident la réponse immunitaire.",
+      "good": ["Bouger et faire de l'exercice chaque jour", "Boire assez d'eau", "Garder un poids sain"],
+      "bad": ["Rester longtemps sans bouger", "Le tabac", "Des infections non soignées"],
+      "facts": [["Ganglions lymphatiques", "environ 600"], ["Transportent", "La lymphe, liquide des tissus"]]
+    },
+    "skin": {
+      "name": "Peau", "system": "integumentary",
+      "desc": "Le plus grand organe. Elle bloque les microbes et l'eau, aide à régler la température, fabrique la vitamine D au soleil et permet de sentir le toucher, la chaleur et la douleur.",
+      "good": ["Crème solaire et ombre en plein soleil", "Boire assez d'eau", "Un lavage doux et une crème hydratante"],
+      "bad": ["Les coups de soleil", "Le tabac", "L'eau très chaude et les savons agressifs"],
+      "facts": [["Surface", "environ 2 m²"], ["La couche externe se renouvelle", "environ toutes les 4 semaines"]]
+    }
+  }
+}

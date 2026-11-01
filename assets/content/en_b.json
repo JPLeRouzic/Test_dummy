@@ -1,0 +1,236 @@
+{
+  "systems": {},
+  "parts": {
+    "skull": {
+      "name": "Skull", "system": "skeletal",
+      "desc": "The skull protects the brain, holds the eyes and teeth, and shapes the face. Most of its bones are joined tightly; only the lower jaw moves.",
+      "good": ["A helmet on bikes, motorbikes and building sites", "Wearing a seatbelt", "Calcium and vitamin D"],
+      "bad": ["Falls and blows to the head", "Riding without a helmet", "Contact sports without protection"],
+      "facts": [["Bones", "22"], ["Moving joint", "The lower jaw"]]
+    },
+    "teeth": {
+      "name": "Teeth", "system": "skeletal",
+      "desc": "Teeth cut, tear and grind food so it can be swallowed and digested. Their outer enamel is the hardest substance in the body.",
+      "good": ["Brushing twice a day with fluoride toothpaste", "Cleaning between teeth", "Dental check-ups"],
+      "bad": ["Sugary snacks and drinks between meals", "Smoking and chewing tobacco", "Using teeth to open things"],
+      "facts": [["Adult teeth", "32"], ["Hardest substance", "Enamel"]]
+    },
+    "spine": {
+      "name": "Spine", "system": "skeletal",
+      "desc": "A stack of vertebrae that protects the spinal cord, holds up the head and body, and lets you bend and twist. Soft discs between them absorb shocks.",
+      "good": ["Good posture when sitting and using your phone", "Exercises that strengthen the core and back", "Lifting with your legs, back straight"],
+      "bad": ["Long hours sitting hunched over", "Lifting heavy loads with a bent back", "Smoking, which harms the discs"],
+      "facts": [["Vertebrae", "33"], ["Natural curves", "4"]]
+    },
+    "ribcage": {
+      "name": "Ribcage", "system": "skeletal",
+      "desc": "Twelve pairs of ribs curve from the spine to the breastbone. They protect the heart and lungs and lift with every breath.",
+      "good": ["Calcium and vitamin D", "Breathing and posture exercises", "Padding in contact sports"],
+      "bad": ["Falls and hard blows to the chest", "Weak bones from osteoporosis", "Smoking, which weakens bones"],
+      "facts": [["Rib pairs", "12"], ["Joined to the breastbone", "7 pairs directly"]]
+    },
+    "shoulder": {
+      "name": "Shoulder bones", "system": "skeletal",
+      "desc": "The collarbone and shoulder blade connect the arm to the body. Together with the upper arm bone they form the most mobile joint in the body.",
+      "good": ["Strength training for the back and shoulders", "Warming up before sport", "Good posture"],
+      "bad": ["Falling onto the shoulder or an outstretched hand", "Lifting heavy weights overhead without training", "Sitting hunched for hours"],
+      "facts": [["Bones", "Collarbone and shoulder blade"], ["Joint", "The most mobile in the body"]]
+    },
+    "humerus": {
+      "name": "Upper arm bone", "system": "skeletal",
+      "desc": "The humerus runs from the shoulder to the elbow. Muscles attached to it lift, push and pull the arm.",
+      "good": ["Strength training", "Calcium and vitamin D", "Warming up before sport"],
+      "bad": ["Falls onto the arm", "Weak bones from osteoporosis", "Lifting more than you can control"],
+      "facts": [["Runs", "Shoulder to elbow"], ["“Funny bone”", "A nerve passing the elbow"]]
+    },
+    "forearm": {
+      "name": "Forearm bones", "system": "skeletal",
+      "desc": "The radius and ulna run from the elbow to the wrist. They twist around each other so you can turn your palm up and down.",
+      "good": ["Grip and wrist exercises", "Calcium and vitamin D", "Wrist guards when skating"],
+      "bad": ["Falling onto an outstretched hand", "Repeating the same wrist movement for hours", "Weak bones from osteoporosis"],
+      "facts": [["Bones", "Radius and ulna"], ["Lets you", "Turn the palm over"]]
+    },
+    "hand": {
+      "name": "Hand bones", "system": "skeletal",
+      "desc": "Many small bones make the hand strong and very precise. The thumb can touch every finger, which lets you grip and hold tools.",
+      "good": ["Stretching and moving the fingers during long screen time", "Gloves for heavy work", "Calcium and vitamin D"],
+      "bad": ["Typing or texting for hours without breaks", "Punching hard objects", "Crushing injuries at work"],
+      "facts": [["Bones", "27"], ["Wrist bones", "8"]]
+    },
+    "pelvis": {
+      "name": "Pelvis", "system": "skeletal",
+      "desc": "A bowl of bone that carries the weight of the upper body to the legs and protects the bladder and lower gut. It holds the sockets of the hip joints.",
+      "good": ["Weight-bearing exercise like walking", "Calcium and vitamin D", "Strong hip and core muscles"],
+      "bad": ["Falls, especially in older age", "Weak bones from osteoporosis", "Sitting for many hours without moving"],
+      "facts": [["Main bones", "Hip bones and sacrum"], ["Hip joint", "Ball and socket"]]
+    },
+    "femur": {
+      "name": "Thigh bone", "system": "skeletal",
+      "desc": "The femur is the longest and strongest bone in the body. It carries your weight from the hip to the knee.",
+      "good": ["Walking, running and climbing stairs", "Calcium and vitamin D", "Strength training for the legs"],
+      "bad": ["Sitting still for most of the day", "Falls in older age", "Smoking, which weakens bones"],
+      "facts": [["Rank", "Longest bone"], ["Length", "about a quarter of your height"]]
+    },
+    "knee": {
+      "name": "Knee", "system": "skeletal",
+      "desc": "The largest joint in the body. Ligaments hold it together, the kneecap protects the front and two cartilage cushions called menisci absorb shocks.",
+      "good": ["Strong thigh muscles", "Keeping a healthy weight", "Warming up before sport"],
+      "bad": ["Twisting the knee while the foot is planted", "Extra body weight", "Kneeling on hard floors for long"],
+      "facts": [["Joint", "Hinge that also rotates a little"], ["Shock absorbers", "2 menisci"]]
+    },
+    "lower_leg": {
+      "name": "Lower leg bones", "system": "skeletal",
+      "desc": "The tibia (shin bone) carries most of the body's weight, and the thin fibula beside it anchors muscles and steadies the ankle.",
+      "good": ["Walking and jumping exercise", "Calcium and vitamin D", "Good shoes for sport"],
+      "bad": ["Increasing running too fast", "Hard blows to the shin", "Weak bones from osteoporosis"],
+      "facts": [["Bones", "Tibia and fibula"], ["Carries weight", "Mostly the tibia"]]
+    },
+    "foot": {
+      "name": "Foot bones", "system": "skeletal",
+      "desc": "The foot is built like a flexible arch. It spreads your weight, absorbs shocks and pushes you forward with every step.",
+      "good": ["Shoes that fit and support the arch", "Walking barefoot on safe ground sometimes", "Stretching the calves and toes"],
+      "bad": ["Tight or very high-heeled shoes", "Standing all day without breaks", "Uncontrolled diabetes, which harms the feet"],
+      "facts": [["Bones", "26"], ["Joints", "33"]]
+    },
+    "bones": {
+      "name": "Bone", "system": "skeletal",
+      "desc": "Bone is living tissue that supports the body, protects organs and stores calcium. Blood cells are made in the marrow inside some bones.",
+      "good": ["Calcium and vitamin D", "Weight-bearing exercise", "Enough protein"],
+      "bad": ["Smoking", "Heavy drinking", "Very little movement"],
+      "facts": [["Adult skeleton", "206 bones"], ["Renewal", "about every 10 years"]]
+    },
+    "muscles": {
+      "name": "Muscle", "system": "muscular",
+      "desc": "Skeletal muscles pull on bones to move the body. They also hold your posture and make heat that keeps you warm.",
+      "good": ["Strength exercise at least twice a week", "Enough protein", "Rest and stretching after exercise"],
+      "bad": ["Sitting still for most of the day", "Training too hard without rest", "Not drinking enough water during exercise"],
+      "facts": [["Skeletal muscles", "more than 600"], ["Share of body weight", "about 40%"]]
+    },
+    "biceps": {
+      "name": "Biceps", "system": "muscular",
+      "desc": "The muscle at the front of the upper arm. It bends the elbow and turns the palm up.",
+      "good": ["Curls and pulling exercises", "Enough protein", "Warming up"],
+      "bad": ["Lifting very heavy loads suddenly", "Bad technique", "No rest between workouts"],
+      "facts": [["Heads", "2"], ["Moves", "Bends the elbow"]]
+    },
+    "triceps": {
+      "name": "Triceps", "system": "muscular",
+      "desc": "The muscle at the back of the upper arm. It straightens the elbow when you push.",
+      "good": ["Push-ups and dips", "Stretching", "Enough protein"],
+      "bad": ["Overtraining", "Pushing with poor form", "Skipping warm-ups"],
+      "facts": [["Heads", "3"], ["Moves", "Straightens the elbow"]]
+    },
+    "deltoid": {
+      "name": "Deltoid", "system": "muscular",
+      "desc": "The rounded muscle that caps the shoulder. It lifts the arm forward, sideways and back.",
+      "good": ["Shoulder exercises with light weights", "Good posture", "Warming up"],
+      "bad": ["Heavy lifting overhead with poor form", "Repeated overhead work without breaks", "Sleeping on the same shoulder for years"],
+      "facts": [["Parts", "3: front, side, back"], ["Moves", "Lifts the arm"]]
+    },
+    "chest_muscles": {
+      "name": "Chest muscles", "system": "muscular",
+      "desc": "The pectoral muscles move the arm across the body and help you push, hug and throw.",
+      "good": ["Push-ups", "Stretching the chest", "Good posture"],
+      "bad": ["Hunched posture for hours", "Heavy bench pressing without a spotter", "Skipping warm-ups"],
+      "facts": [["Main muscle", "Pectoralis major"], ["Moves", "Arm across the body"]]
+    },
+    "abs": {
+      "name": "Abdominal muscles", "system": "muscular",
+      "desc": "These muscles hold in the organs, support the spine and help you bend, twist, cough and breathe out hard.",
+      "good": ["Core exercises like planks", "Good posture", "Staying active"],
+      "bad": ["Sitting for hours", "Lifting with a twisted back", "Extra belly fat"],
+      "facts": [["Main muscles", "Rectus abdominis and obliques"], ["Helps", "Posture and breathing out"]]
+    },
+    "back_muscles": {
+      "name": "Back muscles", "system": "muscular",
+      "desc": "Layers of muscles along the spine and shoulder blades. They keep you upright and move the arms, shoulders and trunk.",
+      "good": ["Rowing and back-strengthening exercises", "Taking breaks from sitting", "Lifting with a straight back"],
+      "bad": ["Long hours hunched over a phone or desk", "Lifting with a bent back", "A soft mattress that sags"],
+      "facts": [["Includes", "Trapezius, latissimus, erector spinae"], ["Holds", "Your posture"]]
+    },
+    "glutes": {
+      "name": "Buttock muscles", "system": "muscular",
+      "desc": "The gluteal muscles move the hip and keep the pelvis level when you walk, run and climb stairs.",
+      "good": ["Squats, lunges and climbing stairs", "Standing up and walking often", "Stretching the hips"],
+      "bad": ["Sitting most of the day", "Weak core muscles", "Skipping warm-ups"],
+      "facts": [["Largest muscle", "Gluteus maximus"], ["Moves", "Extends the hip"]]
+    },
+    "quadriceps": {
+      "name": "Thigh muscles (front)", "system": "muscular",
+      "desc": "Four muscles at the front of the thigh. They straighten the knee and are key for walking, jumping and climbing.",
+      "good": ["Squats and cycling", "Stretching", "Enough protein"],
+      "bad": ["Sudden sprints without warming up", "Overtraining", "Long periods of sitting"],
+      "facts": [["Muscles", "4"], ["Moves", "Straightens the knee"]]
+    },
+    "hamstrings": {
+      "name": "Hamstrings", "system": "muscular",
+      "desc": "Three muscles at the back of the thigh. They bend the knee and help push the leg backwards when you run.",
+      "good": ["Gentle stretching", "Bridges and leg curls", "Warming up before running"],
+      "bad": ["Sprinting with cold muscles", "Sitting for hours", "Skipping rest days"],
+      "facts": [["Muscles", "3"], ["Moves", "Bends the knee"]]
+    },
+    "calf": {
+      "name": "Calf muscles", "system": "muscular",
+      "desc": "The calf muscles lift the heel, push you forward when you walk and help pump blood back up from the legs.",
+      "good": ["Calf raises and walking", "Stretching the calves", "Good shoes"],
+      "bad": ["Sitting or standing still for hours", "Sudden jumping without warming up", "Very high heels every day"],
+      "facts": [["Muscles", "Gastrocnemius and soleus"], ["Tendon", "Achilles, the strongest"]]
+    },
+    "connective": {
+      "name": "Tendons and ligaments", "system": "muscular",
+      "desc": "Tough, rope-like tissues. Tendons join muscle to bone, and ligaments join bone to bone to keep joints stable.",
+      "good": ["Slowly increasing exercise", "Warming up and stretching", "Enough protein and vitamin C"],
+      "bad": ["Sudden twists and overstretching", "Training too hard too soon", "Smoking, which slows healing"],
+      "facts": [["Tendons join", "Muscle to bone"], ["Ligaments join", "Bone to bone"]]
+    },
+    "spinal_cord": {
+      "name": "Spinal cord", "system": "nervous",
+      "desc": "A thick bundle of nerves inside the spine that carries messages between the brain and the body. It also handles fast reflexes.",
+      "good": ["Good posture", "Wearing a seatbelt", "Diving only into deep, safe water"],
+      "bad": ["Diving into shallow water", "Falls from a height", "Car and motorbike accidents without protection"],
+      "facts": [["Length", "about 45 cm"], ["Pairs of spinal nerves", "31"]]
+    },
+    "nerves": {
+      "name": "Nerves", "system": "nervous",
+      "desc": "Nerves are cables of nerve fibres that carry signals between the brain, the spinal cord and every part of the body.",
+      "good": ["Foods with B vitamins", "Regular exercise", "Keeping blood sugar under control"],
+      "bad": ["Uncontrolled diabetes", "Heavy drinking", "Pressure on a nerve for a long time, like leaning on the elbow"],
+      "facts": [["Fastest signals", "about 120 m per second"], ["Main parts", "Brain, spinal cord and nerves"]]
+    },
+    "aorta": {
+      "name": "Aorta", "system": "circulatory",
+      "desc": "The largest artery. It leaves the heart, arches over it and runs down through the chest and belly, sending oxygen-rich blood to the whole body.",
+      "good": ["Keeping blood pressure in range", "Not smoking", "Regular exercise"],
+      "bad": ["High blood pressure", "Smoking", "High cholesterol"],
+      "facts": [["Width", "about 2.5 cm"], ["Rank", "Largest artery"]]
+    },
+    "arteries": {
+      "name": "Arteries", "system": "circulatory",
+      "desc": "Arteries carry blood away from the heart. Their strong, elastic walls stretch with each heartbeat, which you can feel as your pulse.",
+      "good": ["Regular exercise", "Vegetables, fruit, nuts and fish", "Checking your blood pressure"],
+      "bad": ["Smoking", "Too much salt and fatty food", "Untreated high blood pressure"],
+      "facts": [["Carry", "Blood away from the heart"], ["You feel them as", "Your pulse"]]
+    },
+    "veins": {
+      "name": "Veins", "system": "circulatory",
+      "desc": "Veins carry blood back to the heart. Small valves inside stop blood from flowing backwards, and leg muscles help push it up.",
+      "good": ["Walking and moving your legs", "Raising your legs when resting", "Drinking enough water"],
+      "bad": ["Sitting or standing still for hours", "Smoking", "Extra body weight"],
+      "facts": [["Carry", "Blood back to the heart"], ["Valves", "Stop blood going backwards"]]
+    },
+    "lymph": {
+      "name": "Lymph vessels and nodes", "system": "lymphatic",
+      "desc": "A network that drains extra fluid from the tissues back into the blood. Lymph nodes along the way trap germs and help the immune system respond.",
+      "good": ["Moving and exercising every day", "Drinking enough water", "Keeping a healthy weight"],
+      "bad": ["Long periods without moving", "Smoking", "Untreated infections"],
+      "facts": [["Lymph nodes", "about 600"], ["Carries", "Lymph, fluid from the tissues"]]
+    },
+    "skin": {
+      "name": "Skin", "system": "integumentary",
+      "desc": "The largest organ. It keeps germs and water out, helps control body temperature, makes vitamin D in sunlight and lets you feel touch, heat and pain.",
+      "good": ["Sunscreen and shade in strong sun", "Drinking enough water", "Gentle washing and moisturising"],
+      "bad": ["Sunburn", "Smoking", "Very hot water and harsh soaps"],
+      "facts": [["Area", "about 2 m²"], ["Outer layer renews", "about every 4 weeks"]]
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "systems": {},
+  "parts": {
+    "skull": {
+      "name": "Cráneo", "system": "skeletal",
+      "desc": "El cráneo protege el cerebro, sujeta los ojos y los dientes y da forma a la cara. Casi todos sus huesos están unidos con firmeza; solo se mueve la mandíbula.",
+      "good": ["Casco en bici, moto y obras", "Usar el cinturón de seguridad", "Calcio y vitamina D"],
+      "bad": ["Caídas y golpes en la cabeza", "Ir sin casco", "Deportes de contacto sin protección"],
+      "facts": [["Huesos", "22"], ["Articulación móvil", "La mandíbula"]]
+    },
+    "teeth": {
+      "name": "Dientes", "system": "skeletal",
+      "desc": "Los dientes cortan, desgarran y muelen la comida para poder tragarla y digerirla. Su esmalte es la sustancia más dura del cuerpo.",
+      "good": ["Cepillarse dos veces al día con pasta con flúor", "Limpiar entre los dientes", "Revisiones con el dentista"],
+      "bad": ["Picoteo y bebidas azucaradas entre comidas", "Fumar y mascar tabaco", "Abrir cosas con los dientes"],
+      "facts": [["Dientes de adulto", "32"], ["Sustancia más dura", "El esmalte"]]
+    },
+    "spine": {
+      "name": "Columna vertebral", "system": "skeletal",
+      "desc": "Una pila de vértebras que protege la médula espinal, sostiene la cabeza y el cuerpo y permite doblarse y girar. Los discos blandos entre ellas amortiguan los golpes.",
+      "good": ["Buena postura al sentarte y usar el móvil", "Ejercicios que fortalezcan abdomen y espalda", "Levantar peso con las piernas y la espalda recta"],
+      "bad": ["Horas sentado y encorvado", "Levantar mucho peso con la espalda doblada", "Fumar, que daña los discos"],
+      "facts": [["Vértebras", "33"], ["Curvas naturales", "4"]]
+    },
+    "ribcage": {
+      "name": "Caja torácica", "system": "skeletal",
+      "desc": "Doce pares de costillas van de la columna al esternón. Protegen el corazón y los pulmones y se elevan con cada respiración.",
+      "good": ["Calcio y vitamina D", "Ejercicios de respiración y postura", "Protecciones en deportes de contacto"],
+      "bad": ["Caídas y golpes fuertes en el pecho", "Huesos frágiles por osteoporosis", "Fumar, que debilita los huesos"],
+      "facts": [["Pares de costillas", "12"], ["Unidas directamente al esternón", "7 pares"]]
+    },
+    "shoulder": {
+      "name": "Huesos del hombro", "system": "skeletal",
+      "desc": "La clavícula y el omóplato unen el brazo al tronco. Junto al húmero forman la articulación más móvil del cuerpo.",
+      "good": ["Ejercicios de fuerza para espalda y hombros", "Calentar antes del deporte", "Buena postura"],
+      "bad": ["Caer sobre el hombro o la mano extendida", "Levantar mucho peso por encima de la cabeza sin entrenar", "Horas encorvado"],
+      "facts": [["Huesos", "Clavícula y omóplato"], ["Articulación", "La más móvil del cuerpo"]]
+    },
+    "humerus": {
+      "name": "Húmero", "system": "skeletal",
+      "desc": "El húmero va del hombro al codo. Los músculos unidos a él levantan, empujan y tiran del brazo.",
+      "good": ["Ejercicios de fuerza", "Calcio y vitamina D", "Calentar antes del deporte"],
+      "bad": ["Caídas sobre el brazo", "Huesos frágiles por osteoporosis", "Levantar más de lo que puedes controlar"],
+      "facts": [["Va", "Del hombro al codo"], ["El «calambre» del codo", "Un nervio que pasa por ahí"]]
+    },
+    "forearm": {
+      "name": "Huesos del antebrazo", "system": "skeletal",
+      "desc": "El radio y el cúbito van del codo a la muñeca. Giran uno alrededor del otro para que puedas poner la palma hacia arriba o hacia abajo.",
+      "good": ["Ejercicios de agarre y de muñeca", "Calcio y vitamina D", "Muñequeras al patinar"],
+      "bad": ["Caer sobre la mano extendida", "Repetir el mismo gesto de muñeca durante horas", "Huesos frágiles por osteoporosis"],
+      "facts": [["Huesos", "Radio y cúbito"], ["Permiten", "Girar la palma"]]
+    },
+    "hand": {
+      "name": "Huesos de la mano", "system": "skeletal",
+      "desc": "Muchos huesos pequeños hacen la mano fuerte y muy precisa. El pulgar puede tocar cada dedo, lo que te permite agarrar y usar herramientas.",
+      "good": ["Estirar y mover los dedos en largas sesiones de pantalla", "Guantes para trabajos duros", "Calcio y vitamina D"],
+      "bad": ["Escribir horas sin pausas", "Golpear objetos duros", "Aplastamientos en el trabajo"],
+      "facts": [["Huesos", "27"], ["Huesos de la muñeca", "8"]]
+    },
+    "pelvis": {
+      "name": "Pelvis", "system": "skeletal",
+      "desc": "Un cuenco de hueso que pasa el peso de la parte superior del cuerpo a las piernas y protege la vejiga y el intestino bajo. Contiene las cavidades de las caderas.",
+      "good": ["Ejercicio con carga, como caminar", "Calcio y vitamina D", "Músculos de cadera y abdomen fuertes"],
+      "bad": ["Caídas, sobre todo en la vejez", "Huesos frágiles por osteoporosis", "Muchas horas sentado sin moverse"],
+      "facts": [["Huesos principales", "Coxales y sacro"], ["Cadera", "Articulación de rótula"]]
+    },
+    "femur": {
+      "name": "Fémur", "system": "skeletal",
+      "desc": "El fémur es el hueso más largo y fuerte del cuerpo. Soporta tu peso desde la cadera hasta la rodilla.",
+      "good": ["Caminar, correr y subir escaleras", "Calcio y vitamina D", "Ejercicios de fuerza para las piernas"],
+      "bad": ["Estar sentado casi todo el día", "Caídas en la vejez", "Fumar, que debilita los huesos"],
+      "facts": [["Puesto", "El hueso más largo"], ["Longitud", "un cuarto de tu altura aprox."]]
+    },
+    "knee": {
+      "name": "Rodilla", "system": "skeletal",
+      "desc": "La articulación más grande del cuerpo. Los ligamentos la sujetan, la rótula la protege por delante y dos cojines de cartílago, los meniscos, amortiguan los golpes.",
+      "good": ["Músculos del muslo fuertes", "Mantener un peso sano", "Calentar antes del deporte"],
+      "bad": ["Girar la rodilla con el pie fijo", "Exceso de peso", "Arrodillarse mucho rato en suelo duro"],
+      "facts": [["Articulación", "Bisagra que también gira un poco"], ["Amortiguadores", "2 meniscos"]]
+    },
+    "lower_leg": {
+      "name": "Huesos de la pierna", "system": "skeletal",
+      "desc": "La tibia soporta casi todo el peso del cuerpo, y el fino peroné a su lado sujeta músculos y estabiliza el tobillo.",
+      "good": ["Caminar y saltar", "Calcio y vitamina D", "Buen calzado deportivo"],
+      "bad": ["Aumentar demasiado rápido lo que corres", "Golpes fuertes en la espinilla", "Huesos frágiles por osteoporosis"],
+      "facts": [["Huesos", "Tibia y peroné"], ["Soporta el peso", "Sobre todo la tibia"]]
+    },
+    "foot": {
+      "name": "Huesos del pie", "system": "skeletal",
+      "desc": "El pie está hecho como un arco flexible. Reparte tu peso, amortigua los golpes y te impulsa en cada paso.",
+      "good": ["Calzado que ajuste y sujete el arco", "A veces caminar descalzo en un suelo seguro", "Estirar gemelos y dedos"],
+      "bad": ["Zapatos apretados o tacones muy altos", "Estar de pie todo el día sin pausas", "Diabetes sin controlar, que daña los pies"],
+      "facts": [["Huesos", "26"], ["Articulaciones", "33"]]
+    },
+    "bones": {
+      "name": "Hueso", "system": "skeletal",
+      "desc": "El hueso es tejido vivo que sostiene el cuerpo, protege los órganos y guarda calcio. En la médula de algunos huesos se fabrican las células de la sangre.",
+      "good": ["Calcio y vitamina D", "Ejercicio con carga", "Suficiente proteína"],
+      "bad": ["Fumar", "Beber mucho alcohol", "Moverse muy poco"],
+      "facts": [["Esqueleto adulto", "206 huesos"], ["Se renueva", "cada 10 años aprox."]]
+    },
+    "muscles": {
+      "name": "Músculo", "system": "muscular",
+      "desc": "Los músculos esqueléticos tiran de los huesos para mover el cuerpo. También mantienen la postura y producen calor que te mantiene caliente.",
+      "good": ["Ejercicio de fuerza al menos dos veces por semana", "Suficiente proteína", "Descanso y estiramientos tras entrenar"],
+      "bad": ["Estar sentado casi todo el día", "Entrenar demasiado sin descanso", "Beber poca agua al hacer ejercicio"],
+      "facts": [["Músculos esqueléticos", "más de 600"], ["Parte del peso corporal", "un 40% aprox."]]
+    },
+    "biceps": {
+      "name": "Bíceps", "system": "muscular",
+      "desc": "El músculo de la parte delantera del brazo. Dobla el codo y gira la palma hacia arriba.",
+      "good": ["Curls y ejercicios de tirón", "Suficiente proteína", "Calentar"],
+      "bad": ["Levantar de golpe mucho peso", "Mala técnica", "No descansar entre entrenamientos"],
+      "facts": [["Cabezas", "2"], ["Movimiento", "Dobla el codo"]]
+    },
+    "triceps": {
+      "name": "Tríceps", "system": "muscular",
+      "desc": "El músculo de la parte trasera del brazo. Estira el codo cuando empujas.",
+      "good": ["Flexiones y fondos", "Estiramientos", "Suficiente proteína"],
+      "bad": ["Sobreentrenar", "Empujar con mala técnica", "Saltarse el calentamiento"],
+      "facts": [["Cabezas", "3"], ["Movimiento", "Estira el codo"]]
+    },
+    "deltoid": {
+      "name": "Deltoides", "system": "muscular",
+      "desc": "El músculo redondeado que cubre el hombro. Levanta el brazo hacia delante, hacia el lado y hacia atrás.",
+      "good": ["Ejercicios de hombro con poco peso", "Buena postura", "Calentar"],
+      "bad": ["Mucho peso por encima de la cabeza con mala técnica", "Trabajo con los brazos en alto sin pausas", "Dormir siempre sobre el mismo hombro"],
+      "facts": [["Partes", "3: anterior, lateral, posterior"], ["Movimiento", "Levanta el brazo"]]
+    },
+    "chest_muscles": {
+      "name": "Pectorales", "system": "muscular",
+      "desc": "Los pectorales llevan el brazo por delante del cuerpo y ayudan a empujar, abrazar y lanzar.",
+      "good": ["Flexiones", "Estirar el pecho", "Buena postura"],
+      "bad": ["Horas encorvado", "Press de banca pesado sin ayuda", "Saltarse el calentamiento"],
+      "facts": [["Músculo principal", "Pectoral mayor"], ["Movimiento", "Brazo por delante del cuerpo"]]
+    },
+    "abs": {
+      "name": "Abdominales", "system": "muscular",
+      "desc": "Estos músculos sujetan los órganos, apoyan la columna y ayudan a doblarse, girar, toser y soplar con fuerza.",
+      "good": ["Ejercicios de core como la plancha", "Buena postura", "Mantenerse activo"],
+      "bad": ["Horas sentado", "Levantar peso con la espalda girada", "Exceso de grasa abdominal"],
+      "facts": [["Músculos principales", "Recto abdominal y oblicuos"], ["Ayudan a", "La postura y a espirar"]]
+    },
+    "back_muscles": {
+      "name": "Músculos de la espalda", "system": "muscular",
+      "desc": "Capas de músculos a lo largo de la columna y los omóplatos. Te mantienen erguido y mueven los brazos, los hombros y el tronco.",
+      "good": ["Remo y ejercicios para la espalda", "Pausas cuando estás sentado", "Levantar con la espalda recta"],
+      "bad": ["Horas encorvado sobre el móvil o la mesa", "Levantar con la espalda doblada", "Un colchón blando que se hunde"],
+      "facts": [["Incluyen", "Trapecio, dorsal ancho, erectores de la columna"], ["Mantienen", "Tu postura"]]
+    },
+    "glutes": {
+      "name": "Glúteos", "system": "muscular",
+      "desc": "Los glúteos mueven la cadera y mantienen la pelvis nivelada al caminar, correr y subir escaleras.",
+      "good": ["Sentadillas, zancadas y escaleras", "Levantarse y caminar a menudo", "Estirar las caderas"],
+      "bad": ["Estar sentado casi todo el día", "Core débil", "Saltarse el calentamiento"],
+      "facts": [["Músculo más grande", "Glúteo mayor"], ["Movimiento", "Extiende la cadera"]]
+    },
+    "quadriceps": {
+      "name": "Cuádriceps", "system": "muscular",
+      "desc": "Cuatro músculos en la parte delantera del muslo. Estiran la rodilla y son clave para caminar, saltar y subir.",
+      "good": ["Sentadillas y bici", "Estiramientos", "Suficiente proteína"],
+      "bad": ["Esprints sin calentar", "Sobreentrenar", "Largos ratos sentado"],
+      "facts": [["Músculos", "4"], ["Movimiento", "Estira la rodilla"]]
+    },
+    "hamstrings": {
+      "name": "Isquiotibiales", "system": "muscular",
+      "desc": "Tres músculos en la parte trasera del muslo. Doblan la rodilla y ayudan a empujar la pierna hacia atrás al correr.",
+      "good": ["Estiramientos suaves", "Puentes y curl de piernas", "Calentar antes de correr"],
+      "bad": ["Esprintar con los músculos fríos", "Horas sentado", "No tener días de descanso"],
+      "facts": [["Músculos", "3"], ["Movimiento", "Dobla la rodilla"]]
+    },
+    "calf": {
+      "name": "Gemelos", "system": "muscular",
+      "desc": "Los músculos de la pantorrilla levantan el talón, te impulsan al caminar y ayudan a bombear la sangre de las piernas hacia arriba.",
+      "good": ["Elevaciones de talón y caminar", "Estirar las pantorrillas", "Buen calzado"],
+      "bad": ["Estar horas quieto, sentado o de pie", "Saltar de golpe sin calentar", "Tacones muy altos a diario"],
+      "facts": [["Músculos", "Gastrocnemio y sóleo"], ["Tendón", "El de Aquiles, el más fuerte"]]
+    },
+    "connective": {
+      "name": "Tendones y ligamentos", "system": "muscular",
+      "desc": "Tejidos duros como cuerdas. Los tendones unen el músculo al hueso, y los ligamentos unen hueso con hueso para dar estabilidad a las articulaciones.",
+      "good": ["Aumentar el ejercicio poco a poco", "Calentar y estirar", "Suficiente proteína y vitamina C"],
+      "bad": ["Torceduras y estiramientos bruscos", "Entrenar demasiado fuerte demasiado pronto", "Fumar, que retrasa la curación"],
+      "facts": [["Los tendones unen", "Músculo con hueso"], ["Los ligamentos unen", "Hueso con hueso"]]
+    },
+    "spinal_cord": {
+      "name": "Médula espinal", "system": "nervous",
+      "desc": "Un grueso haz de nervios dentro de la columna que lleva mensajes entre el cerebro y el cuerpo. También controla los reflejos rápidos.",
+      "good": ["Buena postura", "Usar el cinturón de seguridad", "Tirarse de cabeza solo en agua profunda y segura"],
+      "bad": ["Tirarse de cabeza en agua poco profunda", "Caídas desde altura", "Accidentes de coche y moto sin protección"],
+      "facts": [["Longitud", "unos 45 cm"], ["Pares de nervios espinales", "31"]]
+    },
+    "nerves": {
+      "name": "Nervios", "system": "nervous",
+      "desc": "Los nervios son cables de fibras nerviosas que llevan señales entre el cerebro, la médula espinal y cada parte del cuerpo.",
+      "good": ["Alimentos con vitaminas del grupo B", "Ejercicio regular", "Mantener controlado el azúcar en sangre"],
+      "bad": ["Diabetes sin controlar", "Beber mucho alcohol", "Presión prolongada sobre un nervio, como apoyar el codo"],
+      "facts": [["Señales más rápidas", "unos 120 m por segundo"], ["Partes principales", "Cerebro, médula y nervios"]]
+    },
+    "aorta": {
+      "name": "Aorta", "system": "circulatory",
+      "desc": "La arteria más grande. Sale del corazón, forma un arco sobre él y baja por el pecho y el abdomen, enviando sangre rica en oxígeno a todo el cuerpo.",
+      "good": ["Mantener la presión en rango", "No fumar", "Ejercicio regular"],
+      "bad": ["Presión alta", "Fumar", "Colesterol alto"],
+      "facts": [["Anchura", "unos 2,5 cm"], ["Puesto", "La arteria más grande"]]
+    },
+    "arteries": {
+      "name": "Arterias", "system": "circulatory",
+      "desc": "Las arterias llevan la sangre desde el corazón. Sus paredes fuertes y elásticas se estiran con cada latido, y eso es lo que notas como pulso.",
+      "good": ["Ejercicio regular", "Verduras, fruta, frutos secos y pescado", "Controlar la presión arterial"],
+      "bad": ["Fumar", "Mucha sal y grasa", "Presión alta sin tratar"],
+      "facts": [["Llevan", "Sangre desde el corazón"], ["Las notas como", "El pulso"]]
+    },
+    "veins": {
+      "name": "Venas", "system": "circulatory",
+      "desc": "Las venas devuelven la sangre al corazón. Unas válvulas pequeñas impiden que retroceda, y los músculos de las piernas la empujan hacia arriba.",
+      "good": ["Caminar y mover las piernas", "Elevar las piernas al descansar", "Beber suficiente agua"],
+      "bad": ["Estar horas quieto, sentado o de pie", "Fumar", "Exceso de peso"],
+      "facts": [["Llevan", "Sangre de vuelta al corazón"], ["Válvulas", "Evitan que la sangre retroceda"]]
+    },
+    "lymph": {
+      "name": "Vasos y ganglios linfáticos", "system": "lymphatic",
+      "desc": "Una red que devuelve a la sangre el líquido sobrante de los tejidos. Los ganglios del camino atrapan microbios y ayudan a la respuesta inmunitaria.",
+      "good": ["Moverse y hacer ejercicio cada día", "Beber suficiente agua", "Mantener un peso sano"],
+      "bad": ["Pasar mucho tiempo sin moverse", "Fumar", "Infecciones sin tratar"],
+      "facts": [["Ganglios linfáticos", "unos 600"], ["Llevan", "Linfa, el líquido de los tejidos"]]
+    },
+    "skin": {
+      "name": "Piel", "system": "integumentary",
+      "desc": "El órgano más grande. Impide el paso de microbios y agua, ayuda a regular la temperatura, produce vitamina D con el sol y te permite sentir el tacto, el calor y el dolor.",
+      "good": ["Protector solar y sombra con sol fuerte", "Beber suficiente agua", "Lavado suave e hidratación"],
+      "bad": ["Quemaduras solares", "Fumar", "Agua muy caliente y jabones agresivos"],
+      "facts": [["Superficie", "unos 2 m²"], ["La capa externa se renueva", "cada 4 semanas aprox."]]
+    }
+  }
+}

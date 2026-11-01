@@ -1,0 +1,236 @@
+{
+  "systems": {},
+  "parts": {
+    "skull": {
+      "name": "Schädel", "system": "skeletal",
+      "desc": "Der Schädel schützt das Gehirn, hält Augen und Zähne und formt das Gesicht. Die meisten seiner Knochen sind fest verbunden; nur der Unterkiefer bewegt sich.",
+      "good": ["Helm beim Rad- und Motorradfahren und auf Baustellen", "Sicherheitsgurt anlegen", "Kalzium und Vitamin D"],
+      "bad": ["Stürze und Schläge auf den Kopf", "Ohne Helm fahren", "Kontaktsport ohne Schutz"],
+      "facts": [["Knochen", "22"], ["Bewegliches Gelenk", "Der Unterkiefer"]]
+    },
+    "teeth": {
+      "name": "Zähne", "system": "skeletal",
+      "desc": "Zähne schneiden, reißen und zermahlen das Essen, damit es geschluckt und verdaut werden kann. Ihr Zahnschmelz ist der härteste Stoff im Körper.",
+      "good": ["Zweimal täglich mit Fluoridzahnpasta putzen", "Zahnzwischenräume reinigen", "Kontrollen beim Zahnarzt"],
+      "bad": ["Süße Snacks und Getränke zwischen den Mahlzeiten", "Rauchen und Kautabak", "Mit den Zähnen Dinge öffnen"],
+      "facts": [["Zähne bei Erwachsenen", "32"], ["Härtester Stoff", "Zahnschmelz"]]
+    },
+    "spine": {
+      "name": "Wirbelsäule", "system": "skeletal",
+      "desc": "Ein Stapel aus Wirbeln, der das Rückenmark schützt, Kopf und Körper trägt und Beugen und Drehen ermöglicht. Weiche Bandscheiben dazwischen federn Stöße ab.",
+      "good": ["Gute Haltung beim Sitzen und am Handy", "Übungen, die Bauch und Rücken stärken", "Mit den Beinen heben, Rücken gerade"],
+      "bad": ["Stundenlang gekrümmt sitzen", "Schweres mit rundem Rücken heben", "Rauchen, das den Bandscheiben schadet"],
+      "facts": [["Wirbel", "33"], ["Natürliche Krümmungen", "4"]]
+    },
+    "ribcage": {
+      "name": "Brustkorb", "system": "skeletal",
+      "desc": "Zwölf Rippenpaare reichen von der Wirbelsäule zum Brustbein. Sie schützen Herz und Lunge und heben sich bei jedem Atemzug.",
+      "good": ["Kalzium und Vitamin D", "Atem- und Haltungsübungen", "Schutzpolster bei Kontaktsport"],
+      "bad": ["Stürze und harte Schläge auf die Brust", "Brüchige Knochen durch Osteoporose", "Rauchen, das die Knochen schwächt"],
+      "facts": [["Rippenpaare", "12"], ["Direkt am Brustbein", "7 Paare"]]
+    },
+    "shoulder": {
+      "name": "Schulterknochen", "system": "skeletal",
+      "desc": "Schlüsselbein und Schulterblatt verbinden den Arm mit dem Rumpf. Zusammen mit dem Oberarmknochen bilden sie das beweglichste Gelenk des Körpers.",
+      "good": ["Krafttraining für Rücken und Schultern", "Aufwärmen vor dem Sport", "Gute Haltung"],
+      "bad": ["Auf die Schulter oder die ausgestreckte Hand fallen", "Ohne Training schwer über Kopf heben", "Stundenlang gekrümmt sitzen"],
+      "facts": [["Knochen", "Schlüsselbein und Schulterblatt"], ["Gelenk", "Das beweglichste im Körper"]]
+    },
+    "humerus": {
+      "name": "Oberarmknochen", "system": "skeletal",
+      "desc": "Der Oberarmknochen reicht von der Schulter bis zum Ellbogen. Muskeln daran heben, drücken und ziehen den Arm.",
+      "good": ["Krafttraining", "Kalzium und Vitamin D", "Aufwärmen vor dem Sport"],
+      "bad": ["Stürze auf den Arm", "Brüchige Knochen durch Osteoporose", "Mehr heben, als man kontrollieren kann"],
+      "facts": [["Reicht", "Von der Schulter zum Ellbogen"], ["Der „Musikantenknochen“", "Ein Nerv am Ellbogen"]]
+    },
+    "forearm": {
+      "name": "Unterarmknochen", "system": "skeletal",
+      "desc": "Speiche und Elle reichen vom Ellbogen zum Handgelenk. Sie drehen sich umeinander, damit du die Handfläche nach oben und unten drehen kannst.",
+      "good": ["Griff- und Handgelenkübungen", "Kalzium und Vitamin D", "Handgelenkschützer beim Skaten"],
+      "bad": ["Auf die ausgestreckte Hand fallen", "Stundenlang dieselbe Handgelenkbewegung", "Brüchige Knochen durch Osteoporose"],
+      "facts": [["Knochen", "Speiche und Elle"], ["Ermöglichen", "Die Handfläche zu drehen"]]
+    },
+    "hand": {
+      "name": "Handknochen", "system": "skeletal",
+      "desc": "Viele kleine Knochen machen die Hand stark und sehr genau. Der Daumen kann jeden Finger berühren – so kannst du greifen und Werkzeuge benutzen.",
+      "good": ["Bei langer Bildschirmzeit die Finger dehnen und bewegen", "Handschuhe bei schwerer Arbeit", "Kalzium und Vitamin D"],
+      "bad": ["Stundenlang ohne Pause tippen", "Auf harte Gegenstände schlagen", "Quetschverletzungen bei der Arbeit"],
+      "facts": [["Knochen", "27"], ["Handwurzelknochen", "8"]]
+    },
+    "pelvis": {
+      "name": "Becken", "system": "skeletal",
+      "desc": "Eine Knochenschale, die das Gewicht des Oberkörpers auf die Beine überträgt und Blase und unteren Darm schützt. In ihr liegen die Pfannen der Hüftgelenke.",
+      "good": ["Belastende Bewegung wie Gehen", "Kalzium und Vitamin D", "Starke Hüft- und Bauchmuskeln"],
+      "bad": ["Stürze, besonders im Alter", "Brüchige Knochen durch Osteoporose", "Stundenlang sitzen, ohne sich zu bewegen"],
+      "facts": [["Hauptknochen", "Hüftbeine und Kreuzbein"], ["Hüftgelenk", "Kugelgelenk"]]
+    },
+    "femur": {
+      "name": "Oberschenkelknochen", "system": "skeletal",
+      "desc": "Der Oberschenkelknochen ist der längste und stärkste Knochen des Körpers. Er trägt dein Gewicht von der Hüfte bis zum Knie.",
+      "good": ["Gehen, Laufen und Treppensteigen", "Kalzium und Vitamin D", "Krafttraining für die Beine"],
+      "bad": ["Fast den ganzen Tag sitzen", "Stürze im Alter", "Rauchen, das die Knochen schwächt"],
+      "facts": [["Rang", "Längster Knochen"], ["Länge", "etwa ein Viertel deiner Größe"]]
+    },
+    "knee": {
+      "name": "Knie", "system": "skeletal",
+      "desc": "Das größte Gelenk des Körpers. Bänder halten es zusammen, die Kniescheibe schützt die Vorderseite, und zwei Knorpelpolster, die Menisken, federn Stöße ab.",
+      "good": ["Starke Oberschenkelmuskeln", "Gesundes Gewicht halten", "Aufwärmen vor dem Sport"],
+      "bad": ["Das Knie bei feststehendem Fuß verdrehen", "Übergewicht", "Lange auf hartem Boden knien"],
+      "facts": [["Gelenk", "Scharnier, das sich auch etwas dreht"], ["Stoßdämpfer", "2 Menisken"]]
+    },
+    "lower_leg": {
+      "name": "Unterschenkelknochen", "system": "skeletal",
+      "desc": "Das Schienbein trägt den Großteil des Körpergewichts, und das dünne Wadenbein daneben hält Muskeln und stabilisiert das Sprunggelenk.",
+      "good": ["Gehen und Springen", "Kalzium und Vitamin D", "Gute Sportschuhe"],
+      "bad": ["Das Laufpensum zu schnell steigern", "Harte Schläge aufs Schienbein", "Brüchige Knochen durch Osteoporose"],
+      "facts": [["Knochen", "Schienbein und Wadenbein"], ["Trägt das Gewicht", "Vor allem das Schienbein"]]
+    },
+    "foot": {
+      "name": "Fußknochen", "system": "skeletal",
+      "desc": "Der Fuß ist wie ein beweglicher Bogen gebaut. Er verteilt dein Gewicht, federt Stöße ab und drückt dich bei jedem Schritt nach vorn.",
+      "good": ["Passende Schuhe, die das Gewölbe stützen", "Ab und zu auf sicherem Boden barfuß gehen", "Waden und Zehen dehnen"],
+      "bad": ["Enge Schuhe oder sehr hohe Absätze", "Den ganzen Tag ohne Pause stehen", "Schlecht eingestellter Diabetes, der den Füßen schadet"],
+      "facts": [["Knochen", "26"], ["Gelenke", "33"]]
+    },
+    "bones": {
+      "name": "Knochen", "system": "skeletal",
+      "desc": "Knochen ist lebendes Gewebe, das den Körper stützt, Organe schützt und Kalzium speichert. Im Mark mancher Knochen entstehen Blutzellen.",
+      "good": ["Kalzium und Vitamin D", "Belastende Bewegung", "Genug Eiweiß"],
+      "bad": ["Rauchen", "Viel Alkohol", "Sehr wenig Bewegung"],
+      "facts": [["Skelett eines Erwachsenen", "206 Knochen"], ["Erneuerung", "etwa alle 10 Jahre"]]
+    },
+    "muscles": {
+      "name": "Muskel", "system": "muscular",
+      "desc": "Skelettmuskeln ziehen an den Knochen und bewegen so den Körper. Sie halten auch die Haltung und erzeugen Wärme.",
+      "good": ["Mindestens zweimal pro Woche Krafttraining", "Genug Eiweiß", "Erholung und Dehnen nach dem Training"],
+      "bad": ["Fast den ganzen Tag sitzen", "Zu viel trainieren ohne Pause", "Beim Sport zu wenig trinken"],
+      "facts": [["Skelettmuskeln", "über 600"], ["Anteil am Körpergewicht", "etwa 40 %"]]
+    },
+    "biceps": {
+      "name": "Bizeps", "system": "muscular",
+      "desc": "Der Muskel vorn am Oberarm. Er beugt den Ellbogen und dreht die Handfläche nach oben.",
+      "good": ["Curls und Zugübungen", "Genug Eiweiß", "Aufwärmen"],
+      "bad": ["Plötzlich sehr schwere Lasten heben", "Schlechte Technik", "Keine Pause zwischen den Trainings"],
+      "facts": [["Köpfe", "2"], ["Bewegung", "Beugt den Ellbogen"]]
+    },
+    "triceps": {
+      "name": "Trizeps", "system": "muscular",
+      "desc": "Der Muskel hinten am Oberarm. Er streckt den Ellbogen, wenn du drückst.",
+      "good": ["Liegestütze und Dips", "Dehnen", "Genug Eiweiß"],
+      "bad": ["Übertraining", "Mit schlechter Technik drücken", "Das Aufwärmen auslassen"],
+      "facts": [["Köpfe", "3"], ["Bewegung", "Streckt den Ellbogen"]]
+    },
+    "deltoid": {
+      "name": "Deltamuskel", "system": "muscular",
+      "desc": "Der runde Muskel über der Schulter. Er hebt den Arm nach vorn, zur Seite und nach hinten.",
+      "good": ["Schulterübungen mit leichten Gewichten", "Gute Haltung", "Aufwärmen"],
+      "bad": ["Schwere Lasten über Kopf mit schlechter Technik", "Überkopfarbeit ohne Pausen", "Jahrelang auf derselben Schulter schlafen"],
+      "facts": [["Teile", "3: vorne, seitlich, hinten"], ["Bewegung", "Hebt den Arm"]]
+    },
+    "chest_muscles": {
+      "name": "Brustmuskeln", "system": "muscular",
+      "desc": "Die Brustmuskeln führen den Arm vor den Körper und helfen beim Drücken, Umarmen und Werfen.",
+      "good": ["Liegestütze", "Die Brust dehnen", "Gute Haltung"],
+      "bad": ["Stundenlang gekrümmte Haltung", "Schweres Bankdrücken ohne Partner", "Das Aufwärmen auslassen"],
+      "facts": [["Hauptmuskel", "Großer Brustmuskel"], ["Bewegung", "Arm vor den Körper"]]
+    },
+    "abs": {
+      "name": "Bauchmuskeln", "system": "muscular",
+      "desc": "Diese Muskeln halten die Organe, stützen die Wirbelsäule und helfen beim Beugen, Drehen, Husten und kräftigen Ausatmen.",
+      "good": ["Rumpfübungen wie der Unterarmstütz", "Gute Haltung", "Aktiv bleiben"],
+      "bad": ["Stundenlang sitzen", "Mit verdrehtem Rücken heben", "Viel Bauchfett"],
+      "facts": [["Hauptmuskeln", "Gerader und schräge Bauchmuskeln"], ["Helfen", "Bei Haltung und Ausatmen"]]
+    },
+    "back_muscles": {
+      "name": "Rückenmuskeln", "system": "muscular",
+      "desc": "Muskelschichten entlang der Wirbelsäule und der Schulterblätter. Sie halten dich aufrecht und bewegen Arme, Schultern und Rumpf.",
+      "good": ["Rudern und Rückenübungen", "Pausen vom Sitzen", "Mit geradem Rücken heben"],
+      "bad": ["Stundenlang über Handy oder Schreibtisch gebeugt", "Mit rundem Rücken heben", "Eine durchhängende weiche Matratze"],
+      "facts": [["Dazu gehören", "Trapezmuskel, breiter Rückenmuskel, Rückenstrecker"], ["Halten", "Deine Haltung"]]
+    },
+    "glutes": {
+      "name": "Gesäßmuskeln", "system": "muscular",
+      "desc": "Die Gesäßmuskeln bewegen die Hüfte und halten das Becken beim Gehen, Laufen und Treppensteigen gerade.",
+      "good": ["Kniebeugen, Ausfallschritte und Treppen", "Oft aufstehen und gehen", "Die Hüften dehnen"],
+      "bad": ["Fast den ganzen Tag sitzen", "Schwache Rumpfmuskeln", "Das Aufwärmen auslassen"],
+      "facts": [["Größter Muskel", "Großer Gesäßmuskel"], ["Bewegung", "Streckt die Hüfte"]]
+    },
+    "quadriceps": {
+      "name": "Vorderer Oberschenkelmuskel", "system": "muscular",
+      "desc": "Vier Muskeln vorn am Oberschenkel. Sie strecken das Knie und sind wichtig zum Gehen, Springen und Steigen.",
+      "good": ["Kniebeugen und Radfahren", "Dehnen", "Genug Eiweiß"],
+      "bad": ["Sprints ohne Aufwärmen", "Übertraining", "Langes Sitzen"],
+      "facts": [["Muskeln", "4"], ["Bewegung", "Streckt das Knie"]]
+    },
+    "hamstrings": {
+      "name": "Hintere Oberschenkelmuskeln", "system": "muscular",
+      "desc": "Drei Muskeln hinten am Oberschenkel. Sie beugen das Knie und helfen beim Laufen, das Bein nach hinten zu drücken.",
+      "good": ["Sanftes Dehnen", "Brücke und Beinbeuger", "Aufwärmen vor dem Laufen"],
+      "bad": ["Mit kalten Muskeln sprinten", "Stundenlang sitzen", "Ruhetage auslassen"],
+      "facts": [["Muskeln", "3"], ["Bewegung", "Beugt das Knie"]]
+    },
+    "calf": {
+      "name": "Wadenmuskeln", "system": "muscular",
+      "desc": "Die Wadenmuskeln heben die Ferse, schieben dich beim Gehen nach vorn und helfen, Blut aus den Beinen nach oben zu pumpen.",
+      "good": ["Zehenstand-Übungen und Gehen", "Waden dehnen", "Gute Schuhe"],
+      "bad": ["Stundenlang still sitzen oder stehen", "Plötzlich springen ohne Aufwärmen", "Täglich sehr hohe Absätze"],
+      "facts": [["Muskeln", "Zwillingswadenmuskel und Schollenmuskel"], ["Sehne", "Achillessehne, die stärkste"]]
+    },
+    "connective": {
+      "name": "Sehnen und Bänder", "system": "muscular",
+      "desc": "Zähe, seilartige Gewebe. Sehnen verbinden Muskeln mit Knochen, Bänder verbinden Knochen mit Knochen und machen Gelenke stabil.",
+      "good": ["Training langsam steigern", "Aufwärmen und Dehnen", "Genug Eiweiß und Vitamin C"],
+      "bad": ["Plötzliches Verdrehen und Überdehnen", "Zu früh zu hart trainieren", "Rauchen, das die Heilung bremst"],
+      "facts": [["Sehnen verbinden", "Muskel mit Knochen"], ["Bänder verbinden", "Knochen mit Knochen"]]
+    },
+    "spinal_cord": {
+      "name": "Rückenmark", "system": "nervous",
+      "desc": "Ein dicker Nervenstrang in der Wirbelsäule, der Nachrichten zwischen Gehirn und Körper leitet. Es steuert auch schnelle Reflexe.",
+      "good": ["Gute Haltung", "Sicherheitsgurt anlegen", "Nur in tiefes, sicheres Wasser springen"],
+      "bad": ["Kopfsprung in flaches Wasser", "Stürze aus der Höhe", "Auto- und Motorradunfälle ohne Schutz"],
+      "facts": [["Länge", "etwa 45 cm"], ["Spinalnervenpaare", "31"]]
+    },
+    "nerves": {
+      "name": "Nerven", "system": "nervous",
+      "desc": "Nerven sind Kabel aus Nervenfasern, die Signale zwischen Gehirn, Rückenmark und jedem Teil des Körpers leiten.",
+      "good": ["Lebensmittel mit B-Vitaminen", "Regelmäßige Bewegung", "Den Blutzucker im Griff behalten"],
+      "bad": ["Schlecht eingestellter Diabetes", "Viel Alkohol", "Langer Druck auf einen Nerv, etwa beim Aufstützen auf den Ellbogen"],
+      "facts": [["Schnellste Signale", "etwa 120 m pro Sekunde"], ["Hauptteile", "Gehirn, Rückenmark und Nerven"]]
+    },
+    "aorta": {
+      "name": "Aorta", "system": "circulatory",
+      "desc": "Die größte Arterie. Sie verlässt das Herz, bildet einen Bogen darüber und zieht durch Brust und Bauch nach unten, um sauerstoffreiches Blut in den ganzen Körper zu schicken.",
+      "good": ["Den Blutdruck im Normalbereich halten", "Nicht rauchen", "Regelmäßige Bewegung"],
+      "bad": ["Bluthochdruck", "Rauchen", "Hohes Cholesterin"],
+      "facts": [["Breite", "etwa 2,5 cm"], ["Rang", "Größte Arterie"]]
+    },
+    "arteries": {
+      "name": "Arterien", "system": "circulatory",
+      "desc": "Arterien führen Blut vom Herzen weg. Ihre kräftigen, elastischen Wände dehnen sich bei jedem Herzschlag – das spürst du als Puls.",
+      "good": ["Regelmäßige Bewegung", "Gemüse, Obst, Nüsse und Fisch", "Den Blutdruck messen"],
+      "bad": ["Rauchen", "Zu viel Salz und Fett", "Unbehandelter Bluthochdruck"],
+      "facts": [["Führen", "Blut vom Herzen weg"], ["Du spürst sie als", "Puls"]]
+    },
+    "veins": {
+      "name": "Venen", "system": "circulatory",
+      "desc": "Venen bringen das Blut zurück zum Herzen. Kleine Klappen verhindern, dass es zurückfließt, und die Beinmuskeln helfen, es nach oben zu drücken.",
+      "good": ["Gehen und die Beine bewegen", "In Ruhe die Beine hochlegen", "Genug Wasser trinken"],
+      "bad": ["Stundenlang still sitzen oder stehen", "Rauchen", "Übergewicht"],
+      "facts": [["Führen", "Blut zurück zum Herzen"], ["Klappen", "Verhindern den Rückfluss"]]
+    },
+    "lymph": {
+      "name": "Lymphgefäße und Lymphknoten", "system": "lymphatic",
+      "desc": "Ein Netz, das überschüssige Flüssigkeit aus dem Gewebe ins Blut zurückführt. Lymphknoten unterwegs fangen Keime ab und helfen der Abwehr.",
+      "good": ["Sich täglich bewegen", "Genug Wasser trinken", "Gesundes Gewicht halten"],
+      "bad": ["Lange keine Bewegung", "Rauchen", "Unbehandelte Infektionen"],
+      "facts": [["Lymphknoten", "etwa 600"], ["Führen", "Lymphe, Gewebeflüssigkeit"]]
+    },
+    "skin": {
+      "name": "Haut", "system": "integumentary",
+      "desc": "Das größte Organ. Sie hält Keime und Wasser draußen, hilft bei der Temperaturregelung, bildet in der Sonne Vitamin D und lässt dich Berührung, Wärme und Schmerz spüren.",
+      "good": ["Sonnencreme und Schatten bei starker Sonne", "Genug Wasser trinken", "Sanft waschen und eincremen"],
+      "bad": ["Sonnenbrand", "Rauchen", "Sehr heißes Wasser und aggressive Seifen"],
+      "facts": [["Fläche", "etwa 2 m²"], ["Äußere Schicht erneuert sich", "etwa alle 4 Wochen"]]
+    }
+  }
+}

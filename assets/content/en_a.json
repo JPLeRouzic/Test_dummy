@@ -1,0 +1,249 @@
+{
+  "systems": {
+    "nervous": "Nervous system",
+    "sensory": "Sense organs",
+    "endocrine": "Endocrine system",
+    "respiratory": "Respiratory system",
+    "circulatory": "Circulatory system",
+    "digestive": "Digestive system",
+    "lymphatic": "Lymphatic system",
+    "urinary": "Urinary system",
+    "reproductive": "Reproductive system",
+    "skeletal": "Skeletal system",
+    "muscular": "Muscular system",
+    "integumentary": "Skin"
+  },
+  "parts": {
+    "brain": {
+      "name": "Brain", "system": "nervous",
+      "desc": "The control centre of the body. It handles thought, memory, feelings, movement and the senses, and keeps breathing and the heartbeat running on its own.",
+      "good": ["Sleeping 7–9 hours a night", "Regular exercise that raises your heart rate", "Learning new things and spending time with people"],
+      "bad": ["Head injuries – wear a helmet on bikes and motorbikes", "Smoking and heavy drinking", "Long-term lack of sleep"],
+      "facts": [["Weight", "about 1.3–1.4 kg"], ["Nerve cells", "about 86 billion"]]
+    },
+    "eyes": {
+      "name": "Eyes", "system": "sensory",
+      "desc": "The eyes focus light onto the retina, where light-sensing cells turn it into nerve signals. The brain joins the pictures from both eyes into one image with depth.",
+      "good": ["Sunglasses that block UV light", "Leafy greens and colourful vegetables", "Screen breaks: every 20 minutes, look far away for 20 seconds"],
+      "bad": ["Looking straight at the sun", "Smoking", "Rubbing your eyes with unwashed hands"],
+      "facts": [["Light-sensing rods", "about 120 million per eye"], ["Blinks", "about 15–20 a minute"]]
+    },
+    "ears": {
+      "name": "Ears", "system": "sensory",
+      "desc": "The outer ear collects sound and leads it to the eardrum. Tiny bones pass the vibration to the inner ear, which turns it into nerve signals and also helps you keep your balance.",
+      "good": ["Keeping music and headphones at a moderate volume", "Ear protection in very loud places", "Keeping ears dry after swimming"],
+      "bad": ["Loud noise for a long time", "Pushing cotton buds deep into the ear", "Ear infections left untreated"],
+      "facts": [["Smallest bone in the body", "The stirrup, in the ear"], ["Parts", "Outer, middle and inner ear"]]
+    },
+    "nose": {
+      "name": "Nose", "system": "respiratory",
+      "desc": "The nose warms, moistens and cleans the air you breathe, and its lining holds the cells that give you your sense of smell.",
+      "good": ["Breathing through the nose when you can", "Washing hands often to avoid colds", "Rinsing with salt water when blocked, if advised"],
+      "bad": ["Smoking and smoky rooms", "Very dry air for long periods", "Picking the inside of the nose"],
+      "facts": [["Kinds of smell receptors", "about 400"], ["Air breathed a day", "about 10,000 litres"]]
+    },
+    "tongue": {
+      "name": "Tongue", "system": "digestive",
+      "desc": "A strong, flexible group of muscles. It moves food while you chew, helps you swallow and speak, and its taste buds sense sweet, salty, sour, bitter and umami.",
+      "good": ["Brushing or scraping the tongue gently", "Drinking enough water", "Regular dental check-ups"],
+      "bad": ["Smoking and chewing tobacco", "Very hot food and drinks", "Heavy drinking"],
+      "facts": [["Taste buds", "about 2,000–8,000"], ["Basic tastes", "5"]]
+    },
+    "salivary": {
+      "name": "Salivary glands", "system": "digestive",
+      "desc": "These glands make saliva, which wets food, starts breaking down starch and protects your teeth and mouth from germs.",
+      "good": ["Drinking enough water", "Chewing food well", "Good mouth hygiene"],
+      "bad": ["Not drinking enough", "Smoking", "Some medicines that dry the mouth – ask a doctor if your mouth is often dry"],
+      "facts": [["Saliva a day", "about 0.5–1.5 litres"], ["Main pairs", "3"]]
+    },
+    "pituitary": {
+      "name": "Pituitary gland", "system": "endocrine",
+      "desc": "A small gland under the brain. Its hormones control growth, the thyroid, the adrenal glands, reproduction and the body's water balance.",
+      "good": ["Regular sleep", "A balanced diet", "Seeing a doctor about unusual headaches with eyesight changes"],
+      "bad": ["Head injuries", "Long-term high stress", "Taking hormones without medical advice"],
+      "facts": [["Size", "about a pea"], ["Known as", "The master gland"]]
+    },
+    "adrenals": {
+      "name": "Adrenal glands", "system": "endocrine",
+      "desc": "Two small glands on top of the kidneys. They make adrenaline for sudden stress and cortisol, which helps control energy, blood sugar and blood pressure.",
+      "good": ["Regular sleep", "Ways to handle stress, like walking or breathing exercises", "A balanced diet"],
+      "bad": ["Long-term stress without rest", "Stopping steroid medicines suddenly", "Too much caffeine"],
+      "facts": [["Sits on", "Top of each kidney"], ["Makes", "Adrenaline and cortisol"]]
+    },
+    "throat": {
+      "name": "Throat", "system": "respiratory",
+      "desc": "The throat (pharynx) is a muscular tube behind the nose and mouth. It carries air to the voice box and food to the food pipe, and its tonsils help fight germs.",
+      "good": ["Drinking enough water", "Washing hands often", "Resting your voice when the throat is sore"],
+      "bad": ["Smoking", "Shouting for a long time", "Very hot drinks"],
+      "facts": [["Length", "about 12–14 cm"], ["Carries", "Air and food"]]
+    },
+    "larynx": {
+      "name": "Voice box", "system": "respiratory",
+      "desc": "The larynx sits on top of the windpipe. Its vocal cords vibrate to make your voice, and the epiglottis closes it when you swallow so food goes the right way.",
+      "good": ["Drinking enough water", "Resting your voice when hoarse", "Speaking without straining"],
+      "bad": ["Smoking", "Shouting or whispering for a long time", "Frequent acid reflux"],
+      "facts": [["Holds", "The vocal cords"], ["Also called", "Larynx"]]
+    },
+    "trachea": {
+      "name": "Windpipe", "system": "respiratory",
+      "desc": "The trachea carries air from the throat to the lungs. C-shaped rings of cartilage keep it open, and its lining sweeps dust and germs back up.",
+      "good": ["Breathing clean air", "Drinking enough water", "Covering your nose and mouth in dust or smoke"],
+      "bad": ["Smoking and vaping", "Air pollution and dust", "Breathing chemical fumes"],
+      "facts": [["Length", "about 10–12 cm"], ["Cartilage rings", "16–20"]]
+    },
+    "lungs": {
+      "name": "Lungs", "system": "respiratory",
+      "desc": "In the lungs, air reaches hundreds of millions of tiny sacs called alveoli. There, oxygen passes into the blood and carbon dioxide passes out.",
+      "good": ["Aerobic exercise like walking, cycling or swimming", "Clean air at home and at work", "Flu and pneumonia vaccines when advised"],
+      "bad": ["Smoking and vaping", "Air pollution", "Dust, smoke and chemical fumes"],
+      "facts": [["Lobes", "3 right, 2 left"], ["Air sacs", "about 480 million"]]
+    },
+    "diaphragm": {
+      "name": "Diaphragm", "system": "respiratory",
+      "desc": "A dome-shaped muscle under the lungs. When it tightens and moves down, the chest gets bigger and air flows in. It is the main muscle you breathe with.",
+      "good": ["Slow, deep belly breathing", "Good posture", "Regular exercise"],
+      "bad": ["Smoking", "Slouching for hours", "Large meals right before lying down"],
+      "facts": [["Shape", "A dome"], ["Breaths a day", "about 20,000"]]
+    },
+    "heart": {
+      "name": "Heart", "system": "circulatory",
+      "desc": "A muscular pump about the size of a fist. It beats around 100,000 times a day, sending blood through the lungs to pick up oxygen and then around the whole body.",
+      "good": ["About 150 minutes of brisk activity a week", "Vegetables, fruit, whole grains and nuts", "Keeping a healthy weight and managing stress"],
+      "bad": ["Smoking", "Too much salt", "High blood pressure and cholesterol left untreated"],
+      "facts": [["Chambers", "4"], ["Average weight", "250–350 g"]]
+    },
+    "esophagus": {
+      "name": "Food pipe", "system": "digestive",
+      "desc": "The oesophagus is a muscular tube that pushes swallowed food and drink down to the stomach in waves, so you can swallow even upside down.",
+      "good": ["Chewing well and eating slowly", "Staying upright for a while after meals", "Drinking water with meals"],
+      "bad": ["Smoking and heavy drinking", "Very hot drinks", "Frequent heartburn left untreated"],
+      "facts": [["Length", "about 25 cm"], ["Food passes in", "a few seconds"]]
+    },
+    "stomach": {
+      "name": "Stomach", "system": "digestive",
+      "desc": "A stretchy, J-shaped bag. It churns food with acid and enzymes into a thick liquid, and the acid also kills many germs swallowed with food.",
+      "good": ["Regular, moderate-sized meals", "Fibre and enough water", "Fermented foods such as yoghurt"],
+      "bad": ["Overusing painkillers like ibuprofen or aspirin", "Heavy drinking and smoking", "H. pylori infection from unclean food or water"],
+      "facts": [["Capacity", "about 1–1.5 litres"], ["Acid pH", "1.5–3.5"]]
+    },
+    "liver": {
+      "name": "Liver", "system": "digestive",
+      "desc": "The largest organ inside the body. It cleans the blood, stores energy, makes proteins and produces bile to help digest fats.",
+      "good": ["Little or no alcohol", "Keeping a healthy weight", "Hepatitis B vaccination"],
+      "bad": ["Heavy drinking", "Too much sugar and fried food, which can cause fatty liver", "Taking more paracetamol than the label says"],
+      "facts": [["Weight", "about 1.5 kg"], ["Jobs", "more than 500"]]
+    },
+    "gallbladder": {
+      "name": "Gallbladder", "system": "digestive",
+      "desc": "A small pouch under the liver. It stores bile and squeezes it into the gut after a meal to help digest fat.",
+      "good": ["Regular meals", "A diet rich in fibre", "Losing weight slowly if you need to"],
+      "bad": ["Crash diets and very fast weight loss", "Obesity", "A diet very high in fat"],
+      "facts": [["Holds", "about 30–50 mL of bile"], ["Length", "about 7–10 cm"]]
+    },
+    "pancreas": {
+      "name": "Pancreas", "system": "digestive",
+      "desc": "A gland behind the stomach with two jobs: it makes digestive juices, and it releases insulin and glucagon to keep blood sugar steady.",
+      "good": ["Keeping a healthy weight", "Whole grains and less added sugar", "Regular exercise"],
+      "bad": ["Heavy drinking", "Smoking", "Obesity, which raises the risk of type 2 diabetes"],
+      "facts": [["Length", "about 15 cm"], ["Hormones", "Insulin and glucagon"]]
+    },
+    "spleen": {
+      "name": "Spleen", "system": "lymphatic",
+      "desc": "A soft organ under the left ribs. It filters the blood, removes old red blood cells and helps the immune system fight infections.",
+      "good": ["Keeping vaccinations up to date", "Wearing a seatbelt", "Padding in contact sports"],
+      "bad": ["Hard blows to the upper left belly", "Infections that swell it, such as glandular fever", "Malaria"],
+      "facts": [["Length", "about 11–12 cm"], ["Can you live without it?", "Yes, with extra care"]]
+    },
+    "thymus": {
+      "name": "Thymus", "system": "lymphatic",
+      "desc": "A gland behind the breastbone where white blood cells called T cells learn to fight germs. It is largest and busiest in children.",
+      "good": ["A balanced diet", "Enough sleep", "Regular exercise"],
+      "bad": ["Long-term stress", "Poor nutrition", "Smoking"],
+      "facts": [["Most active", "Childhood and teenage years"], ["Trains", "T cells"]]
+    },
+    "small_intestine": {
+      "name": "Small intestine", "system": "digestive",
+      "desc": "A long, folded tube where most digestion happens. Tiny finger-like villi on its lining take nutrients from food into the blood.",
+      "good": ["Fibre from vegetables, fruit and grains", "Clean food and safe water", "Fermented foods such as yoghurt"],
+      "bad": ["Food poisoning", "Heavy drinking", "Gluten, for people with coeliac disease"],
+      "facts": [["Length", "about 3–6 m"], ["Absorbs", "Most nutrients"]]
+    },
+    "large_intestine": {
+      "name": "Large intestine", "system": "digestive",
+      "desc": "It frames the small intestine, takes back water and salts, and forms waste. Trillions of helpful bacteria live here and make some vitamins.",
+      "good": ["Plenty of fibre", "Drinking enough water", "Staying active"],
+      "bad": ["A diet high in red and processed meat", "Very little fibre", "Smoking and heavy drinking"],
+      "facts": [["Length", "about 1.5 m"], ["Gut bacteria", "Trillions"]]
+    },
+    "kidneys": {
+      "name": "Kidneys", "system": "urinary",
+      "desc": "Two bean-shaped filters against the back wall of the belly. They clean the blood, balance water and salts, help control blood pressure and make urine.",
+      "good": ["Drinking enough water", "Less salt", "Keeping blood pressure and blood sugar in range"],
+      "bad": ["Not drinking enough", "Overusing painkillers like ibuprofen", "Uncontrolled diabetes or high blood pressure"],
+      "facts": [["Size", "about 11 cm long"], ["Fluid filtered a day", "about 180 litres"]]
+    },
+    "bladder": {
+      "name": "Bladder", "system": "urinary",
+      "desc": "A stretchy muscular bag that stores urine from the kidneys until you are ready to empty it.",
+      "good": ["Drinking enough water", "Going when you need to", "Pelvic floor exercises"],
+      "bad": ["Smoking, the main cause of bladder cancer", "Holding urine for many hours", "A lot of caffeine or alcohol"],
+      "facts": [["Holds", "about 400–600 mL"], ["Wall", "Stretches as it fills"]]
+    },
+    "testes": {
+      "name": "Testes", "system": "reproductive",
+      "desc": "Two glands in the scrotum. They make sperm and the hormone testosterone, which shapes male development.",
+      "good": ["Checking for lumps once a month", "Protective gear in sports", "A healthy weight and regular exercise"],
+      "bad": ["Smoking and heavy drinking", "Long periods of heat, such as a laptop on the lap", "Anabolic steroids"],
+      "facts": [["Makes", "Sperm and testosterone"], ["Temperature", "2–3 °C below the body"]]
+    },
+    "prostate": {
+      "name": "Prostate", "system": "reproductive",
+      "desc": "A gland below the bladder that makes part of the fluid in semen. It surrounds the urethra, so changes in its size can affect passing urine.",
+      "good": ["Staying active", "Plenty of vegetables and fruit", "Talking to a doctor about check-ups after 50"],
+      "bad": ["Ignoring changes in passing urine", "Obesity", "Smoking"],
+      "facts": [["Size", "about a walnut"], ["Makes", "Part of semen"]]
+    },
+    "penis": {
+      "name": "Penis", "system": "reproductive",
+      "desc": "The male external organ. The urethra runs through it and carries both urine and semen out of the body.",
+      "good": ["Daily washing", "Using condoms to prevent infections", "Seeing a doctor about pain, sores or discharge"],
+      "bad": ["Sexually transmitted infections", "Smoking, which harms blood flow", "Uncontrolled diabetes"],
+      "facts": [["Contains", "The urethra"], ["Tissue", "Spongy, fills with blood"]]
+    },
+    "uterus": {
+      "name": "Uterus", "system": "reproductive",
+      "desc": "A hollow, muscular organ where a baby grows during pregnancy. Its lining builds up and is shed each month during periods.",
+      "good": ["Regular cervical screening", "HPV vaccination", "Seeing a doctor about very heavy or painful periods"],
+      "bad": ["Smoking", "Untreated infections", "Ignoring unusual bleeding"],
+      "facts": [["Size", "about a pear"], ["Lining", "Renews about monthly"]]
+    },
+    "ovaries": {
+      "name": "Ovaries", "system": "reproductive",
+      "desc": "Two small glands next to the uterus. They hold the eggs and make the hormones oestrogen and progesterone.",
+      "good": ["A healthy weight", "A balanced diet", "Seeing a doctor about lasting pelvic pain or bloating"],
+      "bad": ["Smoking", "Ignoring lasting belly or pelvic pain", "Very low body weight"],
+      "facts": [["Eggs at birth", "about 1–2 million"], ["Makes", "Oestrogen and progesterone"]]
+    },
+    "fallopian_tubes": {
+      "name": "Fallopian tubes", "system": "reproductive",
+      "desc": "Two thin tubes that carry an egg from the ovary to the uterus. Fertilisation usually happens here.",
+      "good": ["Safe sex with condoms", "Treating infections early", "Regular check-ups"],
+      "bad": ["Sexually transmitted infections such as chlamydia", "Untreated pelvic infections", "Smoking"],
+      "facts": [["Length", "about 10–12 cm"], ["Fertilisation", "Usually happens here"]]
+    },
+    "vagina": {
+      "name": "Vagina", "system": "reproductive",
+      "desc": "A muscular canal that connects the uterus to the outside of the body. It cleans itself and keeps a slightly acidic balance that protects against germs.",
+      "good": ["Gentle washing of the outside with water", "Safe sex with condoms", "Cotton underwear"],
+      "bad": ["Douching and scented soaps inside", "Sexually transmitted infections", "Ignoring itching or unusual discharge"],
+      "facts": [["Connects", "Uterus to the outside"], ["Balance", "Slightly acidic"]]
+    },
+    "breasts": {
+      "name": "Breasts", "system": "reproductive",
+      "desc": "Made of glands, ducts and fat. After childbirth the glands make milk that flows through ducts to the nipple.",
+      "good": ["Knowing how your breasts normally look and feel", "Breast screening when advised", "Staying active"],
+      "bad": ["Heavy drinking", "Smoking", "Ignoring a new lump or skin change"],
+      "facts": [["Main tissue", "Glands and fat"], ["Makes", "Milk after childbirth"]]
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+ "brain": [
+  "spinal_cord",
+  "nerves",
+  "skull",
+  "pituitary",
+  "eyes"
+ ],
+ "eyes": [
+  "brain",
+  "skull",
+  "nerves"
+ ],
+ "ears": [
+  "brain",
+  "skull",
+  "throat"
+ ],
+ "nose": [
+  "throat",
+  "trachea",
+  "lungs",
+  "skull"
+ ],
+ "tongue": [
+  "teeth",
+  "salivary",
+  "throat",
+  "esophagus"
+ ],
+ "salivary": [
+  "tongue",
+  "teeth",
+  "esophagus"
+ ],
+ "pituitary": [
+  "brain",
+  "adrenals",
+  "testes",
+  "ovaries"
+ ],
+ "adrenals": [
+  "kidneys",
+  "pituitary",
+  "heart"
+ ],
+ "throat": [
+  "nose",
+  "larynx",
+  "esophagus",
+  "tongue"
+ ],
+ "larynx": [
+  "throat",
+  "trachea",
+  "lungs"
+ ],
+ "trachea": [
+  "larynx",
+  "lungs",
+  "esophagus"
+ ],
+ "lungs": [
+  "trachea",
+  "heart",
+  "diaphragm",
+  "ribcage"
+ ],
+ "diaphragm": [
+  "lungs",
+  "heart",
+  "liver",
+  "stomach"
+ ],
+ "heart": [
+  "lungs",
+  "aorta",
+  "arteries",
+  "veins",
+  "diaphragm"
+ ],
+ "esophagus": [
+  "throat",
+  "stomach",
+  "trachea"
+ ],
+ "stomach": [
+  "esophagus",
+  "small_intestine",
+  "liver",
+  "pancreas"
+ ],
+ "liver": [
+  "gallbladder",
+  "stomach",
+  "small_intestine",
+  "pancreas"
+ ],
+ "gallbladder": [
+  "liver",
+  "small_intestine",
+  "pancreas"
+ ],
+ "pancreas": [
+  "stomach",
+  "small_intestine",
+  "liver",
+  "spleen"
+ ],
+ "spleen": [
+  "stomach",
+  "pancreas",
+  "lymph"
+ ],
+ "thymus": [
+  "heart",
+  "lymph",
+  "lungs"
+ ],
+ "small_intestine": [
+  "stomach",
+  "large_intestine",
+  "pancreas",
+  "liver"
+ ],
+ "large_intestine": [
+  "small_intestine",
+  "abs"
+ ],
+ "kidneys": [
+  "bladder",
+  "adrenals",
+  "aorta"
+ ],
+ "bladder": [
+  "kidneys",
+  "prostate",
+  "uterus",
+  "pelvis"
+ ],
+ "testes": [
+  "prostate",
+  "penis",
+  "pituitary"
+ ],
+ "prostate": [
+  "bladder",
+  "testes",
+  "penis"
+ ],
+ "penis": [
+  "testes",
+  "prostate",
+  "bladder"
+ ],
+ "uterus": [
+  "ovaries",
+  "fallopian_tubes",
+  "vagina",
+  "bladder"
+ ],
+ "ovaries": [
+  "fallopian_tubes",
+  "uterus",
+  "pituitary"
+ ],
+ "fallopian_tubes": [
+  "ovaries",
+  "uterus"
+ ],
+ "vagina": [
+  "uterus",
+  "bladder",
+  "pelvis"
+ ],
+ "breasts": [
+  "chest_muscles",
+  "ribcage",
+  "lymph"
+ ],
+ "skull": [
+  "brain",
+  "teeth",
+  "spine",
+  "eyes"
+ ],
+ "teeth": [
+  "skull",
+  "tongue",
+  "salivary"
+ ],
+ "spine": [
+  "spinal_cord",
+  "skull",
+  "pelvis",
+  "ribcage",
+  "back_muscles"
+ ],
+ "ribcage": [
+  "lungs",
+  "heart",
+  "spine",
+  "chest_muscles"
+ ],
+ "shoulder": [
+  "humerus",
+  "deltoid",
+  "ribcage"
+ ],
+ "humerus": [
+  "shoulder",
+  "forearm",
+  "biceps",
+  "triceps"
+ ],
+ "forearm": [
+  "humerus",
+  "hand"
+ ],
+ "hand": [
+  "forearm"
+ ],
+ "pelvis": [
+  "spine",
+  "femur",
+  "bladder",
+  "glutes"
+ ],
+ "femur": [
+  "pelvis",
+  "knee",
+  "quadriceps",
+  "hamstrings"
+ ],
+ "knee": [
+  "femur",
+  "lower_leg",
+  "quadriceps",
+  "connective"
+ ],
+ "lower_leg": [
+  "knee",
+  "foot",
+  "calf"
+ ],
+ "foot": [
+  "lower_leg",
+  "calf"
+ ],
+ "bones": [
+  "muscles",
+  "connective",
+  "skull",
+  "spine"
+ ],
+ "muscles": [
+  "bones",
+  "connective",
+  "nerves"
+ ],
+ "biceps": [
+  "humerus",
+  "triceps",
+  "forearm"
+ ],
+ "triceps": [
+  "humerus",
+  "biceps"
+ ],
+ "deltoid": [
+  "shoulder",
+  "humerus"
+ ],
+ "chest_muscles": [
+  "ribcage",
+  "breasts",
+  "shoulder"
+ ],
+ "abs": [
+  "ribcage",
+  "pelvis",
+  "back_muscles"
+ ],
+ "back_muscles": [
+  "spine",
+  "abs",
+  "glutes"
+ ],
+ "glutes": [
+  "pelvis",
+  "femur",
+  "back_muscles"
+ ],
+ "quadriceps": [
+  "femur",
+  "knee",
+  "hamstrings"
+ ],
+ "hamstrings": [
+  "femur",
+  "knee",
+  "glutes"
+ ],
+ "calf": [
+  "lower_leg",
+  "foot",
+  "knee"
+ ],
+ "connective": [
+  "bones",
+  "muscles",
+  "knee"
+ ],
+ "spinal_cord": [
+  "brain",
+  "spine",
+  "nerves"
+ ],
+ "nerves": [
+  "brain",
+  "spinal_cord",
+  "muscles"
+ ],
+ "aorta": [
+  "heart",
+  "arteries",
+  "kidneys"
+ ],
+ "arteries": [
+  "heart",
+  "aorta",
+  "veins"
+ ],
+ "veins": [
+  "heart",
+  "arteries",
+  "lymph"
+ ],
+ "lymph": [
+  "veins",
+  "spleen",
+  "thymus"
+ ],
+ "skin": [
+  "muscles",
+  "nerves",
+  "veins"
+ ]
+}

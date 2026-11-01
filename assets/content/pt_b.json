@@ -1,0 +1,236 @@
+{
+  "systems": {},
+  "parts": {
+    "skull": {
+      "name": "Crânio", "system": "skeletal",
+      "desc": "O crânio protege o cérebro, segura os olhos e os dentes e dá forma ao rosto. Quase todos os seus ossos são bem unidos; só a mandíbula se move.",
+      "good": ["Capacete na bicicleta, na moto e em obras", "Usar cinto de segurança", "Cálcio e vitamina D"],
+      "bad": ["Quedas e pancadas na cabeça", "Andar sem capacete", "Esportes de contato sem proteção"],
+      "facts": [["Ossos", "22"], ["Articulação móvel", "A mandíbula"]]
+    },
+    "teeth": {
+      "name": "Dentes", "system": "skeletal",
+      "desc": "Os dentes cortam, rasgam e trituram a comida para que ela possa ser engolida e digerida. O esmalte é a substância mais dura do corpo.",
+      "good": ["Escovar duas vezes por dia com creme dental com flúor", "Limpar entre os dentes", "Consultas ao dentista"],
+      "bad": ["Doces e bebidas açucaradas entre as refeições", "Fumar e mascar tabaco", "Abrir coisas com os dentes"],
+      "facts": [["Dentes do adulto", "32"], ["Substância mais dura", "O esmalte"]]
+    },
+    "spine": {
+      "name": "Coluna vertebral", "system": "skeletal",
+      "desc": "Uma pilha de vértebras que protege a medula espinhal, sustenta a cabeça e o corpo e permite dobrar e girar. Discos macios entre elas amortecem impactos.",
+      "good": ["Boa postura ao sentar e usar o celular", "Exercícios que fortalecem abdômen e costas", "Levantar peso com as pernas e as costas retas"],
+      "bad": ["Ficar sentado curvado por horas", "Levantar peso com as costas curvadas", "Fumar, que prejudica os discos"],
+      "facts": [["Vértebras", "33"], ["Curvas naturais", "4"]]
+    },
+    "ribcage": {
+      "name": "Caixa torácica", "system": "skeletal",
+      "desc": "Doze pares de costelas vão da coluna até o esterno. Elas protegem o coração e os pulmões e sobem a cada respiração.",
+      "good": ["Cálcio e vitamina D", "Exercícios de respiração e postura", "Proteção em esportes de contato"],
+      "bad": ["Quedas e pancadas fortes no peito", "Ossos frágeis por osteoporose", "Fumar, que enfraquece os ossos"],
+      "facts": [["Pares de costelas", "12"], ["Ligados direto ao esterno", "7 pares"]]
+    },
+    "shoulder": {
+      "name": "Ossos do ombro", "system": "skeletal",
+      "desc": "A clavícula e a escápula ligam o braço ao tronco. Junto com o úmero, formam a articulação mais móvel do corpo.",
+      "good": ["Treino de força para costas e ombros", "Aquecer antes do esporte", "Boa postura"],
+      "bad": ["Cair sobre o ombro ou com a mão estendida", "Levantar peso acima da cabeça sem treino", "Ficar curvado por horas"],
+      "facts": [["Ossos", "Clavícula e escápula"], ["Articulação", "A mais móvel do corpo"]]
+    },
+    "humerus": {
+      "name": "Úmero", "system": "skeletal",
+      "desc": "O úmero vai do ombro ao cotovelo. Os músculos presos nele levantam, empurram e puxam o braço.",
+      "good": ["Treino de força", "Cálcio e vitamina D", "Aquecer antes do esporte"],
+      "bad": ["Quedas sobre o braço", "Ossos frágeis por osteoporose", "Levantar mais do que consegue controlar"],
+      "facts": [["Vai", "Do ombro ao cotovelo"], ["O choque ao bater o cotovelo", "Vem de um nervo que passa ali"]]
+    },
+    "forearm": {
+      "name": "Ossos do antebraço", "system": "skeletal",
+      "desc": "O rádio e a ulna vão do cotovelo ao punho. Eles giram um em volta do outro para você virar a palma para cima e para baixo.",
+      "good": ["Exercícios de pegada e de punho", "Cálcio e vitamina D", "Munhequeira ao andar de patins"],
+      "bad": ["Cair com a mão estendida", "Repetir o mesmo movimento do punho por horas", "Ossos frágeis por osteoporose"],
+      "facts": [["Ossos", "Rádio e ulna"], ["Permitem", "Virar a palma"]]
+    },
+    "hand": {
+      "name": "Ossos da mão", "system": "skeletal",
+      "desc": "Muitos ossos pequenos deixam a mão forte e muito precisa. O polegar toca cada dedo, o que permite segurar e usar ferramentas.",
+      "good": ["Alongar e mexer os dedos em longos períodos de tela", "Luvas em trabalhos pesados", "Cálcio e vitamina D"],
+      "bad": ["Digitar por horas sem pausa", "Socar objetos duros", "Esmagamentos no trabalho"],
+      "facts": [["Ossos", "27"], ["Ossos do punho", "8"]]
+    },
+    "pelvis": {
+      "name": "Pelve", "system": "skeletal",
+      "desc": "Uma bacia de osso que passa o peso da parte de cima do corpo para as pernas e protege a bexiga e a parte baixa do intestino. Nela ficam os encaixes do quadril.",
+      "good": ["Exercícios com carga, como caminhar", "Cálcio e vitamina D", "Músculos do quadril e do abdômen fortes"],
+      "bad": ["Quedas, principalmente na velhice", "Ossos frágeis por osteoporose", "Ficar muitas horas sentado sem se mexer"],
+      "facts": [["Ossos principais", "Ossos do quadril e sacro"], ["Quadril", "Articulação de bola e soquete"]]
+    },
+    "femur": {
+      "name": "Fêmur", "system": "skeletal",
+      "desc": "O fêmur é o osso mais longo e forte do corpo. Ele carrega seu peso do quadril até o joelho.",
+      "good": ["Caminhar, correr e subir escadas", "Cálcio e vitamina D", "Treino de força para as pernas"],
+      "bad": ["Ficar sentado quase o dia todo", "Quedas na velhice", "Fumar, que enfraquece os ossos"],
+      "facts": [["Posição", "O osso mais longo"], ["Comprimento", "cerca de um quarto da sua altura"]]
+    },
+    "knee": {
+      "name": "Joelho", "system": "skeletal",
+      "desc": "A maior articulação do corpo. Ligamentos a mantêm firme, a patela protege a frente e duas almofadas de cartilagem, os meniscos, amortecem impactos.",
+      "good": ["Músculos da coxa fortes", "Manter um peso saudável", "Aquecer antes do esporte"],
+      "bad": ["Torcer o joelho com o pé preso no chão", "Excesso de peso", "Ficar muito tempo ajoelhado em chão duro"],
+      "facts": [["Articulação", "Dobradiça que também gira um pouco"], ["Amortecedores", "2 meniscos"]]
+    },
+    "lower_leg": {
+      "name": "Ossos da perna", "system": "skeletal",
+      "desc": "A tíbia carrega a maior parte do peso do corpo, e a fíbula fina ao lado prende músculos e estabiliza o tornozelo.",
+      "good": ["Caminhadas e saltos", "Cálcio e vitamina D", "Bons tênis para esporte"],
+      "bad": ["Aumentar a corrida rápido demais", "Pancadas fortes na canela", "Ossos frágeis por osteoporose"],
+      "facts": [["Ossos", "Tíbia e fíbula"], ["Carrega o peso", "Principalmente a tíbia"]]
+    },
+    "foot": {
+      "name": "Ossos do pé", "system": "skeletal",
+      "desc": "O pé é construído como um arco flexível. Ele distribui o peso, amortece impactos e impulsiona você a cada passo.",
+      "good": ["Calçados que sirvam bem e apoiem o arco", "Às vezes andar descalço em chão seguro", "Alongar panturrilhas e dedos"],
+      "bad": ["Sapatos apertados ou saltos muito altos", "Ficar em pé o dia todo sem pausa", "Diabetes sem controle, que prejudica os pés"],
+      "facts": [["Ossos", "26"], ["Articulações", "33"]]
+    },
+    "bones": {
+      "name": "Osso", "system": "skeletal",
+      "desc": "O osso é um tecido vivo que sustenta o corpo, protege os órgãos e guarda cálcio. A medula de alguns ossos produz as células do sangue.",
+      "good": ["Cálcio e vitamina D", "Exercícios com carga", "Proteína suficiente"],
+      "bad": ["Fumar", "Beber muito álcool", "Se mexer muito pouco"],
+      "facts": [["Esqueleto adulto", "206 ossos"], ["Renovação", "cerca de a cada 10 anos"]]
+    },
+    "muscles": {
+      "name": "Músculo", "system": "muscular",
+      "desc": "Os músculos esqueléticos puxam os ossos para mover o corpo. Eles também mantêm a postura e produzem calor que aquece você.",
+      "good": ["Treino de força pelo menos duas vezes por semana", "Proteína suficiente", "Descanso e alongamento depois do treino"],
+      "bad": ["Ficar sentado quase o dia todo", "Treinar demais sem descanso", "Beber pouca água durante o exercício"],
+      "facts": [["Músculos esqueléticos", "mais de 600"], ["Parte do peso do corpo", "cerca de 40%"]]
+    },
+    "biceps": {
+      "name": "Bíceps", "system": "muscular",
+      "desc": "O músculo da frente do braço. Ele dobra o cotovelo e vira a palma para cima.",
+      "good": ["Roscas e exercícios de puxada", "Proteína suficiente", "Aquecimento"],
+      "bad": ["Levantar de repente uma carga muito pesada", "Técnica ruim", "Não descansar entre os treinos"],
+      "facts": [["Cabeças", "2"], ["Movimento", "Dobra o cotovelo"]]
+    },
+    "triceps": {
+      "name": "Tríceps", "system": "muscular",
+      "desc": "O músculo de trás do braço. Ele estica o cotovelo quando você empurra.",
+      "good": ["Flexões e mergulhos", "Alongamento", "Proteína suficiente"],
+      "bad": ["Treinar demais", "Empurrar com técnica ruim", "Pular o aquecimento"],
+      "facts": [["Cabeças", "3"], ["Movimento", "Estica o cotovelo"]]
+    },
+    "deltoid": {
+      "name": "Deltoide", "system": "muscular",
+      "desc": "O músculo arredondado que cobre o ombro. Ele levanta o braço para a frente, para o lado e para trás.",
+      "good": ["Exercícios de ombro com pesos leves", "Boa postura", "Aquecimento"],
+      "bad": ["Peso pesado acima da cabeça com técnica ruim", "Trabalho com os braços erguidos sem pausa", "Dormir sempre sobre o mesmo ombro"],
+      "facts": [["Partes", "3: frente, lado, trás"], ["Movimento", "Levanta o braço"]]
+    },
+    "chest_muscles": {
+      "name": "Peitorais", "system": "muscular",
+      "desc": "Os peitorais levam o braço para a frente do corpo e ajudam a empurrar, abraçar e arremessar.",
+      "good": ["Flexões", "Alongar o peito", "Boa postura"],
+      "bad": ["Ficar curvado por horas", "Supino pesado sem ajuda", "Pular o aquecimento"],
+      "facts": [["Músculo principal", "Peitoral maior"], ["Movimento", "Braço para a frente do corpo"]]
+    },
+    "abs": {
+      "name": "Abdominais", "system": "muscular",
+      "desc": "Esses músculos seguram os órgãos, apoiam a coluna e ajudam a dobrar, girar, tossir e soprar com força.",
+      "good": ["Exercícios de core como prancha", "Boa postura", "Ficar ativo"],
+      "bad": ["Ficar sentado por horas", "Levantar peso com as costas torcidas", "Excesso de gordura na barriga"],
+      "facts": [["Músculos principais", "Reto abdominal e oblíquos"], ["Ajudam na", "Postura e na expiração"]]
+    },
+    "back_muscles": {
+      "name": "Músculos das costas", "system": "muscular",
+      "desc": "Camadas de músculos ao longo da coluna e das escápulas. Eles mantêm você ereto e movem braços, ombros e tronco.",
+      "good": ["Remada e exercícios para as costas", "Pausas quando estiver sentado", "Levantar com as costas retas"],
+      "bad": ["Horas curvado sobre o celular ou a mesa", "Levantar com as costas curvadas", "Colchão mole que afunda"],
+      "facts": [["Incluem", "Trapézio, grande dorsal, eretores da espinha"], ["Mantêm", "Sua postura"]]
+    },
+    "glutes": {
+      "name": "Glúteos", "system": "muscular",
+      "desc": "Os glúteos movem o quadril e mantêm a pelve nivelada quando você anda, corre e sobe escadas.",
+      "good": ["Agachamentos, avanços e escadas", "Levantar e andar com frequência", "Alongar o quadril"],
+      "bad": ["Ficar sentado quase o dia todo", "Core fraco", "Pular o aquecimento"],
+      "facts": [["Maior músculo", "Glúteo máximo"], ["Movimento", "Estende o quadril"]]
+    },
+    "quadriceps": {
+      "name": "Quadríceps", "system": "muscular",
+      "desc": "Quatro músculos na frente da coxa. Eles esticam o joelho e são essenciais para andar, pular e subir.",
+      "good": ["Agachamentos e bicicleta", "Alongamento", "Proteína suficiente"],
+      "bad": ["Arrancadas sem aquecer", "Treinar demais", "Muito tempo sentado"],
+      "facts": [["Músculos", "4"], ["Movimento", "Estica o joelho"]]
+    },
+    "hamstrings": {
+      "name": "Posteriores da coxa", "system": "muscular",
+      "desc": "Três músculos atrás da coxa. Eles dobram o joelho e ajudam a empurrar a perna para trás na corrida.",
+      "good": ["Alongamento suave", "Ponte e flexão de pernas", "Aquecer antes de correr"],
+      "bad": ["Arrancar com os músculos frios", "Ficar sentado por horas", "Pular os dias de descanso"],
+      "facts": [["Músculos", "3"], ["Movimento", "Dobra o joelho"]]
+    },
+    "calf": {
+      "name": "Panturrilhas", "system": "muscular",
+      "desc": "Os músculos da panturrilha levantam o calcanhar, impulsionam você ao andar e ajudam a bombear o sangue das pernas para cima.",
+      "good": ["Elevação na ponta dos pés e caminhada", "Alongar as panturrilhas", "Bons calçados"],
+      "bad": ["Ficar horas parado, sentado ou em pé", "Pular de repente sem aquecer", "Salto muito alto todos os dias"],
+      "facts": [["Músculos", "Gastrocnêmio e sóleo"], ["Tendão", "O de Aquiles, o mais forte"]]
+    },
+    "connective": {
+      "name": "Tendões e ligamentos", "system": "muscular",
+      "desc": "Tecidos resistentes como cordas. Os tendões ligam músculo a osso, e os ligamentos ligam osso a osso para manter as articulações estáveis.",
+      "good": ["Aumentar o exercício aos poucos", "Aquecer e alongar", "Proteína e vitamina C suficientes"],
+      "bad": ["Torções e alongamentos bruscos", "Treinar pesado cedo demais", "Fumar, que atrasa a cicatrização"],
+      "facts": [["Tendões ligam", "Músculo a osso"], ["Ligamentos ligam", "Osso a osso"]]
+    },
+    "spinal_cord": {
+      "name": "Medula espinhal", "system": "nervous",
+      "desc": "Um feixe grosso de nervos dentro da coluna que leva mensagens entre o cérebro e o corpo. Também controla os reflexos rápidos.",
+      "good": ["Boa postura", "Usar cinto de segurança", "Mergulhar só em água funda e segura"],
+      "bad": ["Mergulhar em água rasa", "Quedas de altura", "Acidentes de carro e moto sem proteção"],
+      "facts": [["Comprimento", "cerca de 45 cm"], ["Pares de nervos espinhais", "31"]]
+    },
+    "nerves": {
+      "name": "Nervos", "system": "nervous",
+      "desc": "Os nervos são cabos de fibras nervosas que levam sinais entre o cérebro, a medula espinhal e cada parte do corpo.",
+      "good": ["Alimentos com vitaminas do complexo B", "Exercício regular", "Manter a glicose sob controle"],
+      "bad": ["Diabetes sem controle", "Beber muito álcool", "Pressão longa sobre um nervo, como apoiar o cotovelo"],
+      "facts": [["Sinais mais rápidos", "cerca de 120 m por segundo"], ["Partes principais", "Cérebro, medula e nervos"]]
+    },
+    "aorta": {
+      "name": "Aorta", "system": "circulatory",
+      "desc": "A maior artéria. Ela sai do coração, faz um arco sobre ele e desce pelo peito e pela barriga, mandando sangue rico em oxigênio para o corpo todo.",
+      "good": ["Manter a pressão na faixa normal", "Não fumar", "Exercício regular"],
+      "bad": ["Pressão alta", "Fumar", "Colesterol alto"],
+      "facts": [["Largura", "cerca de 2,5 cm"], ["Posição", "A maior artéria"]]
+    },
+    "arteries": {
+      "name": "Artérias", "system": "circulatory",
+      "desc": "As artérias levam o sangue para longe do coração. Suas paredes fortes e elásticas se esticam a cada batida, e é isso que você sente como pulso.",
+      "good": ["Exercício regular", "Legumes, frutas, castanhas e peixe", "Medir a pressão"],
+      "bad": ["Fumar", "Muito sal e gordura", "Pressão alta sem tratamento"],
+      "facts": [["Levam", "Sangue para longe do coração"], ["Você as sente como", "O pulso"]]
+    },
+    "veins": {
+      "name": "Veias", "system": "circulatory",
+      "desc": "As veias levam o sangue de volta ao coração. Pequenas válvulas impedem que ele volte, e os músculos das pernas ajudam a empurrá-lo para cima.",
+      "good": ["Caminhar e mexer as pernas", "Elevar as pernas ao descansar", "Beber água suficiente"],
+      "bad": ["Ficar horas parado, sentado ou em pé", "Fumar", "Excesso de peso"],
+      "facts": [["Levam", "Sangue de volta ao coração"], ["Válvulas", "Impedem o sangue de voltar"]]
+    },
+    "lymph": {
+      "name": "Vasos e linfonodos", "system": "lymphatic",
+      "desc": "Uma rede que leva de volta ao sangue o líquido que sobra nos tecidos. Os linfonodos no caminho prendem micróbios e ajudam a defesa do corpo.",
+      "good": ["Se mexer e se exercitar todo dia", "Beber água suficiente", "Manter um peso saudável"],
+      "bad": ["Ficar muito tempo parado", "Fumar", "Infecções sem tratamento"],
+      "facts": [["Linfonodos", "cerca de 600"], ["Levam", "Linfa, o líquido dos tecidos"]]
+    },
+    "skin": {
+      "name": "Pele", "system": "integumentary",
+      "desc": "O maior órgão. Ela barra micróbios e água, ajuda a controlar a temperatura, produz vitamina D com o sol e deixa você sentir toque, calor e dor.",
+      "good": ["Protetor solar e sombra no sol forte", "Beber água suficiente", "Lavar com suavidade e hidratar"],
+      "bad": ["Queimaduras de sol", "Fumar", "Água muito quente e sabonetes fortes"],
+      "facts": [["Área", "cerca de 2 m²"], ["A camada externa se renova", "cerca de a cada 4 semanas"]]
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "systems": {
+    "nervous": "Système nerveux",
+    "sensory": "Organes des sens",
+    "endocrine": "Système endocrinien",
+    "respiratory": "Système respiratoire",
+    "circulatory": "Système circulatoire",
+    "digestive": "Système digestif",
+    "lymphatic": "Système lymphatique",
+    "urinary": "Système urinaire",
+    "reproductive": "Système reproducteur",
+    "skeletal": "Squelette",
+    "muscular": "Système musculaire",
+    "integumentary": "Peau"
+  },
+  "parts": {
+    "brain": {
+      "name": "Cerveau", "system": "nervous",
+      "desc": "Le centre de commande du corps. Il gère la pensée, la mémoire, les émotions, les mouvements et les sens, et fait fonctionner tout seul la respiration et le cœur.",
+      "good": ["Dormir 7 à 9 heures par nuit", "Une activité physique régulière qui accélère le cœur", "Apprendre de nouvelles choses et voir du monde"],
+      "bad": ["Les chocs à la tête : portez un casque à vélo et à moto", "Le tabac et l'alcool en excès", "Le manque de sommeil sur la durée"],
+      "facts": [["Poids", "environ 1,3–1,4 kg"], ["Neurones", "environ 86 milliards"]]
+    },
+    "eyes": {
+      "name": "Yeux", "system": "sensory",
+      "desc": "Les yeux concentrent la lumière sur la rétine, où des cellules sensibles la transforment en signaux nerveux. Le cerveau réunit les images des deux yeux en une seule, en relief.",
+      "good": ["Des lunettes de soleil filtrant les UV", "Légumes verts à feuilles et légumes colorés", "Des pauses d'écran : toutes les 20 minutes, regardez au loin 20 secondes"],
+      "bad": ["Regarder le soleil en face", "Le tabac", "Se frotter les yeux avec des mains sales"],
+      "facts": [["Bâtonnets sensibles à la lumière", "environ 120 millions par œil"], ["Clignements", "environ 15–20 par minute"]]
+    },
+    "ears": {
+      "name": "Oreilles", "system": "sensory",
+      "desc": "L'oreille externe capte le son et le conduit au tympan. De minuscules osselets transmettent la vibration à l'oreille interne, qui la transforme en signaux nerveux et aide aussi à garder l'équilibre.",
+      "good": ["Musique et écouteurs à volume modéré", "Des protections dans les endroits très bruyants", "Bien sécher les oreilles après la baignade"],
+      "bad": ["Un bruit fort longtemps", "Enfoncer des cotons-tiges au fond de l'oreille", "Des otites non soignées"],
+      "facts": [["Plus petit os du corps", "L'étrier, dans l'oreille"], ["Parties", "Oreille externe, moyenne et interne"]]
+    },
+    "nose": {
+      "name": "Nez", "system": "respiratory",
+      "desc": "Le nez réchauffe, humidifie et nettoie l'air que vous respirez, et sa muqueuse abrite les cellules de l'odorat.",
+      "good": ["Respirer par le nez quand c'est possible", "Se laver souvent les mains contre les rhumes", "Rincer à l'eau salée quand il est bouché, si on vous le conseille"],
+      "bad": ["Le tabac et les pièces enfumées", "Un air très sec longtemps", "Se mettre les doigts dans le nez"],
+      "facts": [["Types de récepteurs olfactifs", "environ 400"], ["Air respiré par jour", "environ 10 000 litres"]]
+    },
+    "tongue": {
+      "name": "Langue", "system": "digestive",
+      "desc": "Un ensemble de muscles fort et souple. Elle déplace les aliments pendant la mastication, aide à avaler et à parler, et ses papilles sentent le sucré, le salé, l'acide, l'amer et l'umami.",
+      "good": ["Brosser ou gratter doucement la langue", "Boire assez d'eau", "Des contrôles chez le dentiste"],
+      "bad": ["Le tabac fumé ou chiqué", "Aliments et boissons très chauds", "L'alcool en excès"],
+      "facts": [["Bourgeons du goût", "environ 2 000–8 000"], ["Saveurs de base", "5"]]
+    },
+    "salivary": {
+      "name": "Glandes salivaires", "system": "digestive",
+      "desc": "Elles produisent la salive, qui humidifie les aliments, commence à digérer l'amidon et protège les dents et la bouche des microbes.",
+      "good": ["Boire assez d'eau", "Bien mâcher", "Une bonne hygiène buccale"],
+      "bad": ["Ne pas boire assez", "Le tabac", "Certains médicaments qui assèchent la bouche – parlez-en au médecin si elle est souvent sèche"],
+      "facts": [["Salive par jour", "environ 0,5–1,5 litre"], ["Paires principales", "3"]]
+    },
+    "pituitary": {
+      "name": "Hypophyse", "system": "endocrine",
+      "desc": "Une petite glande sous le cerveau. Ses hormones contrôlent la croissance, la thyroïde, les surrénales, la reproduction et l'équilibre en eau du corps.",
+      "good": ["Un sommeil régulier", "Une alimentation équilibrée", "Consulter en cas de maux de tête inhabituels avec troubles de la vue"],
+      "bad": ["Les traumatismes crâniens", "Un stress fort et prolongé", "Prendre des hormones sans avis médical"],
+      "facts": [["Taille", "environ un petit pois"], ["Surnom", "La glande maîtresse"]]
+    },
+    "adrenals": {
+      "name": "Glandes surrénales", "system": "endocrine",
+      "desc": "Deux petites glandes au-dessus des reins. Elles produisent l'adrénaline pour le stress soudain et le cortisol, qui aide à réguler l'énergie, la glycémie et la tension.",
+      "good": ["Un sommeil régulier", "Des moyens de gérer le stress, comme marcher ou respirer lentement", "Une alimentation équilibrée"],
+      "bad": ["Un stress long sans repos", "Arrêter d'un coup les corticoïdes", "Trop de caféine"],
+      "facts": [["Position", "Au-dessus de chaque rein"], ["Produisent", "Adrénaline et cortisol"]]
+    },
+    "throat": {
+      "name": "Pharynx", "system": "respiratory",
+      "desc": "Le pharynx est un tube musculaire derrière le nez et la bouche. Il conduit l'air vers le larynx et les aliments vers l'œsophage, et ses amygdales aident à combattre les microbes.",
+      "good": ["Boire assez d'eau", "Se laver souvent les mains", "Reposer sa voix quand la gorge fait mal"],
+      "bad": ["Le tabac", "Crier longtemps", "Les boissons très chaudes"],
+      "facts": [["Longueur", "environ 12–14 cm"], ["Conduit", "L'air et les aliments"]]
+    },
+    "larynx": {
+      "name": "Larynx", "system": "respiratory",
+      "desc": "Le larynx se trouve au-dessus de la trachée. Ses cordes vocales vibrent pour produire la voix, et l'épiglotte le ferme quand on avale pour que les aliments prennent le bon chemin.",
+      "good": ["Boire assez d'eau", "Reposer sa voix quand elle est enrouée", "Parler sans forcer"],
+      "bad": ["Le tabac", "Crier ou chuchoter longtemps", "Des reflux acides fréquents"],
+      "facts": [["Contient", "Les cordes vocales"], ["Aussi appelé", "Boîte vocale"]]
+    },
+    "trachea": {
+      "name": "Trachée", "system": "respiratory",
+      "desc": "La trachée conduit l'air de la gorge aux poumons. Des anneaux de cartilage en forme de C la maintiennent ouverte, et sa muqueuse fait remonter poussières et microbes.",
+      "good": ["Respirer un air propre", "Boire assez d'eau", "Se couvrir le nez et la bouche dans la poussière ou la fumée"],
+      "bad": ["Le tabac et la vape", "La pollution et la poussière", "Respirer des vapeurs chimiques"],
+      "facts": [["Longueur", "environ 10–12 cm"], ["Anneaux de cartilage", "16–20"]]
+    },
+    "lungs": {
+      "name": "Poumons", "system": "respiratory",
+      "desc": "Dans les poumons, l'air atteint des centaines de millions de minuscules sacs appelés alvéoles. Là, l'oxygène passe dans le sang et le dioxyde de carbone en sort.",
+      "good": ["Une activité d'endurance comme la marche, le vélo ou la natation", "Un air propre à la maison et au travail", "Les vaccins contre la grippe et la pneumonie si conseillés"],
+      "bad": ["Le tabac et la vape", "La pollution de l'air", "Poussières, fumées et vapeurs chimiques"],
+      "facts": [["Lobes", "3 à droite, 2 à gauche"], ["Alvéoles", "environ 480 millions"]]
+    },
+    "diaphragm": {
+      "name": "Diaphragme", "system": "respiratory",
+      "desc": "Un muscle en forme de dôme sous les poumons. Quand il se contracte et descend, la poitrine s'agrandit et l'air entre. C'est le principal muscle de la respiration.",
+      "good": ["Une respiration lente et profonde par le ventre", "Une bonne posture", "Une activité physique régulière"],
+      "bad": ["Le tabac", "Rester voûté des heures", "S'allonger juste après un gros repas"],
+      "facts": [["Forme", "Un dôme"], ["Respirations par jour", "environ 20 000"]]
+    },
+    "heart": {
+      "name": "Cœur", "system": "circulatory",
+      "desc": "Une pompe musculaire de la taille d'un poing. Il bat environ 100 000 fois par jour, envoyant le sang chercher l'oxygène dans les poumons puis dans tout le corps.",
+      "good": ["Environ 150 minutes d'activité soutenue par semaine", "Légumes, fruits, céréales complètes et noix", "Garder un poids sain et gérer le stress"],
+      "bad": ["Le tabac", "Trop de sel", "Une tension et un cholestérol élevés non soignés"],
+      "facts": [["Cavités", "4"], ["Poids moyen", "250–350 g"]]
+    },
+    "esophagus": {
+      "name": "Œsophage", "system": "digestive",
+      "desc": "L'œsophage est un tube musculaire qui pousse les aliments et les boissons vers l'estomac par vagues : on peut même avaler la tête en bas.",
+      "good": ["Bien mâcher et manger lentement", "Rester droit un moment après le repas", "Boire de l'eau pendant le repas"],
+      "bad": ["Le tabac et l'alcool en excès", "Les boissons très chaudes", "Des brûlures d'estomac fréquentes non soignées"],
+      "facts": [["Longueur", "environ 25 cm"], ["Les aliments passent en", "quelques secondes"]]
+    },
+    "stomach": {
+      "name": "Estomac", "system": "digestive",
+      "desc": "Une poche extensible en forme de J. Il brasse les aliments avec de l'acide et des enzymes en un liquide épais, et l'acide tue beaucoup de microbes avalés avec la nourriture.",
+      "good": ["Des repas réguliers et modérés", "Des fibres et assez d'eau", "Des aliments fermentés comme le yaourt"],
+      "bad": ["Abuser d'antidouleurs comme l'ibuprofène ou l'aspirine", "L'alcool en excès et le tabac", "L'infection à H. pylori par une eau ou des aliments sales"],
+      "facts": [["Capacité", "environ 1–1,5 litre"], ["pH de l'acide", "1,5–3,5"]]
+    },
+    "liver": {
+      "name": "Foie", "system": "digestive",
+      "desc": "Le plus gros organe interne. Il nettoie le sang, stocke l'énergie, fabrique des protéines et produit la bile qui aide à digérer les graisses.",
+      "good": ["Peu ou pas d'alcool", "Garder un poids sain", "Le vaccin contre l'hépatite B"],
+      "bad": ["L'alcool en excès", "Trop de sucre et de friture, qui peuvent causer un foie gras", "Prendre plus de paracétamol qu'indiqué"],
+      "facts": [["Poids", "environ 1,5 kg"], ["Fonctions", "plus de 500"]]
+    },
+    "gallbladder": {
+      "name": "Vésicule biliaire", "system": "digestive",
+      "desc": "Une petite poche sous le foie. Elle stocke la bile et la presse dans l'intestin après le repas pour digérer les graisses.",
+      "good": ["Des repas réguliers", "Une alimentation riche en fibres", "Perdre du poids lentement si besoin"],
+      "bad": ["Les régimes extrêmes et la perte de poids très rapide", "L'obésité", "Une alimentation très grasse"],
+      "facts": [["Contient", "environ 30–50 ml de bile"], ["Longueur", "environ 7–10 cm"]]
+    },
+    "pancreas": {
+      "name": "Pancréas", "system": "digestive",
+      "desc": "Une glande derrière l'estomac aux deux rôles : il produit des sucs digestifs et libère l'insuline et le glucagon pour stabiliser le sucre dans le sang.",
+      "good": ["Garder un poids sain", "Céréales complètes et moins de sucres ajoutés", "Une activité physique régulière"],
+      "bad": ["L'alcool en excès", "Le tabac", "L'obésité, qui augmente le risque de diabète de type 2"],
+      "facts": [["Longueur", "environ 15 cm"], ["Hormones", "Insuline et glucagon"]]
+    },
+    "spleen": {
+      "name": "Rate", "system": "lymphatic",
+      "desc": "Un organe mou sous les côtes gauches. Elle filtre le sang, élimine les vieux globules rouges et aide le système immunitaire à combattre les infections.",
+      "good": ["Être à jour de ses vaccins", "Porter la ceinture de sécurité", "Des protections dans les sports de contact"],
+      "bad": ["Les coups violents en haut à gauche du ventre", "Les infections qui la font gonfler, comme la mononucléose", "Le paludisme"],
+      "facts": [["Longueur", "environ 11–12 cm"], ["Peut-on vivre sans ?", "Oui, avec plus de précautions"]]
+    },
+    "thymus": {
+      "name": "Thymus", "system": "lymphatic",
+      "desc": "Une glande derrière le sternum où des globules blancs appelés lymphocytes T apprennent à combattre les microbes. Il est plus grand et plus actif chez l'enfant.",
+      "good": ["Une alimentation équilibrée", "Assez de sommeil", "Une activité physique régulière"],
+      "bad": ["Un stress prolongé", "Une mauvaise alimentation", "Le tabac"],
+      "facts": [["Le plus actif", "Pendant l'enfance et l'adolescence"], ["Forme", "Les lymphocytes T"]]
+    },
+    "small_intestine": {
+      "name": "Intestin grêle", "system": "digestive",
+      "desc": "Un long tube replié où se fait l'essentiel de la digestion. De minuscules villosités sur sa paroi font passer les nutriments dans le sang.",
+      "good": ["Des fibres venant des légumes, fruits et céréales", "Des aliments propres et une eau sûre", "Des aliments fermentés comme le yaourt"],
+      "bad": ["Les intoxications alimentaires", "L'alcool en excès", "Le gluten pour les personnes cœliaques"],
+      "facts": [["Longueur", "environ 3–6 m"], ["Absorbe", "La plupart des nutriments"]]
+    },
+    "large_intestine": {
+      "name": "Gros intestin", "system": "digestive",
+      "desc": "Il entoure l'intestin grêle, récupère l'eau et les sels et forme les selles. Des milliers de milliards de bonnes bactéries y vivent et fabriquent certaines vitamines.",
+      "good": ["Beaucoup de fibres", "Boire assez d'eau", "Rester actif"],
+      "bad": ["Beaucoup de viande rouge et transformée", "Très peu de fibres", "Le tabac et l'alcool en excès"],
+      "facts": [["Longueur", "environ 1,5 m"], ["Bactéries intestinales", "Des milliers de milliards"]]
+    },
+    "kidneys": {
+      "name": "Reins", "system": "urinary",
+      "desc": "Deux filtres en forme de haricot contre la paroi arrière du ventre. Ils nettoient le sang, équilibrent l'eau et les sels, aident à réguler la tension et produisent l'urine.",
+      "good": ["Boire assez d'eau", "Moins de sel", "Garder tension et glycémie dans les normes"],
+      "bad": ["Ne pas boire assez", "Abuser d'antidouleurs comme l'ibuprofène", "Un diabète ou une hypertension non contrôlés"],
+      "facts": [["Taille", "environ 11 cm de long"], ["Liquide filtré par jour", "environ 180 litres"]]
+    },
+    "bladder": {
+      "name": "Vessie", "system": "urinary",
+      "desc": "Une poche musculaire extensible qui stocke l'urine venant des reins jusqu'à ce que vous soyez prêt à la vider.",
+      "good": ["Boire assez d'eau", "Aller aux toilettes quand on en a besoin", "Des exercices du périnée"],
+      "bad": ["Le tabac, principale cause du cancer de la vessie", "Se retenir pendant des heures", "Beaucoup de caféine ou d'alcool"],
+      "facts": [["Contient", "environ 400–600 ml"], ["Paroi", "S'étire en se remplissant"]]
+    },
+    "testes": {
+      "name": "Testicules", "system": "reproductive",
+      "desc": "Deux glandes dans le scrotum. Ils produisent les spermatozoïdes et la testostérone, l'hormone qui façonne le développement masculin.",
+      "good": ["Vérifier une fois par mois qu'il n'y a pas de grosseur", "Des protections pour le sport", "Un poids sain et une activité régulière"],
+      "bad": ["Le tabac et l'alcool en excès", "Une chaleur prolongée, comme un ordinateur sur les cuisses", "Les stéroïdes anabolisants"],
+      "facts": [["Produisent", "Spermatozoïdes et testostérone"], ["Température", "2–3 °C de moins que le corps"]]
+    },
+    "prostate": {
+      "name": "Prostate", "system": "reproductive",
+      "desc": "Une glande sous la vessie qui produit une partie du liquide du sperme. Elle entoure l'urètre, donc un changement de taille peut gêner pour uriner.",
+      "good": ["Rester actif", "Beaucoup de légumes et de fruits", "Parler des dépistages avec son médecin après 50 ans"],
+      "bad": ["Ignorer des changements pour uriner", "L'obésité", "Le tabac"],
+      "facts": [["Taille", "environ une noix"], ["Produit", "Une partie du sperme"]]
+    },
+    "penis": {
+      "name": "Pénis", "system": "reproductive",
+      "desc": "L'organe externe masculin. L'urètre le traverse et évacue à la fois l'urine et le sperme.",
+      "good": ["Une toilette quotidienne", "Le préservatif contre les infections", "Consulter en cas de douleur, de plaie ou d'écoulement"],
+      "bad": ["Les infections sexuellement transmissibles", "Le tabac, qui abîme la circulation", "Un diabète non contrôlé"],
+      "facts": [["Contient", "L'urètre"], ["Tissu", "Spongieux, se remplit de sang"]]
+    },
+    "uterus": {
+      "name": "Utérus", "system": "reproductive",
+      "desc": "Un organe creux et musclé où le bébé grandit pendant la grossesse. Sa paroi interne s'épaissit et s'élimine chaque mois pendant les règles.",
+      "good": ["Le dépistage régulier du col", "Le vaccin contre le HPV", "Consulter si les règles sont très abondantes ou douloureuses"],
+      "bad": ["Le tabac", "Les infections non soignées", "Ignorer des saignements inhabituels"],
+      "facts": [["Taille", "environ une poire"], ["Paroi interne", "Se renouvelle environ chaque mois"]]
+    },
+    "ovaries": {
+      "name": "Ovaires", "system": "reproductive",
+      "desc": "Deux petites glandes à côté de l'utérus. Ils contiennent les ovules et produisent les hormones œstrogène et progestérone.",
+      "good": ["Un poids sain", "Une alimentation équilibrée", "Consulter en cas de douleur ou de ballonnement pelvien persistant"],
+      "bad": ["Le tabac", "Ignorer une douleur du ventre ou du bassin qui dure", "Un poids très bas"],
+      "facts": [["Ovules à la naissance", "environ 1–2 millions"], ["Produisent", "Œstrogène et progestérone"]]
+    },
+    "fallopian_tubes": {
+      "name": "Trompes de Fallope", "system": "reproductive",
+      "desc": "Deux fins tubes qui conduisent l'ovule de l'ovaire à l'utérus. La fécondation a généralement lieu ici.",
+      "good": ["Des rapports protégés avec préservatif", "Soigner tôt les infections", "Des contrôles réguliers"],
+      "bad": ["Les IST comme la chlamydia", "Des infections pelviennes non soignées", "Le tabac"],
+      "facts": [["Longueur", "environ 10–12 cm"], ["Fécondation", "A généralement lieu ici"]]
+    },
+    "vagina": {
+      "name": "Vagin", "system": "reproductive",
+      "desc": "Un conduit musculaire qui relie l'utérus à l'extérieur du corps. Il se nettoie seul et garde un milieu légèrement acide qui protège des microbes.",
+      "good": ["Une toilette douce de l'extérieur, à l'eau", "Des rapports protégés avec préservatif", "Des sous-vêtements en coton"],
+      "bad": ["Les douches vaginales et savons parfumés à l'intérieur", "Les infections sexuellement transmissibles", "Ignorer des démangeaisons ou des pertes inhabituelles"],
+      "facts": [["Relie", "L'utérus à l'extérieur"], ["Milieu", "Légèrement acide"]]
+    },
+    "breasts": {
+      "name": "Seins", "system": "reproductive",
+      "desc": "Formés de glandes, de canaux et de graisse. Après l'accouchement, les glandes produisent du lait qui rejoint le mamelon par les canaux.",
+      "good": ["Savoir à quoi ressemblent normalement vos seins", "Le dépistage quand il est conseillé", "Rester active"],
+      "bad": ["L'alcool en excès", "Le tabac", "Ignorer une nouvelle grosseur ou un changement de la peau"],
+      "facts": [["Tissu principal", "Glandes et graisse"], ["Produisent", "Du lait après l'accouchement"]]
+    }
+  }
+}

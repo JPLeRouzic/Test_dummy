@@ -1,0 +1,249 @@
+{
+  "systems": {
+    "nervous": "Nervensystem",
+    "sensory": "Sinnesorgane",
+    "endocrine": "Hormonsystem",
+    "respiratory": "Atmungssystem",
+    "circulatory": "Kreislaufsystem",
+    "digestive": "Verdauungssystem",
+    "lymphatic": "Lymphsystem",
+    "urinary": "Harnsystem",
+    "reproductive": "Fortpflanzungssystem",
+    "skeletal": "Skelett",
+    "muscular": "Muskelsystem",
+    "integumentary": "Haut"
+  },
+  "parts": {
+    "brain": {
+      "name": "Gehirn", "system": "nervous",
+      "desc": "Die Steuerzentrale des Körpers. Es lenkt Denken, Gedächtnis, Gefühle, Bewegung und Sinne und hält Atmung und Herzschlag von selbst in Gang.",
+      "good": ["7–9 Stunden Schlaf pro Nacht", "Regelmäßige Bewegung, die den Puls erhöht", "Neues lernen und Zeit mit Menschen verbringen"],
+      "bad": ["Kopfverletzungen – trag beim Rad- und Motorradfahren einen Helm", "Rauchen und viel Alkohol", "Dauerhaft zu wenig Schlaf"],
+      "facts": [["Gewicht", "etwa 1,3–1,4 kg"], ["Nervenzellen", "etwa 86 Milliarden"]]
+    },
+    "eyes": {
+      "name": "Augen", "system": "sensory",
+      "desc": "Die Augen bündeln Licht auf der Netzhaut, wo lichtempfindliche Zellen es in Nervensignale umwandeln. Das Gehirn fügt die Bilder beider Augen zu einem räumlichen Bild zusammen.",
+      "good": ["Sonnenbrillen mit UV-Schutz", "Grünes Blattgemüse und buntes Gemüse", "Bildschirmpausen: alle 20 Minuten 20 Sekunden in die Ferne schauen"],
+      "bad": ["Direkt in die Sonne schauen", "Rauchen", "Mit ungewaschenen Händen die Augen reiben"],
+      "facts": [["Lichtempfindliche Stäbchen", "etwa 120 Millionen pro Auge"], ["Lidschläge", "etwa 15–20 pro Minute"]]
+    },
+    "ears": {
+      "name": "Ohren", "system": "sensory",
+      "desc": "Das Außenohr fängt Schall auf und leitet ihn zum Trommelfell. Winzige Knöchelchen geben die Schwingung ans Innenohr weiter, das sie in Nervensignale umwandelt und auch beim Gleichgewicht hilft.",
+      "good": ["Musik und Kopfhörer nicht zu laut", "Gehörschutz an sehr lauten Orten", "Ohren nach dem Schwimmen trocknen"],
+      "bad": ["Lange laute Geräusche", "Wattestäbchen tief ins Ohr stecken", "Unbehandelte Ohrentzündungen"],
+      "facts": [["Kleinster Knochen des Körpers", "Der Steigbügel im Ohr"], ["Teile", "Außen-, Mittel- und Innenohr"]]
+    },
+    "nose": {
+      "name": "Nase", "system": "respiratory",
+      "desc": "Die Nase wärmt, befeuchtet und reinigt die Atemluft, und in ihrer Schleimhaut liegen die Zellen für den Geruchssinn.",
+      "good": ["Wenn möglich durch die Nase atmen", "Oft Hände waschen, um Erkältungen zu vermeiden", "Bei verstopfter Nase auf Rat mit Salzwasser spülen"],
+      "bad": ["Rauchen und verrauchte Räume", "Lange sehr trockene Luft", "In der Nase bohren"],
+      "facts": [["Arten von Riechrezeptoren", "etwa 400"], ["Atemluft pro Tag", "etwa 10.000 Liter"]]
+    },
+    "tongue": {
+      "name": "Zunge", "system": "digestive",
+      "desc": "Eine kräftige, bewegliche Muskelgruppe. Sie bewegt das Essen beim Kauen, hilft beim Schlucken und Sprechen, und ihre Geschmacksknospen schmecken süß, salzig, sauer, bitter und umami.",
+      "good": ["Die Zunge sanft putzen oder schaben", "Genug Wasser trinken", "Regelmäßige Zahnarztbesuche"],
+      "bad": ["Rauchen und Kautabak", "Sehr heiße Speisen und Getränke", "Viel Alkohol"],
+      "facts": [["Geschmacksknospen", "etwa 2.000–8.000"], ["Grundgeschmäcker", "5"]]
+    },
+    "salivary": {
+      "name": "Speicheldrüsen", "system": "digestive",
+      "desc": "Sie bilden Speichel, der das Essen befeuchtet, Stärke vorverdaut und Zähne und Mund vor Keimen schützt.",
+      "good": ["Genug Wasser trinken", "Gründlich kauen", "Gute Mundhygiene"],
+      "bad": ["Zu wenig trinken", "Rauchen", "Manche Medikamente, die den Mund austrocknen – sprich mit einem Arzt, wenn er oft trocken ist"],
+      "facts": [["Speichel pro Tag", "etwa 0,5–1,5 Liter"], ["Große Paare", "3"]]
+    },
+    "pituitary": {
+      "name": "Hirnanhangdrüse", "system": "endocrine",
+      "desc": "Eine kleine Drüse unter dem Gehirn. Ihre Hormone steuern Wachstum, Schilddrüse, Nebennieren, Fortpflanzung und den Wasserhaushalt.",
+      "good": ["Regelmäßiger Schlaf", "Ausgewogene Ernährung", "Zum Arzt bei ungewöhnlichen Kopfschmerzen mit Sehstörungen"],
+      "bad": ["Kopfverletzungen", "Langer starker Stress", "Hormone ohne ärztlichen Rat nehmen"],
+      "facts": [["Größe", "etwa eine Erbse"], ["Spitzname", "Die Meisterdrüse"]]
+    },
+    "adrenals": {
+      "name": "Nebennieren", "system": "endocrine",
+      "desc": "Zwei kleine Drüsen auf den Nieren. Sie bilden Adrenalin für plötzlichen Stress und Cortisol, das Energie, Blutzucker und Blutdruck mitsteuert.",
+      "good": ["Regelmäßiger Schlaf", "Wege, Stress abzubauen, etwa Spazierengehen oder ruhiges Atmen", "Ausgewogene Ernährung"],
+      "bad": ["Lange Stress ohne Erholung", "Kortison plötzlich absetzen", "Zu viel Koffein"],
+      "facts": [["Liegen", "Auf jeder Niere"], ["Bilden", "Adrenalin und Cortisol"]]
+    },
+    "throat": {
+      "name": "Rachen", "system": "respiratory",
+      "desc": "Der Rachen ist ein Muskelschlauch hinter Nase und Mund. Er leitet Luft zum Kehlkopf und Essen in die Speiseröhre, und seine Mandeln helfen gegen Keime.",
+      "good": ["Genug Wasser trinken", "Oft Hände waschen", "Die Stimme schonen, wenn der Hals wehtut"],
+      "bad": ["Rauchen", "Lange schreien", "Sehr heiße Getränke"],
+      "facts": [["Länge", "etwa 12–14 cm"], ["Leitet", "Luft und Essen"]]
+    },
+    "larynx": {
+      "name": "Kehlkopf", "system": "respiratory",
+      "desc": "Der Kehlkopf sitzt über der Luftröhre. Seine Stimmbänder schwingen und erzeugen die Stimme, und der Kehldeckel verschließt ihn beim Schlucken, damit das Essen den richtigen Weg nimmt.",
+      "good": ["Genug Wasser trinken", "Bei Heiserkeit die Stimme schonen", "Ohne Anstrengung sprechen"],
+      "bad": ["Rauchen", "Lange schreien oder flüstern", "Häufiges Sodbrennen"],
+      "facts": [["Enthält", "Die Stimmbänder"], ["Auch genannt", "Larynx"]]
+    },
+    "trachea": {
+      "name": "Luftröhre", "system": "respiratory",
+      "desc": "Die Luftröhre leitet Luft vom Hals in die Lunge. C-förmige Knorpelringe halten sie offen, und ihre Schleimhaut befördert Staub und Keime wieder nach oben.",
+      "good": ["Saubere Luft atmen", "Genug Wasser trinken", "Bei Staub oder Rauch Nase und Mund bedecken"],
+      "bad": ["Rauchen und Dampfen", "Luftverschmutzung und Staub", "Chemische Dämpfe einatmen"],
+      "facts": [["Länge", "etwa 10–12 cm"], ["Knorpelringe", "16–20"]]
+    },
+    "lungs": {
+      "name": "Lunge", "system": "respiratory",
+      "desc": "In der Lunge gelangt die Luft in Hunderte Millionen winziger Bläschen, die Alveolen. Dort geht Sauerstoff ins Blut über und Kohlendioxid hinaus.",
+      "good": ["Ausdauersport wie Gehen, Radfahren oder Schwimmen", "Saubere Luft zu Hause und bei der Arbeit", "Grippe- und Pneumokokken-Impfung, wenn empfohlen"],
+      "bad": ["Rauchen und Dampfen", "Luftverschmutzung", "Staub, Rauch und chemische Dämpfe"],
+      "facts": [["Lappen", "rechts 3, links 2"], ["Lungenbläschen", "etwa 480 Millionen"]]
+    },
+    "diaphragm": {
+      "name": "Zwerchfell", "system": "respiratory",
+      "desc": "Ein kuppelförmiger Muskel unter der Lunge. Spannt er sich an und senkt sich, weitet sich der Brustkorb und Luft strömt ein. Er ist der wichtigste Atemmuskel.",
+      "good": ["Langsames, tiefes Bauchatmen", "Gute Haltung", "Regelmäßige Bewegung"],
+      "bad": ["Rauchen", "Stundenlang gekrümmt sitzen", "Sich direkt nach großen Mahlzeiten hinlegen"],
+      "facts": [["Form", "Eine Kuppel"], ["Atemzüge pro Tag", "etwa 20.000"]]
+    },
+    "heart": {
+      "name": "Herz", "system": "circulatory",
+      "desc": "Eine faustgroße Muskelpumpe. Es schlägt etwa 100.000-mal am Tag und schickt das Blut zur Lunge, um Sauerstoff aufzunehmen, und dann durch den ganzen Körper.",
+      "good": ["Etwa 150 Minuten zügige Bewegung pro Woche", "Gemüse, Obst, Vollkorn und Nüsse", "Gesundes Gewicht halten und mit Stress umgehen"],
+      "bad": ["Rauchen", "Zu viel Salz", "Unbehandelter Bluthochdruck und hohes Cholesterin"],
+      "facts": [["Kammern", "4"], ["Durchschnittsgewicht", "250–350 g"]]
+    },
+    "esophagus": {
+      "name": "Speiseröhre", "system": "digestive",
+      "desc": "Die Speiseröhre ist ein Muskelschlauch, der Essen und Trinken in Wellen zum Magen schiebt – deshalb kann man sogar kopfüber schlucken.",
+      "good": ["Gut kauen und langsam essen", "Nach dem Essen eine Weile aufrecht bleiben", "Zum Essen Wasser trinken"],
+      "bad": ["Rauchen und viel Alkohol", "Sehr heiße Getränke", "Häufiges Sodbrennen ohne Behandlung"],
+      "facts": [["Länge", "etwa 25 cm"], ["Essen braucht", "wenige Sekunden"]]
+    },
+    "stomach": {
+      "name": "Magen", "system": "digestive",
+      "desc": "Ein dehnbarer, J-förmiger Sack. Er knetet das Essen mit Säure und Enzymen zu einem dicken Brei, und die Säure tötet viele Keime aus der Nahrung.",
+      "good": ["Regelmäßige, maßvolle Mahlzeiten", "Ballaststoffe und genug Wasser", "Fermentiertes wie Joghurt"],
+      "bad": ["Schmerzmittel wie Ibuprofen oder Aspirin zu oft nehmen", "Viel Alkohol und Rauchen", "H.-pylori-Infektion durch unsauberes Essen oder Wasser"],
+      "facts": [["Fassungsvermögen", "etwa 1–1,5 Liter"], ["pH der Säure", "1,5–3,5"]]
+    },
+    "liver": {
+      "name": "Leber", "system": "digestive",
+      "desc": "Das größte innere Organ. Sie reinigt das Blut, speichert Energie, bildet Eiweiße und produziert Galle für die Fettverdauung.",
+      "good": ["Wenig oder kein Alkohol", "Gesundes Gewicht halten", "Impfung gegen Hepatitis B"],
+      "bad": ["Viel Alkohol", "Viel Zucker und Frittiertes, was eine Fettleber verursachen kann", "Mehr Paracetamol als auf der Packung steht"],
+      "facts": [["Gewicht", "etwa 1,5 kg"], ["Aufgaben", "über 500"]]
+    },
+    "gallbladder": {
+      "name": "Gallenblase", "system": "digestive",
+      "desc": "Ein kleiner Beutel unter der Leber. Sie speichert Galle und drückt sie nach dem Essen in den Darm, damit Fett verdaut wird.",
+      "good": ["Regelmäßige Mahlzeiten", "Ballaststoffreiche Ernährung", "Bei Bedarf langsam abnehmen"],
+      "bad": ["Crash-Diäten und sehr schnelles Abnehmen", "Starkes Übergewicht", "Sehr fettreiche Ernährung"],
+      "facts": [["Fasst", "etwa 30–50 ml Galle"], ["Länge", "etwa 7–10 cm"]]
+    },
+    "pancreas": {
+      "name": "Bauchspeicheldrüse", "system": "digestive",
+      "desc": "Eine Drüse hinter dem Magen mit zwei Aufgaben: Sie bildet Verdauungssäfte und gibt Insulin und Glukagon ab, damit der Blutzucker stabil bleibt.",
+      "good": ["Gesundes Gewicht halten", "Vollkorn und weniger zugesetzter Zucker", "Regelmäßige Bewegung"],
+      "bad": ["Viel Alkohol", "Rauchen", "Starkes Übergewicht, das das Risiko für Typ-2-Diabetes erhöht"],
+      "facts": [["Länge", "etwa 15 cm"], ["Hormone", "Insulin und Glukagon"]]
+    },
+    "spleen": {
+      "name": "Milz", "system": "lymphatic",
+      "desc": "Ein weiches Organ unter den linken Rippen. Sie filtert das Blut, entfernt alte rote Blutkörperchen und hilft dem Immunsystem gegen Infektionen.",
+      "good": ["Impfungen aktuell halten", "Sicherheitsgurt anlegen", "Schutzpolster bei Kontaktsport"],
+      "bad": ["Harte Schläge in den linken Oberbauch", "Infektionen, die sie anschwellen lassen, wie Pfeiffersches Drüsenfieber", "Malaria"],
+      "facts": [["Länge", "etwa 11–12 cm"], ["Kann man ohne sie leben?", "Ja, mit mehr Vorsicht"]]
+    },
+    "thymus": {
+      "name": "Thymus", "system": "lymphatic",
+      "desc": "Eine Drüse hinter dem Brustbein, in der weiße Blutkörperchen namens T-Zellen lernen, Keime zu bekämpfen. Bei Kindern ist er am größten und aktivsten.",
+      "good": ["Ausgewogene Ernährung", "Genug Schlaf", "Regelmäßige Bewegung"],
+      "bad": ["Langer Stress", "Schlechte Ernährung", "Rauchen"],
+      "facts": [["Am aktivsten", "In Kindheit und Jugend"], ["Trainiert", "T-Zellen"]]
+    },
+    "small_intestine": {
+      "name": "Dünndarm", "system": "digestive",
+      "desc": "Ein langer, gewundener Schlauch, in dem der größte Teil der Verdauung stattfindet. Winzige Zotten in seiner Wand bringen die Nährstoffe ins Blut.",
+      "good": ["Ballaststoffe aus Gemüse, Obst und Getreide", "Sauberes Essen und sicheres Wasser", "Fermentiertes wie Joghurt"],
+      "bad": ["Lebensmittelvergiftungen", "Viel Alkohol", "Gluten bei Zöliakie"],
+      "facts": [["Länge", "etwa 3–6 m"], ["Nimmt auf", "Die meisten Nährstoffe"]]
+    },
+    "large_intestine": {
+      "name": "Dickdarm", "system": "digestive",
+      "desc": "Er umrahmt den Dünndarm, holt Wasser und Salze zurück und formt den Stuhl. Hier leben Billionen nützlicher Bakterien, die auch einige Vitamine bilden.",
+      "good": ["Viele Ballaststoffe", "Genug Wasser trinken", "Aktiv bleiben"],
+      "bad": ["Viel rotes und verarbeitetes Fleisch", "Sehr wenig Ballaststoffe", "Rauchen und viel Alkohol"],
+      "facts": [["Länge", "etwa 1,5 m"], ["Darmbakterien", "Billionen"]]
+    },
+    "kidneys": {
+      "name": "Nieren", "system": "urinary",
+      "desc": "Zwei bohnenförmige Filter an der hinteren Bauchwand. Sie reinigen das Blut, halten Wasser und Salze im Gleichgewicht, helfen beim Blutdruck und bilden Urin.",
+      "good": ["Genug Wasser trinken", "Weniger Salz", "Blutdruck und Blutzucker im Normalbereich halten"],
+      "bad": ["Zu wenig trinken", "Schmerzmittel wie Ibuprofen zu oft nehmen", "Schlecht eingestellter Diabetes oder Bluthochdruck"],
+      "facts": [["Größe", "etwa 11 cm lang"], ["Gefilterte Flüssigkeit pro Tag", "etwa 180 Liter"]]
+    },
+    "bladder": {
+      "name": "Harnblase", "system": "urinary",
+      "desc": "Ein dehnbarer Muskelsack, der den Urin aus den Nieren speichert, bis du bereit bist, ihn zu entleeren.",
+      "good": ["Genug Wasser trinken", "Zur Toilette gehen, wenn du musst", "Beckenbodentraining"],
+      "bad": ["Rauchen, die Hauptursache für Blasenkrebs", "Den Urin stundenlang halten", "Viel Koffein oder Alkohol"],
+      "facts": [["Fasst", "etwa 400–600 ml"], ["Wand", "Dehnt sich beim Füllen"]]
+    },
+    "testes": {
+      "name": "Hoden", "system": "reproductive",
+      "desc": "Zwei Drüsen im Hodensack. Sie bilden Spermien und das Hormon Testosteron, das die männliche Entwicklung prägt.",
+      "good": ["Einmal im Monat auf Knoten abtasten", "Schutzausrüstung beim Sport", "Gesundes Gewicht und regelmäßige Bewegung"],
+      "bad": ["Rauchen und viel Alkohol", "Lange Hitze, etwa ein Laptop auf dem Schoß", "Anabole Steroide"],
+      "facts": [["Bilden", "Spermien und Testosteron"], ["Temperatur", "2–3 °C unter dem Körper"]]
+    },
+    "prostate": {
+      "name": "Prostata", "system": "reproductive",
+      "desc": "Eine Drüse unter der Harnblase, die einen Teil der Samenflüssigkeit bildet. Sie umschließt die Harnröhre, daher kann eine Größenänderung das Wasserlassen beeinflussen.",
+      "good": ["Aktiv bleiben", "Viel Gemüse und Obst", "Ab 50 mit dem Arzt über Vorsorge sprechen"],
+      "bad": ["Veränderungen beim Wasserlassen übergehen", "Starkes Übergewicht", "Rauchen"],
+      "facts": [["Größe", "etwa eine Walnuss"], ["Bildet", "Einen Teil des Samens"]]
+    },
+    "penis": {
+      "name": "Penis", "system": "reproductive",
+      "desc": "Das äußere männliche Organ. Durch ihn verläuft die Harnröhre, die sowohl Urin als auch Samen aus dem Körper leitet.",
+      "good": ["Tägliche Hygiene", "Kondome gegen Infektionen", "Bei Schmerzen, Wunden oder Ausfluss zum Arzt"],
+      "bad": ["Sexuell übertragbare Infektionen", "Rauchen, das die Durchblutung schädigt", "Schlecht eingestellter Diabetes"],
+      "facts": [["Enthält", "Die Harnröhre"], ["Gewebe", "Schwammartig, füllt sich mit Blut"]]
+    },
+    "uterus": {
+      "name": "Gebärmutter", "system": "reproductive",
+      "desc": "Ein hohles Muskelorgan, in dem in der Schwangerschaft das Baby wächst. Ihre Schleimhaut baut sich jeden Monat auf und wird bei der Periode abgestoßen.",
+      "good": ["Regelmäßige Gebärmutterhals-Vorsorge", "HPV-Impfung", "Zur Ärztin bei sehr starker oder schmerzhafter Periode"],
+      "bad": ["Rauchen", "Unbehandelte Infektionen", "Ungewöhnliche Blutungen übergehen"],
+      "facts": [["Größe", "etwa eine Birne"], ["Schleimhaut", "Erneuert sich etwa monatlich"]]
+    },
+    "ovaries": {
+      "name": "Eierstöcke", "system": "reproductive",
+      "desc": "Zwei kleine Drüsen neben der Gebärmutter. Sie enthalten die Eizellen und bilden die Hormone Östrogen und Progesteron.",
+      "good": ["Gesundes Gewicht", "Ausgewogene Ernährung", "Zur Ärztin bei anhaltenden Unterleibsschmerzen oder Blähungen"],
+      "bad": ["Rauchen", "Anhaltende Bauch- oder Beckenschmerzen übergehen", "Sehr niedriges Körpergewicht"],
+      "facts": [["Eizellen bei der Geburt", "etwa 1–2 Millionen"], ["Bilden", "Östrogen und Progesteron"]]
+    },
+    "fallopian_tubes": {
+      "name": "Eileiter", "system": "reproductive",
+      "desc": "Zwei dünne Röhren, die die Eizelle vom Eierstock zur Gebärmutter leiten. Die Befruchtung findet meist hier statt.",
+      "good": ["Safer Sex mit Kondom", "Infektionen früh behandeln", "Regelmäßige Kontrollen"],
+      "bad": ["Sexuell übertragbare Infektionen wie Chlamydien", "Unbehandelte Beckenentzündungen", "Rauchen"],
+      "facts": [["Länge", "etwa 10–12 cm"], ["Befruchtung", "Findet meist hier statt"]]
+    },
+    "vagina": {
+      "name": "Vagina", "system": "reproductive",
+      "desc": "Ein muskulärer Kanal, der die Gebärmutter mit der Außenseite des Körpers verbindet. Sie reinigt sich selbst und hält ein leicht saures Milieu, das vor Keimen schützt.",
+      "good": ["Außen sanft nur mit Wasser waschen", "Safer Sex mit Kondom", "Unterwäsche aus Baumwolle"],
+      "bad": ["Scheidenspülungen und parfümierte Seifen innen", "Sexuell übertragbare Infektionen", "Juckreiz oder ungewöhnlichen Ausfluss übergehen"],
+      "facts": [["Verbindet", "Gebärmutter und Außenwelt"], ["Milieu", "Leicht sauer"]]
+    },
+    "breasts": {
+      "name": "Brüste", "system": "reproductive",
+      "desc": "Sie bestehen aus Drüsen, Milchgängen und Fett. Nach der Geburt bilden die Drüsen Milch, die über die Gänge zur Brustwarze fließt.",
+      "good": ["Wissen, wie deine Brüste normalerweise aussehen und sich anfühlen", "Brustuntersuchung, wenn empfohlen", "Aktiv bleiben"],
+      "bad": ["Viel Alkohol", "Rauchen", "Einen neuen Knoten oder Hautveränderungen übergehen"],
+      "facts": [["Hauptgewebe", "Drüsen und Fett"], ["Bilden", "Milch nach der Geburt"]]
+    }
+  }
+}

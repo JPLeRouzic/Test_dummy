@@ -1,0 +1,236 @@
+{
+  "systems": {},
+  "parts": {
+    "skull": {
+      "name": "Cranio", "system": "skeletal",
+      "desc": "Il cranio protegge il cervello e dà forma al viso. È fatto di 22 ossa che, tranne la mandibola, sono saldamente incastrate tra loro.",
+      "good": ["Casco in bici, in moto e nei cantieri", "Cintura di sicurezza in auto", "Calcio e vitamina D per le ossa"],
+      "bad": ["Colpi alla testa e cadute", "Guidare senza casco", "Pericoli di caduta in casa"],
+      "facts": [["Ossa", "22"], ["Unico osso mobile", "la mandibola"]]
+    },
+    "teeth": {
+      "name": "Denti", "system": "skeletal",
+      "desc": "I denti tagliano e macinano il cibo e aiutano a parlare. Lo smalto esterno è la sostanza più dura del corpo.",
+      "good": ["Lavarli due volte al giorno con dentifricio al fluoro", "Filo interdentale ogni giorno", "Controlli regolari dal dentista"],
+      "bad": ["Cibi e bevande zuccherati spesso", "Fumo", "Mordere cose dure o aprire oggetti con i denti"],
+      "facts": [["Denti dell'adulto", "32"], ["Denti da latte", "20"]]
+    },
+    "spine": {
+      "name": "Colonna vertebrale", "system": "skeletal",
+      "desc": "Una pila di ossa chiamate vertebre che sostiene il corpo e protegge il midollo spinale. I dischi tra le vertebre ammortizzano e permettono di piegarsi e ruotare.",
+      "good": ["Buona postura e pause per alzarsi", "Rafforzare addominali e schiena", "Sollevare pesi piegando le ginocchia"],
+      "bad": ["Stare ingobbiti per ore", "Sollevare pesi con la schiena curva", "Fumo (indebolisce i dischi)"],
+      "facts": [["Vertebre", "33"], ["Curve naturali", "4"]]
+    },
+    "ribcage": {
+      "name": "Gabbia toracica", "system": "skeletal",
+      "desc": "Una gabbia di costole, sterno e colonna che protegge cuore e polmoni e si alza e si abbassa a ogni respiro.",
+      "good": ["Postura che apre il torace", "Respirazione profonda", "Cintura di sicurezza per proteggere il torace"],
+      "bad": ["Colpi forti al torace", "Fumo, che ostacola il movimento della gabbia", "Vestiti molto stretti a lungo"],
+      "facts": [["Costole", "12 paia"], ["Costole fluttuanti", "le ultime 2 paia"]]
+    },
+    "shoulder": {
+      "name": "Spalla", "system": "skeletal",
+      "desc": "L'articolazione più mobile del corpo. Vi si incontrano omero, scapola e clavicola, sostenuti dai muscoli della cuffia dei rotatori.",
+      "good": ["Allungamento e rinforzo intorno alla scapola", "Riscaldamento prima di sollevare pesi", "Non tenere a lungo le braccia sopra la testa"],
+      "bad": ["Sollevare pesi senza riscaldamento", "Cadere sul braccio teso", "Anni di postura curva"],
+      "facts": [["Ossa", "3"], ["Muscoli della cuffia dei rotatori", "4"]]
+    },
+    "humerus": {
+      "name": "Omero", "system": "skeletal",
+      "desc": "L'osso lungo del braccio, che collega spalla e gomito. Qui si attaccano molti muscoli, tra cui bicipite e tricipite.",
+      "good": ["Allenamento di forza per ossa robuste", "Calcio e vitamina D", "Prevenire le cadute"],
+      "bad": ["Cadere sul braccio teso", "Fumo, che indebolisce le ossa", "Sedentarietà"],
+      "facts": [["Collega", "spalla e gomito"], ["Tipo", "osso lungo"]]
+    },
+    "forearm": {
+      "name": "Avambraccio", "system": "skeletal",
+      "desc": "L'avambraccio ha due ossa, radio e ulna. Ruotando l'una attorno all'altra permettono di girare il palmo in su e in giù.",
+      "good": ["Esercizi per polso e presa", "Pause durante le lunghe sessioni di scrittura al computer", "Polsiere negli sport"],
+      "bad": ["Cadere sulle mani", "Movimenti ripetitivi senza pause", "Sollevare di colpo pesi molto grandi"],
+      "facts": [["Ossa", "radio e ulna"], ["Movimento", "girare il palmo"]]
+    },
+    "hand": {
+      "name": "Mano", "system": "skeletal",
+      "desc": "Ogni mano ha 27 ossa e molti piccoli muscoli e tendini, che permettono una presa forte e lavori di precisione.",
+      "good": ["Esercizi per dita e presa", "Pause durante la scrittura o l'uso del telefono", "Guanti nei lavori pericolosi"],
+      "bad": ["Lavori ripetitivi per ore senza pause", "Trascurare tagli o ferite alla mano", "Freddo o sostanze chimiche forti a lungo"],
+      "facts": [["Ossa di una mano", "27"], ["Dito opponibile", "il pollice"]]
+    },
+    "pelvis": {
+      "name": "Bacino", "system": "skeletal",
+      "desc": "Il bacino collega colonna e gambe, sostiene il peso della parte superiore del corpo e protegge vescica e organi riproduttivi.",
+      "good": ["Rinforzo di bacino e addominali", "Restare attivi", "Prevenire le cadute"],
+      "bad": ["Cadute, soprattutto negli anziani", "Stare seduti a lungo", "Fumo, che indebolisce le ossa"],
+      "facts": [["Composto da", "2 ossa dell'anca + sacro + coccige"], ["Differenza", "più largo nelle donne"]]
+    },
+    "femur": {
+      "name": "Femore", "system": "skeletal",
+      "desc": "L'osso più lungo e forte del corpo. Collega anca e ginocchio e sostiene il peso quando cammini, corri e salti.",
+      "good": ["Camminare e salire le scale", "Calcio e vitamina D", "Prevenire le cadute negli anziani"],
+      "bad": ["Cadute (soprattutto con osteoporosi)", "Fumo e alcol in eccesso", "Pochissima attività fisica"],
+      "facts": [["Lunghezza", "circa il 26% dell'altezza"], ["Primato", "l'osso più lungo"]]
+    },
+    "knee": {
+      "name": "Ginocchio", "system": "skeletal",
+      "desc": "Una grande articolazione a cerniera tra femore e tibia. Cartilagine, menischi e legamenti la stabilizzano e la proteggono.",
+      "good": ["Rinforzare i muscoli anteriori e posteriori della coscia", "Mantenere un peso sano", "Scarpe ben ammortizzate"],
+      "bad": ["Carico del peso in eccesso", "Torsioni improvvise senza riscaldamento", "Continuare ignorando il dolore al ginocchio"],
+      "facts": [["Rotula", "patella"], ["Legamenti principali", "4"]]
+    },
+    "lower_leg": {
+      "name": "Gamba", "system": "skeletal",
+      "desc": "La gamba ha due ossa: tibia e perone. La tibia sostiene quasi tutto il peso, il perone stabilizza la caviglia.",
+      "good": ["Esercizi per i polpacci", "Scarpe adatte", "Aumentare l'allenamento gradualmente"],
+      "bad": ["Aumentare l'allenamento di colpo (dolore alla tibia)", "Scarpe consumate", "Colpi agli stinchi"],
+      "facts": [["Ossa", "tibia e perone"], ["Regge il peso", "la tibia"]]
+    },
+    "foot": {
+      "name": "Piede", "system": "skeletal",
+      "desc": "Ogni piede ha 26 ossa. Gli archi plantari funzionano come molle: distribuiscono il peso e assorbono l'urto a ogni passo.",
+      "good": ["Scarpe della misura giusta e di sostegno", "Lavarli e asciugarli ogni giorno", "Esercizi per dita e arco plantare"],
+      "bad": ["Scarpe strette o tacchi molto alti", "Trascurare i tagli se hai il diabete", "Stare in piedi a lungo con scarpe strette"],
+      "facts": [["Ossa di un piede", "26"], ["Archi", "3"]]
+    },
+    "bones": {
+      "name": "Scheletro", "system": "skeletal",
+      "desc": "Lo scheletro sostiene il corpo, protegge gli organi e offre ai muscoli un appoggio per muoversi. Il midollo osseo produce le cellule del sangue.",
+      "good": ["Esercizi con carico e di forza", "Calcio, proteine e vitamina D", "Prevenire le cadute negli anziani"],
+      "bad": ["Fumo e alcol in eccesso", "Sedentarietà", "Peso molto basso o alimentazione scarsa"],
+      "facts": [["Ossa dell'adulto", "206"], ["Rinnovo completo", "circa 10 anni"]]
+    },
+    "muscles": {
+      "name": "Muscoli", "system": "muscular",
+      "desc": "Più di 600 muscoli tirano le ossa per muovere il corpo, mantengono la postura e producono calore.",
+      "good": ["Allenamento di forza almeno 2 volte a settimana", "Proteine a sufficienza", "Riposo e sonno dopo l'allenamento"],
+      "bad": ["Lunga inattività", "Allenarsi senza riscaldamento", "Ignorare il dolore e continuare con un infortunio"],
+      "facts": [["Muscoli scheletrici", "più di 600"], ["Parte del peso corporeo", "circa il 30–40%"]]
+    },
+    "biceps": {
+      "name": "Bicipite", "system": "muscular",
+      "desc": "Il muscolo davanti al braccio. Piega il gomito e aiuta a girare il palmo verso l'alto.",
+      "good": ["Allenamento di forza con la tecnica giusta", "Allungamento dopo l'esercizio", "Giorni di riposo"],
+      "bad": ["Pesi troppo grandi sollevati di slancio", "Sollevamenti improvvisi senza riscaldamento", "Allenarsi nonostante il dolore"],
+      "facts": [["Capi", "2"], ["Funzione", "piegare il gomito"]]
+    },
+    "triceps": {
+      "name": "Tricipite", "system": "muscular",
+      "desc": "Il muscolo dietro al braccio, che distende il gomito. Lo usi per spingere e per rialzarti.",
+      "good": ["Esercizi di spinta come i piegamenti", "Allungamento dopo l'esercizio", "Allenamento graduale"],
+      "bad": ["Distendere il braccio di colpo con forza", "Spinte pesanti senza riscaldamento", "Allenarsi senza pause"],
+      "facts": [["Capi", "3"], ["Funzione", "distendere il gomito"]]
+    },
+    "deltoid": {
+      "name": "Deltoide", "system": "muscular",
+      "desc": "Il muscolo tondo che avvolge la spalla. Solleva il braccio in avanti, di lato e indietro.",
+      "good": ["Esercizi per le spalle con pesi leggeri", "Riscaldamento prima dell'allenamento", "Buona postura"],
+      "bad": ["Sollevamenti pesanti ripetuti sopra la testa", "Tecnica sbagliata", "Ignorare il dolore alla spalla"],
+      "facts": [["Parti", "anteriore, media, posteriore"], ["Funzione", "sollevare il braccio"]]
+    },
+    "chest_muscles": {
+      "name": "Muscoli del petto", "system": "muscular",
+      "desc": "I muscoli del petto, come il grande pettorale, spingono il braccio in avanti e lo portano davanti al corpo.",
+      "good": ["Piegamenti o panca piana", "Equilibrio con l'allenamento della schiena", "Allungamento del petto"],
+      "bad": ["Allenare solo il petto e non la schiena", "Pesi eccessivi", "Postura curva"],
+      "facts": [["Muscolo principale", "grande pettorale"], ["Funzione", "spingere e avvicinare il braccio"]]
+    },
+    "abs": {
+      "name": "Addominali", "system": "muscular",
+      "desc": "Gli addominali sostengono il tronco, proteggono la colonna, aiutano a piegarsi e ruotare e tengono gli organi al loro posto.",
+      "good": ["Esercizi per il core come il plank", "Buona postura", "Attività che coinvolgono tutto il corpo"],
+      "bad": ["Crunch tirando il collo", "Stare seduti a lungo", "Sollevare pesi trattenendo il respiro"],
+      "facts": [["Muscoli principali", "4 tipi"], ["Ruolo", "sostegno di tronco e colonna"]]
+    },
+    "back_muscles": {
+      "name": "Muscoli della schiena", "system": "muscular",
+      "desc": "I muscoli della schiena tengono dritta la colonna, aiutano a tirare e sostengono braccia e spalle.",
+      "good": ["Esercizi di trazione e per la schiena", "Pause e allungamenti regolari", "Sollevare i pesi correttamente"],
+      "bad": ["Sollevare con la schiena curva", "Stare seduti curvi a lungo", "Ignorare il mal di schiena"],
+      "facts": [["Muscolo più ampio", "gran dorsale"], ["Ruolo", "postura e trazione"]]
+    },
+    "glutes": {
+      "name": "Glutei", "system": "muscular",
+      "desc": "Il grande gluteo è il muscolo più grande del corpo. Estende la gamba all'indietro, stabilizza il bacino e aiuta ad alzarsi e a salire le scale.",
+      "good": ["Squat e affondi", "Salire le scale", "Alzarsi dopo essere stati seduti a lungo"],
+      "bad": ["Stare seduti tutto il giorno", "Squat con tecnica sbagliata", "Sedentarietà"],
+      "facts": [["Dimensioni", "il muscolo più grande del corpo"], ["Muscoli", "3"]]
+    },
+    "quadriceps": {
+      "name": "Quadricipite", "system": "muscular",
+      "desc": "Quattro grandi muscoli davanti alla coscia. Distendono il ginocchio e sono essenziali per camminare, correre e saltare.",
+      "good": ["Squat e bicicletta", "Allungamento dopo l'esercizio", "Aumentare l'allenamento gradualmente"],
+      "bad": ["Scatti senza riscaldamento", "Aumentare l'allenamento di colpo", "Avere fretta di tornare dopo un infortunio"],
+      "facts": [["Muscoli", "4"], ["Funzione", "distendere il ginocchio"]]
+    },
+    "hamstrings": {
+      "name": "Muscoli posteriori della coscia", "system": "muscular",
+      "desc": "Tre muscoli dietro la coscia. Piegano il ginocchio ed estendono l'anca, e sono spesso soggetti a stiramenti.",
+      "good": ["Allungamento delicato ogni giorno", "Riscaldamento", "Rinforzo equilibrato davanti e dietro la coscia"],
+      "bad": ["Scatti senza riscaldamento", "Irrigidirsi stando seduti a lungo", "Sforzi intensi quando sei stanco"],
+      "facts": [["Muscoli", "3"], ["Infortunio frequente", "stiramento"]]
+    },
+    "calf": {
+      "name": "Polpaccio", "system": "muscular",
+      "desc": "I muscoli del polpaccio sollevano il tallone per camminare e correre. Fanno anche da pompa che riporta il sangue delle gambe al cuore.",
+      "good": ["Sollevamenti sulle punte", "Muovere le gambe nei viaggi lunghi", "Allungamento dei polpacci"],
+      "bad": ["Ore seduti senza muovere le gambe", "Sforzi intensi improvvisi", "Disidratazione (crampi)"],
+      "facts": [["Muscoli principali", "gastrocnemio e soleo"], ["Soprannome", "il secondo cuore"]]
+    },
+    "connective": {
+      "name": "Tendini e legamenti", "system": "muscular",
+      "desc": "I tendini collegano i muscoli alle ossa, i legamenti collegano le ossa tra loro. Sono tessuti resistenti che stabilizzano le articolazioni e trasmettono la forza.",
+      "good": ["Riscaldamento prima dell'esercizio", "Aumentare l'allenamento gradualmente", "Riposare abbastanza dopo un infortunio"],
+      "bad": ["Movimenti ripetitivi senza pause", "Torsioni improvvise o sollevamenti forzati", "Fumo (rallenta la guarigione)"],
+      "facts": [["Il tendine più forte", "il tendine d'Achille"], ["Guarigione", "più lenta dei muscoli"]]
+    },
+    "spinal_cord": {
+      "name": "Midollo spinale", "system": "nervous",
+      "desc": "Il midollo spinale è un grosso fascio di nervi dentro la colonna. Trasmette i segnali tra cervello e corpo e controlla i riflessi.",
+      "good": ["Cintura di sicurezza in auto", "Non tuffarsi in acqua bassa", "Buona postura per proteggere la schiena"],
+      "bad": ["Tuffi in acqua bassa", "Guidare senza casco", "Muovere a forza dopo un trauma alla colonna"],
+      "facts": [["Lunghezza", "circa 45 cm"], ["Nervi spinali", "31 paia"]]
+    },
+    "nerves": {
+      "name": "Nervi", "system": "nervous",
+      "desc": "I nervi sono cavi che percorrono tutto il corpo. Portano le sensazioni al cervello e i suoi comandi a muscoli e organi.",
+      "good": ["Alimentazione equilibrata con vitamina B12", "Controllo della glicemia", "Attività fisica regolare"],
+      "bad": ["Diabete non controllato", "Alcol in eccesso", "Comprimere un nervo restando a lungo nella stessa posizione"],
+      "facts": [["Lunghezza totale dei nervi", "decine di migliaia di km"], ["Velocità del segnale", "fino a circa 120 m al secondo"]]
+    },
+    "aorta": {
+      "name": "Aorta", "system": "circulatory",
+      "desc": "L'arteria più grande del corpo. Riceve dal cuore il sangue ricco di ossigeno e lo distribuisce nelle arterie che raggiungono tutto il corpo.",
+      "good": ["Pressione nella norma", "Non fumare", "Attività fisica regolare"],
+      "bad": ["Pressione alta", "Fumo", "Colesterolo alto"],
+      "facts": [["Diametro", "circa 2,5 cm"], ["Parte da", "il ventricolo sinistro del cuore"]]
+    },
+    "arteries": {
+      "name": "Arterie", "system": "circulatory",
+      "desc": "Le arterie portano il sangue ossigenato dal cuore a organi e tessuti. Le loro pareti spesse ed elastiche reggono la pressione di ogni battito.",
+      "good": ["Verdura, frutta e cereali integrali", "Attività fisica regolare", "Controllare pressione e colesterolo"],
+      "bad": ["Fumo", "Troppo sale e grassi saturi", "Diabete non controllato"],
+      "facts": [["Colore", "sangue rosso vivo"], ["Dove si sente il polso", "polso e collo"]]
+    },
+    "veins": {
+      "name": "Vene", "system": "circulatory",
+      "desc": "Le vene riportano al cuore il sangue povero di ossigeno. Piccole valvole all'interno impediscono al sangue di tornare indietro.",
+      "good": ["Camminare e muovere le gambe", "Cambiare posizione quando stai a lungo in piedi", "Calze a compressione se necessario"],
+      "bad": ["Stare a lungo fermi seduti o in piedi", "Fumo", "Obesità"],
+      "facts": [["Contengono", "circa il 70% del sangue"], ["Valvole", "impediscono il riflusso"]]
+    },
+    "lymph": {
+      "name": "Sistema linfatico", "system": "lymphatic",
+      "desc": "Una rete di vasi e linfonodi che raccoglie il liquido in eccesso dai tessuti e trasporta i globuli bianchi che combattono i germi.",
+      "good": ["Restare attivi (la linfa scorre grazie ai muscoli)", "Bere abbastanza acqua", "Vaccinazioni in regola"],
+      "bad": ["Lunga inattività", "Fumo", "Ignorare linfonodi gonfi da più di 2 settimane"],
+      "facts": [["Linfonodi", "circa 500–700"], ["Cosa fa scorrere la linfa", "muscoli e respiro"]]
+    },
+    "skin": {
+      "name": "Pelle", "system": "integumentary",
+      "desc": "L'organo più grande del corpo. Protegge da germi, sole e perdita d'acqua, regola la temperatura e percepisce tatto, dolore e calore.",
+      "good": ["Crema solare e ombra", "Bere abbastanza acqua", "Lavarsi con delicatezza e idratare"],
+      "bad": ["Scottature e lettini abbronzanti", "Fumo", "Ignorare nei che cambiano o ferite che non guariscono"],
+      "facts": [["Superficie", "circa 2 m²"], ["Rinnovo", "circa 4 settimane"]]
+    }
+  }
+}

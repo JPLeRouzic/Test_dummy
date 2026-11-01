@@ -1,0 +1,249 @@
+{
+  "systems": {
+    "nervous": "Sistema nervoso",
+    "sensory": "Organi di senso",
+    "endocrine": "Sistema endocrino",
+    "respiratory": "Apparato respiratorio",
+    "circulatory": "Apparato circolatorio",
+    "digestive": "Apparato digerente",
+    "lymphatic": "Sistema linfatico",
+    "urinary": "Apparato urinario",
+    "reproductive": "Apparato riproduttivo",
+    "skeletal": "Sistema scheletrico",
+    "muscular": "Sistema muscolare",
+    "integumentary": "Pelle"
+  },
+  "parts": {
+    "brain": {
+      "name": "Cervello", "system": "nervous",
+      "desc": "Il centro di comando del corpo. Pensa, ricorda, prova emozioni, muove il corpo e riceve i sensi, e mantiene in automatico respiro e battito cardiaco.",
+      "good": ["7–9 ore di sonno ogni notte", "Attività fisica regolare che alza il battito", "Imparare cose nuove e restare in contatto con le persone"],
+      "bad": ["Traumi alla testa (usa il casco in bici e in moto)", "Fumo e alcol in eccesso", "Mancanza di sonno prolungata"],
+      "facts": [["Peso", "circa 1,3–1,4 kg"], ["Neuroni", "circa 86 miliardi"]]
+    },
+    "eyes": {
+      "name": "Occhi", "system": "sensory",
+      "desc": "Gli occhi mettono a fuoco la luce sulla retina, dove cellule sensibili la trasformano in segnali nervosi. Il cervello unisce le immagini dei due occhi in una sola, in profondità.",
+      "good": ["Occhiali da sole con filtro UV", "Verdure a foglia verde e verdure colorate", "Pause dallo schermo: ogni 20 minuti, guarda lontano per 20 secondi"],
+      "bad": ["Guardare direttamente il sole", "Fumo", "Strofinarsi gli occhi con le mani sporche"],
+      "facts": [["Bastoncelli sensibili alla luce", "circa 120 milioni per occhio"], ["Battiti di ciglia", "circa 15–20 al minuto"]]
+    },
+    "ears": {
+      "name": "Orecchie", "system": "sensory",
+      "desc": "L'orecchio esterno raccoglie il suono verso il timpano. Piccoli ossicini trasmettono le vibrazioni all'orecchio interno, che le trasforma in segnali nervosi e aiuta anche l'equilibrio.",
+      "good": ["Volume moderato per musica e auricolari", "Tappi per le orecchie nei luoghi molto rumorosi", "Asciugare le orecchie dopo il nuoto"],
+      "bad": ["Rumori forti per molto tempo", "Infilare cotton fioc in profondità", "Infezioni all'orecchio non curate"],
+      "facts": [["L'osso più piccolo del corpo", "la staffa, nell'orecchio"], ["Parti", "esterno, medio, interno"]]
+    },
+    "nose": {
+      "name": "Naso", "system": "respiratory",
+      "desc": "Il naso riscalda, umidifica e filtra l'aria che respiri. La sua mucosa contiene le cellule che percepiscono gli odori.",
+      "good": ["Respirare dal naso quando possibile", "Lavarsi le mani per prevenire il raffreddore", "Lavaggi con soluzione salina se consigliati per il naso chiuso"],
+      "bad": ["Fumo o stanze piene di fumo", "Aria molto secca per lunghi periodi", "Mettersi le dita nel naso"],
+      "facts": [["Tipi di recettori olfattivi", "circa 400"], ["Aria respirata al giorno", "circa 10.000 litri"]]
+    },
+    "tongue": {
+      "name": "Lingua", "system": "digestive",
+      "desc": "Un muscolo forte e flessibile. Sposta il cibo mentre mastichi, aiuta a deglutire e a parlare, e con le papille gustative sente dolce, salato, acido, amaro e umami.",
+      "good": ["Spazzolare delicatamente la lingua o usare un pulisci-lingua", "Bere abbastanza acqua", "Controlli regolari dal dentista"],
+      "bad": ["Fumo o tabacco da masticare", "Cibi e bevande bollenti", "Alcol in eccesso"],
+      "facts": [["Papille gustative", "circa 2.000–8.000"], ["Gusti di base", "5"]]
+    },
+    "salivary": {
+      "name": "Ghiandole salivari", "system": "digestive",
+      "desc": "Ghiandole che producono la saliva. La saliva inumidisce il cibo, avvia la digestione degli amidi e protegge denti e bocca dai germi.",
+      "good": ["Bere abbastanza acqua", "Masticare bene il cibo", "Buona igiene orale"],
+      "bad": ["Disidratazione", "Fumo", "Farmaci che seccano la bocca (parlane con il medico se hai spesso la bocca secca)"],
+      "facts": [["Saliva al giorno", "circa 0,5–1,5 litri"], ["Ghiandole principali", "3 paia"]]
+    },
+    "pituitary": {
+      "name": "Ipofisi", "system": "endocrine",
+      "desc": "Una piccola ghiandola sotto il cervello. I suoi ormoni regolano la crescita, la tiroide, le ghiandole surrenali, la riproduzione e l'equilibrio dei liquidi.",
+      "good": ["Sonno regolare", "Alimentazione equilibrata", "Farsi visitare per mal di testa insoliti con disturbi della vista"],
+      "bad": ["Traumi alla testa", "Stress intenso e prolungato", "Usare ormoni senza controllo medico"],
+      "facts": [["Dimensioni", "come un pisello"], ["Soprannome", "ghiandola maestra"]]
+    },
+    "adrenals": {
+      "name": "Ghiandole surrenali", "system": "endocrine",
+      "desc": "Piccole ghiandole sopra ciascun rene. Producono adrenalina per lo stress improvviso e cortisolo, che aiuta a regolare energia, glicemia e pressione.",
+      "good": ["Sonno regolare", "Gestire lo stress: passeggiate, esercizi di respirazione", "Alimentazione equilibrata"],
+      "bad": ["Stress prolungato senza pause", "Interrompere di colpo i farmaci cortisonici", "Troppa caffeina"],
+      "facts": [["Posizione", "sopra ogni rene"], ["Producono", "adrenalina e cortisolo"]]
+    },
+    "throat": {
+      "name": "Faringe", "system": "respiratory",
+      "desc": "La faringe è un tubo muscolare dietro naso e bocca. Porta l'aria verso la laringe e il cibo verso l'esofago; le tonsille aiutano a combattere i germi.",
+      "good": ["Bere abbastanza acqua", "Lavarsi spesso le mani", "Riposare la voce quando la gola fa male"],
+      "bad": ["Fumo", "Urlare a lungo", "Bevande bollenti"],
+      "facts": [["Lunghezza", "circa 12–14 cm"], ["Ci passano", "aria e cibo"]]
+    },
+    "larynx": {
+      "name": "Laringe", "system": "respiratory",
+      "desc": "La laringe si trova sopra la trachea. Le corde vocali vibrano per produrre la voce e, quando deglutisci, l'epiglottide si chiude perché il cibo prenda la strada giusta.",
+      "good": ["Bere abbastanza acqua", "Riposare la voce quando è rauca", "Parlare senza sforzare"],
+      "bad": ["Fumo", "Urlare o sussurrare a lungo", "Reflusso acido frequente"],
+      "facts": [["Contiene", "le corde vocali"], ["Nome comune", "la zona del pomo d'Adamo"]]
+    },
+    "trachea": {
+      "name": "Trachea", "system": "respiratory",
+      "desc": "La trachea porta l'aria dalla gola ai polmoni. Anelli di cartilagine a forma di C la tengono aperta e la sua mucosa spinge verso l'alto polvere e germi.",
+      "good": ["Respirare aria pulita", "Bere abbastanza acqua", "Coprire naso e bocca tra polvere o fumo"],
+      "bad": ["Fumo e sigarette elettroniche", "Inquinamento e polvere", "Inalare fumi chimici"],
+      "facts": [["Lunghezza", "circa 10–12 cm"], ["Anelli di cartilagine", "16–20"]]
+    },
+    "lungs": {
+      "name": "Polmoni", "system": "respiratory",
+      "desc": "Nei polmoni l'aria raggiunge centinaia di milioni di piccole sacche chiamate alveoli. Lì l'ossigeno passa nel sangue e l'anidride carbonica esce.",
+      "good": ["Attività aerobica: camminare, pedalare, nuotare", "Aria pulita a casa e al lavoro", "Vaccini antinfluenzale e antipneumococcico se consigliati"],
+      "bad": ["Fumo e sigarette elettroniche", "Inquinamento atmosferico", "Polvere, fumo e vapori chimici"],
+      "facts": [["Lobi", "3 a destra, 2 a sinistra"], ["Alveoli", "circa 480 milioni"]]
+    },
+    "diaphragm": {
+      "name": "Diaframma", "system": "respiratory",
+      "desc": "Un muscolo a cupola sotto i polmoni. Quando si contrae e scende, il torace si allarga e l'aria entra. È il muscolo principale della respirazione.",
+      "good": ["Respirazione addominale lenta e profonda", "Buona postura", "Attività fisica regolare"],
+      "bad": ["Fumo", "Stare ingobbiti per ore", "Sdraiarsi subito dopo un pasto abbondante"],
+      "facts": [["Forma", "a cupola"], ["Respiri al giorno", "circa 20.000"]]
+    },
+    "heart": {
+      "name": "Cuore", "system": "circulatory",
+      "desc": "Una pompa muscolare grande come un pugno. Batte circa 100.000 volte al giorno, manda il sangue ai polmoni per l'ossigeno e poi a tutto il corpo.",
+      "good": ["Circa 150 minuti di attività vivace a settimana", "Verdura, frutta, cereali integrali e frutta secca", "Peso nella norma e gestione dello stress"],
+      "bad": ["Fumo", "Troppo sale", "Pressione alta o colesterolo alto non curati"],
+      "facts": [["Cavità", "4"], ["Peso medio", "250–350 g"]]
+    },
+    "esophagus": {
+      "name": "Esofago", "system": "digestive",
+      "desc": "L'esofago è un tubo muscolare che spinge cibo e bevande fino allo stomaco con movimenti a onda: per questo puoi deglutire anche a testa in giù.",
+      "good": ["Masticare bene e mangiare con calma", "Restare in posizione eretta un po' dopo i pasti", "Bere acqua durante i pasti"],
+      "bad": ["Fumo e alcol in eccesso", "Bevande bollenti", "Bruciori di stomaco frequenti non curati"],
+      "facts": [["Lunghezza", "circa 25 cm"], ["Tempo di passaggio del cibo", "pochi secondi"]]
+    },
+    "stomach": {
+      "name": "Stomaco", "system": "digestive",
+      "desc": "Una sacca elastica a forma di J. Mescola il cibo con acido ed enzimi fino a renderlo una poltiglia; l'acido uccide anche molti germi arrivati con il cibo.",
+      "good": ["Pasti regolari e moderati", "Fibre e acqua a sufficienza", "Alimenti fermentati come lo yogurt"],
+      "bad": ["Abuso di antidolorifici come ibuprofene o aspirina", "Alcol in eccesso e fumo", "Infezione da H. pylori da cibo o acqua non sicuri"],
+      "facts": [["Capacità", "circa 1–1,5 litri"], ["pH dell'acido", "1,5–3,5"]]
+    },
+    "liver": {
+      "name": "Fegato", "system": "digestive",
+      "desc": "L'organo interno più grande. Depura il sangue, immagazzina energia, produce proteine e la bile che aiuta a digerire i grassi.",
+      "good": ["Poco alcol o niente", "Peso nella norma", "Vaccino contro l'epatite B"],
+      "bad": ["Alcol in eccesso", "Troppi zuccheri e fritti (fegato grasso)", "Prendere più paracetamolo di quanto indicato"],
+      "facts": [["Peso", "circa 1,5 kg"], ["Funzioni", "più di 500"]]
+    },
+    "gallbladder": {
+      "name": "Cistifellea", "system": "digestive",
+      "desc": "Una piccola sacca sotto il fegato. Conserva la bile e la spreme nell'intestino dopo i pasti per aiutare a digerire i grassi.",
+      "good": ["Pasti regolari", "Alimentazione ricca di fibre", "Dimagrire lentamente se serve"],
+      "bad": ["Diete estreme o dimagrimento rapido", "Obesità", "Pasti troppo grassi"],
+      "facts": [["Contiene", "circa 30–50 ml di bile"], ["Lunghezza", "circa 7–10 cm"]]
+    },
+    "pancreas": {
+      "name": "Pancreas", "system": "digestive",
+      "desc": "Una ghiandola dietro lo stomaco con due compiti: produce succhi digestivi e rilascia insulina e glucagone per mantenere stabile la glicemia.",
+      "good": ["Peso nella norma", "Preferire cereali integrali e limitare gli zuccheri", "Attività fisica regolare"],
+      "bad": ["Alcol in eccesso", "Fumo", "Obesità, che aumenta il rischio di diabete di tipo 2"],
+      "facts": [["Lunghezza", "circa 15 cm"], ["Ormoni", "insulina e glucagone"]]
+    },
+    "spleen": {
+      "name": "Milza", "system": "lymphatic",
+      "desc": "Un organo morbido sotto le costole di sinistra. Filtra il sangue, elimina i globuli rossi vecchi e aiuta il sistema immunitario a combattere le infezioni.",
+      "good": ["Vaccinazioni in regola", "Allacciare la cintura di sicurezza", "Protezioni negli sport di contatto"],
+      "bad": ["Colpi forti alla parte alta sinistra della pancia", "Infezioni che ingrossano la milza (es. mononucleosi)", "Malaria"],
+      "facts": [["Lunghezza", "circa 11–12 cm"], ["Si vive senza?", "Sì, con più attenzione"]]
+    },
+    "thymus": {
+      "name": "Timo", "system": "lymphatic",
+      "desc": "Una ghiandola dietro lo sterno dove i globuli bianchi chiamati linfociti T imparano a combattere i germi. È più grande e attivo durante l'infanzia.",
+      "good": ["Alimentazione equilibrata", "Sonno sufficiente", "Attività fisica regolare"],
+      "bad": ["Stress prolungato", "Malnutrizione", "Fumo"],
+      "facts": [["Più attivo", "infanzia e adolescenza"], ["Forma", "i linfociti T"]]
+    },
+    "small_intestine": {
+      "name": "Intestino tenue", "system": "digestive",
+      "desc": "Un lungo tubo ripiegato dove avviene la maggior parte della digestione. I piccoli villi della parete assorbono le sostanze nutritive nel sangue.",
+      "good": ["Fibre da verdura, frutta e cereali", "Cibo pulito e acqua sicura", "Alimenti fermentati come lo yogurt"],
+      "bad": ["Intossicazioni alimentari", "Alcol in eccesso", "Glutine per chi ha la celiachia"],
+      "facts": [["Lunghezza", "circa 3–6 m"], ["Assorbe", "la maggior parte dei nutrienti"]]
+    },
+    "large_intestine": {
+      "name": "Intestino crasso", "system": "digestive",
+      "desc": "Circonda l'intestino tenue, recupera acqua e sali e forma le feci. Ospita migliaia di miliardi di batteri utili che producono anche alcune vitamine.",
+      "good": ["Tante fibre", "Bere abbastanza acqua", "Restare attivi"],
+      "bad": ["Troppa carne rossa e lavorata", "Alimentazione molto povera di fibre", "Fumo e alcol in eccesso"],
+      "facts": [["Lunghezza", "circa 1,5 m"], ["Batteri intestinali", "migliaia di miliardi"]]
+    },
+    "kidneys": {
+      "name": "Reni", "system": "urinary",
+      "desc": "Due filtri a forma di fagiolo nella parte posteriore dell'addome. Depurano il sangue, bilanciano acqua e sali, aiutano a regolare la pressione e producono l'urina.",
+      "good": ["Bere abbastanza acqua", "Ridurre il sale", "Mantenere pressione e glicemia nella norma"],
+      "bad": ["Disidratazione", "Abuso di antidolorifici come l'ibuprofene", "Diabete o pressione alta non controllati"],
+      "facts": [["Dimensioni", "circa 11 cm di lunghezza"], ["Liquido filtrato al giorno", "circa 180 litri"]]
+    },
+    "bladder": {
+      "name": "Vescica", "system": "urinary",
+      "desc": "Una sacca muscolare elastica che raccoglie l'urina in arrivo dai reni finché non sei pronto a svuotarla.",
+      "good": ["Bere abbastanza acqua", "Andare in bagno quando serve", "Esercizi per il pavimento pelvico"],
+      "bad": ["Fumo (causa principale del tumore alla vescica)", "Trattenere per ore", "Troppa caffeina e alcol"],
+      "facts": [["Capacità", "circa 400–600 ml"], ["Parete", "si allunga mentre si riempie"]]
+    },
+    "testes": {
+      "name": "Testicoli", "system": "reproductive",
+      "desc": "Due ghiandole nello scroto. Producono gli spermatozoi e il testosterone, l'ormone che costruisce il corpo maschile.",
+      "good": ["Autoesame mensile per eventuali noduli", "Protezioni negli sport", "Peso nella norma e attività regolare"],
+      "bad": ["Fumo e alcol in eccesso", "Calore prolungato, come il portatile sulle gambe", "Steroidi anabolizzanti"],
+      "facts": [["Producono", "spermatozoi e testosterone"], ["Temperatura", "2–3 °C sotto quella corporea"]]
+    },
+    "prostate": {
+      "name": "Prostata", "system": "reproductive",
+      "desc": "Una ghiandola sotto la vescica che produce parte del liquido seminale. Avvolge l'uretra, quindi i cambiamenti di volume possono influire sulla minzione.",
+      "good": ["Restare attivi", "Tanta verdura e frutta", "Dopo i 50 anni parlare con il medico dei controlli"],
+      "bad": ["Ignorare i cambiamenti nella minzione", "Obesità", "Fumo"],
+      "facts": [["Dimensioni", "come una noce"], ["Produce", "parte del liquido seminale"]]
+    },
+    "penis": {
+      "name": "Pene", "system": "reproductive",
+      "desc": "L'organo genitale esterno maschile. Al suo interno passa l'uretra, che porta fuori dal corpo sia l'urina sia lo sperma.",
+      "good": ["Igiene quotidiana", "Preservativo contro le infezioni", "Farsi visitare in caso di dolore, piaghe o perdite"],
+      "bad": ["Infezioni sessualmente trasmesse", "Fumo, che peggiora la circolazione", "Diabete non controllato"],
+      "facts": [["Contiene", "l'uretra"], ["Tessuto", "spugnoso, si riempie di sangue"]]
+    },
+    "uterus": {
+      "name": "Utero", "system": "reproductive",
+      "desc": "Un organo muscolare cavo dove il bambino cresce durante la gravidanza. Il suo rivestimento si ispessisce ogni mese e si sfalda con le mestruazioni.",
+      "good": ["Screening regolare del collo dell'utero", "Vaccino HPV", "Farsi visitare per mestruazioni molto abbondanti o dolorose"],
+      "bad": ["Fumo", "Infezioni non curate", "Ignorare sanguinamenti insoliti"],
+      "facts": [["Dimensioni", "come una pera"], ["Rivestimento", "si rinnova quasi ogni mese"]]
+    },
+    "ovaries": {
+      "name": "Ovaie", "system": "reproductive",
+      "desc": "Due piccole ghiandole accanto all'utero. Custodiscono gli ovuli e producono gli ormoni estrogeni e progesterone.",
+      "good": ["Peso nella norma", "Alimentazione equilibrata", "Farsi visitare per dolore o gonfiore pelvico persistente"],
+      "bad": ["Fumo", "Ignorare dolore addominale o pelvico persistente", "Peso troppo basso"],
+      "facts": [["Ovuli alla nascita", "circa 1–2 milioni"], ["Producono", "estrogeni e progesterone"]]
+    },
+    "fallopian_tubes": {
+      "name": "Tube di Falloppio", "system": "reproductive",
+      "desc": "Due tubi sottili che portano l'ovulo dall'ovaio all'utero. La fecondazione di solito avviene qui.",
+      "good": ["Rapporti sicuri con il preservativo", "Curare presto le infezioni", "Controlli regolari"],
+      "bad": ["Infezioni sessualmente trasmesse come la clamidia", "Infezioni pelviche non curate", "Fumo"],
+      "facts": [["Lunghezza", "circa 10–12 cm"], ["Fecondazione", "di solito avviene qui"]]
+    },
+    "vagina": {
+      "name": "Vagina", "system": "reproductive",
+      "desc": "Un canale muscolare che collega l'utero all'esterno del corpo. Si pulisce da sola e mantiene un ambiente leggermente acido che la protegge dai germi.",
+      "good": ["Lavare solo la parte esterna, delicatamente, con acqua", "Rapporti sicuri con il preservativo", "Biancheria di cotone"],
+      "bad": ["Lavande interne o saponi profumati all'interno", "Infezioni sessualmente trasmesse", "Ignorare prurito o perdite insolite"],
+      "facts": [["Collega", "l'utero all'esterno"], ["Ambiente", "leggermente acido"]]
+    },
+    "breasts": {
+      "name": "Seno", "system": "reproductive",
+      "desc": "Formato da ghiandole mammarie, dotti e grasso. Dopo il parto le ghiandole producono il latte, che arriva al capezzolo attraverso i dotti.",
+      "good": ["Conoscere l'aspetto e la consistenza abituali", "Mammografia quando consigliata", "Restare attive"],
+      "bad": ["Alcol in eccesso", "Fumo", "Ignorare un nuovo nodulo o cambiamenti della pelle"],
+      "facts": [["Tessuti principali", "ghiandole e grasso"], ["Produce", "latte dopo il parto"]]
+    }
+  }
+}
